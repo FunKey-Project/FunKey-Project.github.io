@@ -1,0 +1,3 @@
+This repository contains the FunKey Project documentation project.
+
+The "[source](https://github.com/FunKey-Project/FunKey-Project.github.io/tree/source)" branch contains the source documents; they are processed by MkDocs to generate the resulting static site in the "[master](https://github.com/FunKey-Project/FunKey-Project.github.io/tree/master)" branch that is accessible through Github Pages at https://funkey-project.github.io/FunKey-Project.github.io/
