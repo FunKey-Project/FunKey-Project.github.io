@@ -1,0 +1,7 @@
+site_name: FunKey Project Documentation
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/favicon.png
+  palette:
+    primary: deep purple
