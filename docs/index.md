@@ -1,17 +1,42 @@
-# Welcome to MkDocs
+# Welcome to FunKey!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Atomic Purple FunKey S](assets/images/Atomic_Purple_FunKey_S.jpg)
 
-## Commands
+Thank you for choosing the **FunKey S**!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The **FunKey S** is the world's smallest foldable retro-gaming console.
 
-## Project layout
+Because of its foldable design, the **FunKey S** provides a
+surprisingly large screen and comfortable key pads while open, but it
+stays compatible with a keychain usage when closed.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Basic operation
+
+The **FunKey S** operation is so straightforward that a 6-year old
+child should be able to operate it without any user's manual for the
+most common tasks. But just to make sure you are not missing
+something, you can find the basic device operation description in the
+[Quickstart section][1].
+
+## More advanced features
+
+Despite its size, the **FunKey S** is packed with features, and this
+documentation will also provide more advanced tips in the [Tutorials
+section][2].
+
+## Developers
+
+For developers, a full [Developer's Guide][3] is included, with both
+[Hardware][3] and [Software][4] subsections.
+
+## Miscellaenous stuff
+
+Last but not least, this documentation would not be complete without a
+[Glossary of terms][5] and an [FAQ][6] section for reference.
+
+[1]: quickstart.md
+[2]: tutorials/tutorials.md
+[3]: developers/hardware
+[4]: developers/software
+[5]: glossary/glossary.md
+[6]: faq/faq.md

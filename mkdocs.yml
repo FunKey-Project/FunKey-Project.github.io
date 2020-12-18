@@ -1,7 +1,148 @@
+# Copyright (c) 2020 Michel Stempin <michel.stempin@funkey-project.com>
+
+# This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+
+# Project information
 site_name: FunKey Project Documentation
+site_author: Michel Stempin
+site_description: >-
+  FunKey S - the world's smallest foldable handeld console
+  Ultra-compact, foldable, powerful and comfortable, the FunKey S is
+  the perfect handheld for playing retrogames anywhere, anytime.
+
+# Copyright
+copyright: >
+  &copy; 2020 FunKey Project<br/>
+  Last updated on 2020-12-18<br/>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+  </a><br />This work is licensed under a
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+repo_url: 'https://github.com/FunKey-Project/FunKey-Project.github.io'
+
+# Configuration
 theme:
   name: material
   logo: assets/images/logo.png
   favicon: assets/favicon.png
   palette:
     primary: deep purple
+
+# 404 page
+static_templates:
+  - 404.html
+
+# Plugins:
+  - search
+  - minify:
+    minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/FunKeyProjectOfficial
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/FunKeyProject
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/funkey_project/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCm6RThJXazA1VMhimqOtjww
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.fr/davidlarbi/funkey-project/
+    - icon: fontawesome/brands/github
+      link: https://github.com/FunKey-Project
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/funkeyproject/funkey-os/
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Overview: index.md
+  - Quickstart: 'quickstart.md'
+  - Tutorials:
+    - 'Firmware upgrade': 'quickstart/update.md'
+    - 'Install the GBA BIOS': 'quickstart/gba_bios.md'
+    - 'Change the buttons': 'quickstart/buttons'
+    - 'Access the built-in Recovery': 'tutorials/recovery.md'
+    - 'Create themes': 'tutorials/themes.md'
+  - Developer's Guide:
+    - Hardware:
+      - 'Architecture / Block Diagram' : 'developers/hardware/architecture.md'
+      - 'Electronic Parts': 'developers/hardware/parts.md'
+      - 'CPU': 'developers/hardware/cpu.md'
+      - 'Power':
+        - 'Regulated DC Power Supply Topologies': 'developers/hardware/dc-dc.md'
+        - 'Why so many different Power Supply Voltages?': 'developers/hardware/voltages.md'
+        - 'PMIC': 'developers/hardware/pmic.md'
+        - 'DRAM Power': 'developers/hardware/dram.md'
+      - 'Screen': 'developers/hardware/screen.md'
+      - 'Audio': 'developers/hardware/audio.md'
+      - 'Buttons': 'developers/hardware/buttons.md'
+      - 'USB': 'developers/hardware/usb.md'
+      - 'UART': 'developers/hardware/uart.md'
+      - 'SD Card': 'developers/hardware/sd-card.md'
+      - 'Magnetic Sensor': 'developers/hardware/sensor.md'
+    - Software:
+        - 'Built-in Recovery': 'developers/software/recovery.md'
+        - 'Bare Metal Appliance Store': 'developers/software/appliancestore.md'
+        - 'Kernel and Bootloader':
+          - 'The Boot Process': 'developers/software/bootprocess.md'
+          - 'Firmware Builder': 'developers/software/firmware-builder.md'
+          - 'Kernel': 'kernel.md'
+        - 'Distributions':
+          - 'Distribution Support': 'developers/software/distributions.md'
+          - 'Board Support Package': 'developers/software/distributions/board-support.md'
+          - 'OpenWrt': 'developers/software/openwrt.md'
+        - 'Reflash': 'developers/software/reflash.md'
+        - 'Cryptographic acceleration': 'developers/software/crypto.md'
+        - 'Virtualization and Containers':
+          - 'μVirt': 'developers/software/muvirt.md'
+          - 'Docker': 'developers/software/docker.md'
+          - 'VFIO': 'developers/software/vfio.md'
+        - 'Hardware Watchdog': 'watchdog.md'
+        - 'Roadmap': 'developers/software/roadmap.md'
+  - Miscellaneous:
+    - 'Glossary': 'glossary.md'
+    - 'FAQ': 'faq.md'
+ 
