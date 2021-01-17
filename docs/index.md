@@ -36,8 +36,8 @@ Last but not least, this documentation would not be complete without a
 
 [1]: quickstart.md
 [2]: tutorials/update.md
-[3]: developers/hardware
-[4]: developers/software
+[3]: developers/hardware/design.md
+[4]: developers/software/system/recovery.md
 [5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
 
