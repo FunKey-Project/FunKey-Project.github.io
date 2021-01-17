@@ -1,6 +1,6 @@
 # Welcome to FunKey!
 
-![Atomic Purple FunKey S](assets/images/Atomic_Purple_FunKey_S.jpg)
+![Atomic Purple FunKey S](assets/images/Atomic_Purple_FunKey_S.jpg){: align=left }
 
 Thank you for choosing the **FunKey S**!
 
@@ -35,8 +35,12 @@ Last but not least, this documentation would not be complete without a
 [Glossary of terms][5] and an [FAQ][6] section for reference.
 
 [1]: quickstart.md
-[2]: tutorials/tutorials.md
+[2]: tutorials/update.md
 [3]: developers/hardware
 [4]: developers/software
-[5]: glossary/glossary.md
-[6]: faq/faq.md
+[5]: miscellaneous/glossary.md
+[6]: miscellaneous/faq.md
+
+--8<--
+includes/glossary.md
+--8<--

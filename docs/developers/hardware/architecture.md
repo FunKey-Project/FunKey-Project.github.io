@@ -1,31 +1,78 @@
-The FunKey S is a small foldable retro-gaming console.
 
-Its electronic parts consist in:
+## Block Diagram
 
- - 1x main PCB (0.8 mm thickness) with components on both sides, the maximum component height above PCB on both sides is 1.5 mm. Current revision for this board is Revision E
- - 1x 1.54” IPS LCD TFT screen with SPI interface and using a custom flex cable
- - 1x 420 mAh 402540 LiPo battery
+Eventually, the design constraints listed in the previous section led
+to the following electronic diagram, featuring 3 main blocks:
 
-![FunKey S Block Diagram](/assets/images/FunKey%20S%20Block%20Diagram.png)
+ - 1x main PCB (0.8 mm thickness) with components on both sides, the
+   maximum component height above PCB on both sides is 1.5 mm. Current
+   revision for this board is Revision E
 
-The FunKey S PCBA Rev. E contains the following main components:
+ - 1x 1.54” IPS TFT LCD screen with SPI interface and using a
+   custom flex cable, containing a built-in screen controller chip
 
- - 1x Allwinner V3s SoC with integrated 64MB DDR2 DRAM (LQFP128 package)
- - 1x X-Powers AXP209 companion PMIC chip to provide almost all required power supply rails (QFN48 package)
- - 1x Sylergy SY8088 Buck DC/DC SMPS chip to provide the DRAM power supply rail (SOT23-5 package)
- - 1x NXP PCAL6416 I2C GPIO expander to control all buttons and keypads (except Power Key) (QFN24 package)
- - 1x Diodes Inc. PAM8301 mono audio amplifier (TSOT26 package)
- - 1x 24 MHz main crystal
- - 1x 32.768 kHz RTC crystal
- - 1x Standex-Meder MK24 Reed switch for magnet proximity detection
- - 1x LED for charge indication
- - 1x 8 Ω 0.3 W built-in speaker
- - 1x Micro USB edge-mounted connector
- - 1x Micro SD (TF Card) Push/Push low-profile connector
- - 1x Hirose DF37 0.4 mm pitch miniature LCD connector
- - 1x JST 1 mm pitch battery connector
- - 1x 1.27 mm pitch debug UART header (not mounted)
+ - 1x 420 mAh 402540 LiPo battery, containing an active protection
+   circuitry
 
-![FunKey Top](/assets/images/FunKey%20S%20Top.png)
+![FunKey S Block Diagram](/assets/images/FunKey_S_Block_Diagram.png)
 
-![FunKey Bottom](/assets/images/FunKey%20S%20Bottom.png)
+## 3D View
+
+A 3D rendering of the PCBA done in KiCAD produces the images below:
+
+![FunKey Top](/assets/images/FunKey_S_Top.png)
+
+![FunKey Bottom](/assets/images/FunKey_S_Bottom.png)
+
+## BOM
+
+An interactive BOM is available in the [next section][4].
+
+## Schematics and Layout
+
+All the hardware design and production files required to build the
+[**FunKey S** retro-gaming console][1] electronic PCBA using the
+[KiCAD ECAD tools][2] are available as Open Hardware in the [FunKey S
+Hardware repository][3].
+
+???+ note "Topological vs. logical schematic symbols"
+
+    The **FunKey S** schematics use symbols and placement that are as
+    close as possible to their corresponding physical package and
+    layout, instead of defining symbols that are conveniently arranged
+    by logical properties. Even if this makes schematics more complex
+    at first sight, the benefit of this approach is that the step to
+    go from the schematics to the physical layout becomes much easier,
+    and so is the debugging of the physical board, which is then very
+    close to the schematics too.
+
+???+ note "Explicit schematic wires"
+
+    Another habit that is used everywhere in the **FunKey S**
+    schematics is that all signals (except power supplies and GND) are
+    routed using explicit wires, rather than counting on invisible
+    connection by net names and relying of the reader to search these
+    names all over the place. This forces related components to be
+    clustered in compact groups to shorten the wires, and put more
+    focus on inter-cluster signals, with a natural inclination to
+    unravel wire nests in the schematics before laying out the actual
+    board.
+
+???+ note "Power supply nets"
+
+    There are some "PWR_FLAG" symbols added here and there, which is
+    the proper way in KiCAD to declare that a given net has a known
+    supply and thus prevent the ERC (Electrical Rule Check) to throw
+    an error.
+
+The schematics will be discussed function by function in the following
+sections.
+
+[1]: https://www.funkey-project.com/
+[2]: https://kicad.org/
+[3]: https://github.com/FunKey-Project/FunKey-S-Hardware
+[4]: https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html
+
+--8<--
+includes/glossary.md
+--8<--

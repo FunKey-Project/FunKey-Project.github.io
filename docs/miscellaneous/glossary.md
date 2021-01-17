@@ -1,0 +1,36 @@
+ - ADC: Analog to Digital Converter
+ - CPU: Central Processing Unit
+ - CSi: Camera Serial Interface
+ - DAC: Digital to Analog Converter
+ - DDR: Dual Data Rate
+ - DRAM: Dynamic Random-Access Memory
+ - DSi: Display Serial Interface
+ - ERC: Electrical Rule Check
+ - ESD: Electro-Static Discharge
+ - GPIO: General-Purpose Input/Output
+ - I/O: Input/Output
+ - I2C: Inter-Integrated Circuit Bus
+ - IPS: In-Plane Switching
+ - LED: Ligh-Emitting Diode
+ - LCD: Liquid-Crystal Display
+ - LDO: Low Drop-Out
+ - LiPo: Lithium Polymer
+ - MIPI: Mobile Industry Processor Interface
+ - PCBA: Printed Circuit Board Assembly
+ - PCB: Printed Circuit Board
+ - PLL: Phase-Locked Loop
+ - PMIC: Power Management Integrated Circuit
+ - PWM: Pulse Width Modulation
+ - RTC: Real-Time Clock
+ - SD: Secure Digital
+ - SMPS: Switched-Mode Power Supply
+ - SPI: Serial Peripheral Interface
+ - SoC: System on Chip
+ - TFT LCD:  Thin-Film-Transistor Liquid-Crystal Display
+ - TVS: Transcient Voltage Suppressor
+ - UART: Universal Asynchronous Receiver/Transmitter
+ - USB: Universal Serial Bus
+
+--8<--
+includes/glossary.md
+--8<--

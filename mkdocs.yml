@@ -12,8 +12,8 @@ site_description: >-
 
 # Copyright
 copyright: >
-  &copy; 2020 FunKey Project<br/>
-  Last updated on 2020-12-18<br/>
+  &copy; 2020-2021 FunKey Project<br/>
+  Last updated on 2021-01-16<br/>
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
   </a><br />This work is licensed under a
@@ -27,15 +27,19 @@ theme:
   favicon: assets/favicon.png
   palette:
     primary: deep purple
+  font:
+    text: Roboto
+    code: Roboro Mono
 
-# 404 page
-static_templates:
-  - 404.html
+  # 404 page
+  static_templates:
+    - 404.html
 
-# Plugins:
+# Plugins
+plugins:
   - search
   - minify:
-    minify_html: true
+      minify_html: true
 
 # Customization
 extra:
@@ -80,8 +84,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: FunKey-Project
+      repo: FunKey-Project.github.io
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -101,48 +105,50 @@ nav:
   - Overview: index.md
   - Quickstart: 'quickstart.md'
   - Tutorials:
-    - 'Firmware upgrade': 'quickstart/update.md'
-    - 'Install the GBA BIOS': 'quickstart/gba_bios.md'
-    - 'Change the buttons': 'quickstart/buttons'
+    - 'Firmware upgrade': 'tutorials/update.md'
+    - 'Install the GBA BIOS': 'tutorials/gba_bios.md'
+    - 'Change the buttons': 'tutorials/buttons.md'
     - 'Access the built-in Recovery': 'tutorials/recovery.md'
     - 'Create themes': 'tutorials/themes.md'
   - Developer's Guide:
     - Hardware:
-      - 'Architecture / Block Diagram' : 'developers/hardware/architecture.md'
-      - 'Electronic Parts': 'developers/hardware/parts.md'
+      - 'Design' : 'developers/hardware/design.md'
+      - 'Architecture': 'developers/hardware/architecture.md'
+      - 'BOM': 'https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html'
       - 'CPU': 'developers/hardware/cpu.md'
       - 'Power':
-        - 'Regulated DC Power Supply Topologies': 'developers/hardware/dc-dc.md'
-        - 'Why so many different Power Supply Voltages?': 'developers/hardware/voltages.md'
-        - 'PMIC': 'developers/hardware/pmic.md'
-        - 'DRAM Power': 'developers/hardware/dram.md'
+        - 'Regulated DC Power Supply Topologies': 'developers/hardware/power/dc-dc.md'
+        - 'Why so many different Power Supply Voltages?': 'developers/hardware/power/voltages.md'
+        - 'PMIC': 'developers/hardware/power/pmic.md'
+        - 'DRAM Power': 'developers/hardware/power/dram.md'
+        - 'Decoupling' : 'developers/hardware/power/decoupling.md'
       - 'Screen': 'developers/hardware/screen.md'
       - 'Audio': 'developers/hardware/audio.md'
       - 'Buttons': 'developers/hardware/buttons.md'
+      - 'SD Card': 'developers/hardware/sd-card.md'
       - 'USB': 'developers/hardware/usb.md'
       - 'UART': 'developers/hardware/uart.md'
-      - 'SD Card': 'developers/hardware/sd-card.md'
-      - 'Magnetic Sensor': 'developers/hardware/sensor.md'
+      - 'Magnetic Switch': 'developers/hardware/magnetic_switch.md'
     - Software:
-        - 'Built-in Recovery': 'developers/software/recovery.md'
-        - 'Bare Metal Appliance Store': 'developers/software/appliancestore.md'
-        - 'Kernel and Bootloader':
-          - 'The Boot Process': 'developers/software/bootprocess.md'
-          - 'Firmware Builder': 'developers/software/firmware-builder.md'
-          - 'Kernel': 'kernel.md'
-        - 'Distributions':
-          - 'Distribution Support': 'developers/software/distributions.md'
-          - 'Board Support Package': 'developers/software/distributions/board-support.md'
-          - 'OpenWrt': 'developers/software/openwrt.md'
-        - 'Reflash': 'developers/software/reflash.md'
-        - 'Cryptographic acceleration': 'developers/software/crypto.md'
-        - 'Virtualization and Containers':
-          - 'μVirt': 'developers/software/muvirt.md'
-          - 'Docker': 'developers/software/docker.md'
-          - 'VFIO': 'developers/software/vfio.md'
-        - 'Hardware Watchdog': 'watchdog.md'
-        - 'Roadmap': 'developers/software/roadmap.md'
+        - 'System':
+          - 'Software Architecture': 'developers/software/system/architecture.md'
+          - 'Instant Action':
+            - 'Boot Process': 'developers/software/system/bootprocess.md'
+            - 'Bootloader': 'developers/software/system/bootloader.md'
+            - 'Kernel': 'developers/software/system/kernel.md'
+            - 'Init Scripts': 'developers/software/system/init.md'
+            - 'Shutdown Process': 'developers/software/system/shutdown.md'
+          - 'Storage':
+            - 'Partition Map': 'developers/software/system/partition.md'
+            - 'Built-in Recovery': 'developers/software/system/recovery.md'
+            - 'Root Filesystem': 'developers/software/system/rootfs.md'
+            - 'USB Shared Partition': 'developers/software/system/shared.md'
+          - 'Video Processing': 'developers/software/applications/video.md'
+          - 'User Input': 'developers/software/applications/input.md'
+          - 'Build System': 'developers/software/applications/build_system.md'
+        - 'Applications':
+          - 'Toolchain': 'developers/software/applications/toolchain.md'
   - Miscellaneous:
-    - 'Glossary': 'glossary.md'
-    - 'FAQ': 'faq.md'
+    - 'Glossary': 'miscellaneous/glossary.md'
+    - 'FAQ': 'miscellaneous/faq.md'
  
