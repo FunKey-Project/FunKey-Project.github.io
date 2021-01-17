@@ -29,7 +29,7 @@ theme:
     primary: deep purple
   font:
     text: Roboto
-    code: Roboro Mono
+    code: Roboto Mono
 
   # 404 page
   static_templates:
