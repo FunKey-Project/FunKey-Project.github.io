@@ -15,7 +15,7 @@ the console before turning it off, and restoring this state when
 opening and turning it back on in a matter of seconds.
 
 This feature is only possible because of the optimized fast boot time
-detailed in the [Boot Process](bootprocess.md) section.
+detailed in the [Boot Process](boot_process/boot_process_intro.md) section.
 
 ## Storage
 
@@ -24,7 +24,7 @@ integrated MicroSD card. Most of its contents is made available to a
 host computer when connected over USB.
 
 The MicroSD card format is detailed in the [Disk
-Partition](partition.md) section.
+Partition](disk_mapping/partition.md) section.
 
 ## Video Processing
 
