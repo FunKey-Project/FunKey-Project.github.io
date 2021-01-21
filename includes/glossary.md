@@ -23,6 +23,7 @@
 *[LiPo]: Lithium Polymer
 *[MIPI]: Mobile Industry Processor Interface
 *[NTC]: Negative Temperature Coefficient
+*[OPK]: Open Package
 *[OTG]: On-The-Go
 *[PCBA]: Printed Circuit Board Assembly
 *[PCB]: Printed Circuit Board

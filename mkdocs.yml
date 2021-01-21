@@ -106,7 +106,7 @@ nav:
   - 'Overview': 'index.md'
   - User's manual:
     - 'Quickstart': 'quickstart.md'
-    - Product's description:
+    - Product description:
       - 'Key mapping': 'features/key_mapping.md'
       - 'Launchers': 'features/launchers.md'
       - 'Emulators': 'features/emulators.md'
@@ -117,8 +117,8 @@ nav:
       - 'Instant action': 'features/instant_action.md'
     - Tutorials:
       - Software:
-        - 'Add new roms': 'tutorials/software/add_roms.md'
-        - 'Add opk files': 'tutorials/software/copy_opk.md'
+        - 'Add new ROMs': 'tutorials/software/add_roms.md'
+        - 'Add OPK files': 'tutorials/software/copy_opk.md'
         - 'Install the GBA/PS1 BIOS': 'tutorials/software/gba_bios.md'
         - 'Change aspect ratio': 'tutorials/software/aspect_ratio.md'
         - 'Take a snapshot': 'tutorials/software/snapshot.md'
