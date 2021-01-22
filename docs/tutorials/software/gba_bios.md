@@ -16,7 +16,7 @@ actually play.
 
 ### How to find the BIOS file?
 
-In order to find the right GBA BIOS file simply, search google for
+In order to find the right GBA BIOS file simply search google for
 "**gba_bios.bin a860e8c0b6d573d191e4ec7d**" and download the file from
 one of the proposed links.
 
@@ -47,7 +47,7 @@ file with the right name and size before you can actually play.
 
 ### How to find the BIOS file?
 
-In order to find the right PS1 BIOS file simply, search google for
+In order to find the right PS1 BIOS file simply search google for
 "**SCPH1001.BIN bios**" and download the file from one of the proposed
 links.
 
