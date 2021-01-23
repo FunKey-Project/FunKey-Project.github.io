@@ -59,6 +59,17 @@ extra:
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/r/funkeyproject/funkey-os/
 
+# Custom CSS
+extra_css:
+  - 'assets/css/custom.css'
+  - 'assets/css/simple-lightbox.min.css'
+
+# Custom JS
+extra_javascript:
+  - 'assets/js/jquery-3.5.1.min.js'
+  - 'assets/js/simple-lightbox.jquery.min.js'
+  - 'assets/js/custom.js'
+
 # Extensions
 markdown_extensions:
   - admonition
@@ -126,7 +137,7 @@ nav:
         - 'Create themes': 'tutorials/software/themes.md'
         - 'Restore default games & emulators': 'tutorials/software/restore_games.md'
       - Hardware:
-        - 'Open/close the console': 'tutorials/hardware/open_console.md'
+        - 'Disassembling/Assembling the console': 'tutorials/hardware/disassembling_console.md'
         - 'Flash & change the SD card': 'tutorials/hardware/change_sd_card.md'
         - 'Change the buttons': 'tutorials/hardware/buttons.md'
         - 'Force shutdown': 'tutorials/hardware/force_shutdown.md'
