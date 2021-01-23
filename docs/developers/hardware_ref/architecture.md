@@ -14,15 +14,15 @@ to the following electronic diagram, featuring 3 main blocks:
  - 1x 420 mAh 402540 LiPo battery, containing an active protection
    circuitry
 
-![FunKey S Block Diagram](/assets/images/FunKey_S_Block_Diagram.png)
+![FunKey S Block Diagram](/assets/images/FunKey_S_Block_Diagram.png){: .lightbox}
 
 ## 3D View
 
 A 3D rendering of the PCBA done in KiCAD produces the images below:
 
-![FunKey Top](/assets/images/FunKey_S_Top.png)
+![FunKey Top](/assets/images/FunKey_S_Top.png){: .lightbox}
 
-![FunKey Bottom](/assets/images/FunKey_S_Bottom.png)
+![FunKey Bottom](/assets/images/FunKey_S_Bottom.png){: .lightbox}
 
 ## BOM
 

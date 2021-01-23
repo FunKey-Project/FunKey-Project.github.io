@@ -22,7 +22,7 @@ user don't pull the chord straight.
 
 The USB schematic is the following:
 
-![USB Schematics](/assets/images/USB_Schematics.png)
+![USB Schematics](/assets/images/USB_Schematics.png){: .lightbox}
 
 Before connecting 2 devices using an USB cable, they may be at
 completely different absolute voltages, and during cable insertion,

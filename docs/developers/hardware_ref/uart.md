@@ -12,7 +12,7 @@ loging into the system over an UART.
 
 The Console schematic only requires a minimum of external components:
 
-![Console Schematics](/assets/images/UART_Schematics.png)
+![Console Schematics](/assets/images/UART_Schematics.png){: .lightbox}
 
 Besides the 3-pin 1.27 mm (0.05") pitch header J1 that will not be
 mounted on standard products, there is only a single series resistor

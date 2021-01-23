@@ -57,7 +57,7 @@ purpose.
 
 Here is the part of the schematics corresponding to the CPU core:
 
-![CPU Schematics](/assets/images/CPU_Schematics.png)
+![CPU Schematics](/assets/images/CPU_Schematics.png){: .lightbox}
 
 ## SoC Blocks
 
@@ -190,13 +190,13 @@ termination resistors on the data lines DQx.
 DDR2 or DDR3 DRAMs feature merged drivers and dynamic on-chip
 termination like this ("VDDQ/2" is labeled "SVREF" in our schematic):
 
-![DRAM Merged Drivers](/assets/images/DRAM_Merged_Drivers.png)
+![DRAM Merged Drivers](/assets/images/DRAM_Merged_Drivers.png){: .lightbox}
 
 The V3s DDR2 DRAM has an active termination calibration circuitry and
 procedure called "_ZQ Calibration_" requiring an accurate 1% 240 Ω
 resistor **R11** connected internally like this:
 
-![Pull-Up Calibration](/assets/images/Pull-Up_Calibration.png)
+![Pull-Up Calibration](/assets/images/Pull-Up_Calibration.png){: .lightbox}
 
 More information on the DDR2 DRAM ZQ Calibration subject can be found
 in this [Micron Application Note][14].

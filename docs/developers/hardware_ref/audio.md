@@ -53,7 +53,7 @@ required to drive the speaker.
 
 Here is the corresponding schematic:
 
-![Audio Schematics](/assets/images/Audio_Schematics.png)
+![Audio Schematics](/assets/images/Audio_Schematics.png){: .lightbox}
 
 We chose the right headphone channel HPOUTR that is fed to the audio
 amplifier **U2** through a coupling capacitor **C3**.

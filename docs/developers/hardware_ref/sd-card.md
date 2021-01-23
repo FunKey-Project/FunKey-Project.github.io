@@ -26,7 +26,7 @@ But a good summary of the requirements is given in the "[<i>AN10911
 SD(HC)-memory card and MMC Interface conditioning</i>][3]" application
 note from NXP, from which this schematic is taken:
 
-![SD/MMC Interface](/assets/images/SD_MMC_Interface.png)
+![SD MMC Interface](/assets/images/SD_MMC_Interface.png){: .lightbox}
 
 !!! Warning
     This schematic does not include details concerning card-supply and
@@ -80,7 +80,7 @@ an open-drain output mode, and its value should be undercut (down to
 
 The FunKey SD Card interface schematic is the following:
 
-![SD Card Schematics](/assets/images/SD_Card_Schematics.png)
+![SD Card Schematics](/assets/images/SD_Card_Schematics.png){: .lightbox}
 
 ![TF-110](/assets/images/TF-110.png){: align=left }
 
