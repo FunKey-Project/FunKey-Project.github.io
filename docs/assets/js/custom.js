@@ -2,8 +2,8 @@ $(document).ready(function () {
   let imageGroups = []
   $(".lightbox").each(function () {
     let imageSource = $(this).attr('src')
-    let imageTag = $(this).attr('tag')
-    let imageTitle = $(this).attr('title')
+    let imageAlt = $(this).attr('alt').replace(/ /g,"")
+    let imageTitle = $(this).attr('alt')
     if (imageTitle) {
       imageTitle = 'title="' + imageTitle + '" '
     }
@@ -11,9 +11,9 @@ $(document).ready(function () {
       imageTitle = ''
     }
     $(this).
-        wrap('<a class="boxedThumb ' + imageTag + '" ' +
+        wrap('<a class="boxedThumb ' + imageAlt + '" ' +
             imageTitle + 'href="' + imageSource + '"></a>')
-    imageGroups.push('.' + imageTag)
+    imageGroups.push('.' + imageAlt)
   })
   jQuery.unique(imageGroups)
   imageGroups.forEach(imageGroupsSet)
