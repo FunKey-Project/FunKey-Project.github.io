@@ -25,3 +25,93 @@ a.boxedThumb:hover {
   transform: scale(1.05);
   z-index: 5;
 }
+
+.step {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.step-container {
+    -ms-align-items: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -ms-flex-align: start
+}
+
+@media only screen and (max-width:599px) {
+    .step-container {
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column
+    }
+}
+
+.row {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 20px
+}
+
+.thumb {
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15);
+    color: rgb(99, 102, 95);
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    max-width: 110px;
+    max-height: 90px;
+    object-fit: cover;
+    opacity: .7;
+    -ms-flex: 0 1 110px;
+    -webkit-flex: 0 1 110px;
+    flex: 0 1 110px;
+    box-shadow: 0 0 0 0 transparent;
+    transition: box-shadow .2s, border-color .2s, opacity .2s;
+    white-space: nowrap
+}
+
+.thumb.active,
+.thumb:hover {
+    transform: translateY(-4px);
+    opacity: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .5)
+}
+
+@media only screen and (max-width:599px) {
+    .thumb.active,
+    .thumb:hover {
+	transform: translateY(0);
+	box-shadow: 0 0 2px rgba(0, 0, 0, .75)
+    }
+}
+
+.large-image {
+    -ms-flex: 1 2;
+    -webkit-flex: 1 2;
+    flex: 1 2;
+    width: 575px;
+    max-height: 432px;
+    object-fit: cover;
+    display: flex;
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -ms-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
