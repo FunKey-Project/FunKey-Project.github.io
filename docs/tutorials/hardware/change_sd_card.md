@@ -24,7 +24,7 @@ Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file directly from 
 
 - You'll see a progress bar. Once complete, **make sure the flashing was successful, otherwise retry to flash the SD card**. The program will automatically unmount the SD card so it's safe to remove it from your computer.
 
-  ![Github Release](/assets/images/Flashing_successful.png){: .lightbox}
+  ![balenaEtcher](/assets/images/Flashing_successful.png){: .lightbox}
 
 # Switching micro-SD cards
 
