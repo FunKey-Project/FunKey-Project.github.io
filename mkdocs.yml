@@ -137,8 +137,8 @@ nav:
         # - 'Create themes': 'tutorials/software/themes.md'
         - 'Restore default games & emulators': 'tutorials/software/restore_games.md'
       - Hardware:
-        - 'Disassembling/Assembling the console': 'tutorials/hardware/disassembling_console.md'
-        - 'Flashing & switching micro-SD card': 'tutorials/hardware/change_sd_card.md'
+        - 'Teardown': 'tutorials/hardware/disassembling_console.md'
+        - 'Flash & Switch micro-SD card': 'tutorials/hardware/change_sd_card.md'
         - 'Change the buttons': 'tutorials/hardware/buttons.md'
        # - 'Force shutdown': 'tutorials/hardware/force_shutdown.md'
   - Developer's Guide:
