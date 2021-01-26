@@ -26,6 +26,8 @@ Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file directly from 
 
   ![balenaEtcher](/assets/images/Flashing_successful.png){: .lightbox}
 
+  <br />
+
 # Switching micro-SD cards
 
 On the FunKey S, the micro-SD card was voluntarily placed against the casing so that it has no degree of liberty and cannot move by accident during the eventful life of a keychain. Removing/switching the micro-SD card was nevertheless designed to be pretty straightforward and only require a standard **Phillips screwdriver (PH0)**. Please follow the steps below carefully. 
