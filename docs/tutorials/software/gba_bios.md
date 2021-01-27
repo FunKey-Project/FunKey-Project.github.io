@@ -14,11 +14,8 @@ This means that you will need to install on the **FunKey S** a BIOS
 file with the right name, size and MD5 checksum before you can
 actually play.
 
-### How to find the BIOS file?
-
-In order to find the right GBA BIOS file simply search google for
-"**gba_bios.bin a860e8c0b6d573d191e4ec7d**" and download the file from
-one of the proposed links.
+- BIOS file name: gba_bios.bin
+- MD5: a860e8c0b6d573d191e4ec7d
 
 ### Installation procedure
 
@@ -45,11 +42,7 @@ get this screen:
 This means that you will need to install on the **FunKey S** a BIOS
 file with the right name and size before you can actually play.
 
-### How to find the BIOS file?
-
-In order to find the right PS1 BIOS file simply search google for
-"**SCPH1001.BIN bios**" and download the file from one of the proposed
-links.
+BIOS file name: SCPH1001.BIN
 
 ### Installation procedure
 
