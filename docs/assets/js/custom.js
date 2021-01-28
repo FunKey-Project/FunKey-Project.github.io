@@ -113,7 +113,7 @@ $(document).ready(function () {
 	    imageTitle = ''
 	}
 	$(this).
-            wrap('<a class="boxedThumb ' + imageAlt + '" ' +
+            wrap('<a class="boxedThumb step-picture ' + imageAlt + '" ' +
 		 imageTitle + 'href="' + imageSource + '"></a>')
 	imageGroups.push('.' + imageAlt)
     })
