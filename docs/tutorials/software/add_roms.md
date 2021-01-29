@@ -1,3 +1,13 @@
+# How to get ROMs legally
+
+Yes legally! Despite the general opinion it is perfectly possible to purchase and play famous ROMs legally such as Sonic, Castlevania, Megaman and more, read the note below for more details. **The FunKey Wiki** maintains <a href="https://wiki.funkey-project.com/wiki/Available_third-party_software" target="_blank">lists</a> of legal sources for ROMs, including <a href="https://wiki.funkey-project.com/wiki/List_of_emulatable_games_(freeware)" target="_blank">freeware ROMs</a>, <a href="https://wiki.funkey-project.com/wiki/List_of_emulatable_games_(commercial)" target="_blank">commercial ROMs</a>, and <a href="https://wiki.funkey-project.com/wiki/List_of_utilities" target="_blank">utilities</a>.
+
+
+
+**Note about ROM emulation:** While ROM emulation is often seen as illegal, and sometimes by extension emulation itself, it is simply not true. Emulating hardware is perfectly legal, no gray area about this. Sharing a software copy though is illegal, so websites that host copied ROMs or bios are illegal as well as downloading ROMs or bios from them. However, if some giant videogame companies have decided not to share their games as ROMs, it is not the case for all of them. Many companies, even giants such as SEGA, ATARI or Konami sell their retro-games online as ROMs. For example it is perfectly legal to purchase the SEGA Mega Drive and Genesis Classics on <a href="https://store.steampowered.com/app/34270/SEGA_Mega_Drive_and_Genesis_Classics/" target="_blank">Steam</a> and play Sonic on your FunKey S. 
+
+# Add ROMs to the FunKey S
+
 Connect your **FunKey S** console to your computer and add new games
 as simply as you would do it with a simple USB memory stick:
 
