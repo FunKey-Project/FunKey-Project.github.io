@@ -116,9 +116,9 @@ set dmg_obp1 0xc0ffff 0x408080 0x204040 0x000000`
 | ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the **A** key twice to confirm                         |
 |   ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}    | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window |
 |   ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}    | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![create .gnuboy](/assets/images/create_gnuboy_folder.png){: .lightbox} | In the FunKey folder, create a new folder .gnuboy if it does not already exist. |
-| ![create gnuboy.rc](/assets/images/create_gnuboy_rc_file.png){: .lightbox} | In the FunKey/.gnuboy folder create a file gnuboy.rc if it does not already exist. |
-| ![modify gnuboy.rc](/assets/images/set_palette.png){: .lightbox} | Open the gnuboy.rc file with a text editor and add the palette you want. |
+| ![create _gnuboy](/assets/images/create_gnuboy_folder.png){: .lightbox} | In the FunKey folder, create a new folder .gnuboy if it does not already exist. |
+| ![create gnuboy_rc](/assets/images/create_gnuboy_rc_file.png){: .lightbox} | In the FunKey/.gnuboy folder create a file gnuboy.rc if it does not already exist. |
+| ![modify gnuboy_rc](/assets/images/set_palette.png){: .lightbox} | Open the gnuboy.rc file with a text editor and add the palette you want. |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}  | Eject cleanly the USB drive from your computer               |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm |
 |  ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}   | Press the **MENU** key to return to the launcher screen      |
