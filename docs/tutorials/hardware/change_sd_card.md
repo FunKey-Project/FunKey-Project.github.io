@@ -41,21 +41,26 @@ https://github.com/FunKey-Project/FunKey-OS/releases/latest{: target="blank"}
 
 # Switching micro-SD cards
 
-On the FunKey S, the micro-SD card was voluntarily placed against the
-casing so that it has no degree of liberty and cannot move by accident
-during the eventful life of a keychain. Removing/switching the
-micro-SD card was nevertheless designed to be pretty straightforward
-and only require a standard **Phillips screwdriver (PH0)**. Please
-follow the steps below carefully.
+On the **FunKey S**, the micro-SD card was voluntarily placed against
+the casing so that it has no degree of freedom and cannot move by
+accident during the eventful life of a keychain.
+
+Removing/switching the micro-SD card was nevertheless designed to be
+pretty straightforward and only require a standard **Phillips
+screwdriver (PH0)** and optionally some **tweezers**.
+
+Please follow the steps below carefully:
 
 ### **STEP 1 - Removing the screws** {: .step-title}
 ![removeScrews](/assets/images/disassembly/IMG_8800.jpg){: .step-thumb}
 ![removeScrews](/assets/images/disassembly/IMG_8801.jpg){: .step-thumb}
 ![removeScrews](/assets/images/disassembly/IMG_8803.jpg){: .step-thumb}
 
-Using a standard **PH0 screwdriver**, remove the 2 screws on the back
-of your FunKey S.<br />Be careful to use the correct screwdriver head
-size not to damage the screws.
+Using a standard **Phillips PH0 screwdriver**, remove the 2 screws on
+the back of your FunKey S.
+
+Be careful to use the correct screwdriver head size and type to
+prevent damaging the screws (do not use JIS screwdrivers!).
 
 ### **STEP 2 - Opening up the console** {: .step-title}
 ![removeBack](/assets/images/disassembly/IMG_8848.jpg){: .step-thumb}
@@ -64,23 +69,25 @@ size not to damage the screws.
 
 Carefully remove:
 
-1. The plastic back of the console by pulling from the side of the
-hinge first.
-2. The keychain lanyard and axis.
-3. The L/R plastic buttons by gently pulling them out of their
-axis. Be careful not to damage the switch on the circuit board.
+1. The plastic back of the console by pulling up the hinge side first
+2. The keychain lanyard and axis
+3. The L/R plastic buttons by gently pulling them up out of their axis
+
+!!! warning
+
+   Be careful not to damage the L/R switches on the circuit board!
 
 ### **STEP 3 - Exposing the circuit board** {: .step-title}
 ![removeBattery](/assets/images/disassembly/IMG_8818.jpg){: .step-thumb}
 ![removeBattery](/assets/images/disassembly/IMG_8822.jpg){: .step-thumb}
 
-Pull back the battery (leave it connected) to expose the circuit board.
+Lift the battery (but leave it connected) to expose the circuit board.
 
 ### **STEP 4 - Accessing the SD card** {: .step-title}
 ![pullPCB](/assets/images/disassembly/IMG_8833.jpg){: .step-thumb}
 
-By grabbing it **by the micro-USB port**, gently pull the circuit
-board towards you until you have access to the SD card.
+By grabbing it **by the micro-USB port**, gently pull up the circuit
+board until you have access to the SD card.
 
 ### **STEP 5 - Switching SD cards** {: .step-title}
 ![removeSD](/assets/images/disassembly/IMG_8835.jpg){: .step-thumb}
@@ -90,15 +97,20 @@ You can now remove the old micro-SD card from its socket and insert
 the new one (previously flashed as described [in the 1st part of this
 tutorial][3]).
 
+!!! note
+
+   You may need to use some tweezers and pull with some strength in
+   order to remove the micro-SD card from its socket, as it is
+   strongly inserted to prevent loose connections.
+
 ### **STEP 6 - Reassembly** {: .step-title}
 ![checkSpeaker](/assets/images/disassembly/IMG_8865_YES.jpg){: .step-thumb}
 ![checkSpeaker](/assets/images/disassembly/IMG_8862_NO.jpg){: .step-thumb}
 
-Before putting back down the circuit board in the case, please make
-sure the speaker on the circuit board is already inserted in the
-casing. If not, then insert it first like in the pictures.
+Insert first the speaker into its location in the casing before
+putting the circuit board back in the case, like in the pictures.
 
-Reassemble the console by following the previous steps backwards.
+Reassemble the console by following the previous steps in reverse order.
 
 Be careful not to damage the switches on the circuit board when
 putting back the L/R plastic buttons.
