@@ -10,18 +10,17 @@ your data.
 ## Download the latest FunKey-OS image file
 
 Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file
-directly from
-[here](https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.0.0/FunKey-sdcard-2.0.0.img)
-or from the bottom of the latest release page in the "assets" section:
+directly from [here][1] or from the bottom of the latest release page
+in the "assets" section:
 
-<a href="https://github.com/FunKey-Project/FunKey-OS/releases/latest" target="_blank">https://github.com/FunKey-Project/FunKey-OS/releases/latest</a>
+https://github.com/FunKey-Project/FunKey-OS/releases/latest{: target="blank"}
 
 ![Github Release](/assets/images/github_sd_card_image.png){: .lightbox}
 
 ## Flash the micro-SD card with balenaEtcher
 
-- Download and install balenaEtcher for Windows/Mac OS/Linux from <a
-  href="https://www.balena.io/etcher/" target="_blank">balena.io</a>.
+- Download and install balenaEtcher for Windows/Mac OS/Linux from
+  [balena.io][2]{:target="blank"}
 
 - Run balenaEtcher and click on "Flash from file" to select the
   FunKey-OS image file
@@ -89,7 +88,7 @@ board towards you until you have access to the SD card.
 
 You can now remove the old micro-SD card from its socket and insert
 the new one (previously flashed as described [in the 1st part of this
-tutorial](#flashing-a-new-micro-sd-card)).
+tutorial][3]).
 
 ### **STEP 6 - Reassembly** {: .step-title}
 ![checkSpeaker](/assets/images/disassembly/IMG_8865_YES.jpg){: .step-thumb}
@@ -103,6 +102,10 @@ Reassemble the console by following the previous steps backwards.
 
 Be careful not to damage the switches on the circuit board when
 putting back the L/R plastic buttons.
+
+[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.0.0/FunKey-sdcard-2.0.0.img
+[2]: https://www.balena.io/etcher/
+[3]: #flashing-a-new-micro-sd-card
 
 --8<--
 includes/glossary.md

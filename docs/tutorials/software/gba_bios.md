@@ -30,7 +30,7 @@ actually play.
 | ![Copy ROM](/assets/images/Copy_GBA_BIOS.png){: .lightbox}                        | Drag & drop the _**gba_bios.bin**_ BIOS file into the _**Game Boy Advance**_ folder in this USB drive on your computer      |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                         |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                          | Press the **MENU** key to return to the launcher screen                                                                     |
+| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                     |
 
 ## PS1
 
@@ -54,10 +54,10 @@ BIOS file name: SCPH1001.BIN
 | ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the **A** key twice to confirm                                                                                        |
 | ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
 | ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![Copy ROM](/assets/images/Copy_PS1_BIOS.png){: .lightbox}                        | Drag & drop the _**SCPH1001.BIN**_ BIOS file into the _**PS1/bios**_ folder in this USB drive on your computer      |
+| ![Copy ROM](/assets/images/Copy_PS1_BIOS.png){: .lightbox}                        | Drag & drop the _**SCPH1001.BIN**_ BIOS file into the _**PS1/bios**_ folder in this USB drive on your computer              |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                         |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                          | Press the **MENU** key to return to the launcher screen                                                                     |
+| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                     |
 
 --8<--
 includes/glossary.md

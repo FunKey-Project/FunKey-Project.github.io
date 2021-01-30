@@ -156,7 +156,8 @@ The V3s chips requires 2 crystals:
 
  - one low-frequency [32.768 kHz crystal][8] **Y1** for the RTC clock
 
- - one high-frequency [24 MHz crystal][9] **Y2** for deriving the 1.2 GHz clock
+ - one high-frequency [24 MHz crystal][9] **Y2** for deriving the 1.2
+   GHz clock
 
 The 24 MHz crystal is used by an internal oscillator to lock the phase
 of the 1.2 GHz oscillator using a PLL (Phase-Locked Loop).
@@ -178,8 +179,9 @@ application note from STM][10].
 
 ## DRAM
 
-The DRAM within the V3s chip is a [DDR2 one][11], meaning that its data
-lines are clocked using both edges of an up to 400 MHz clock signal.
+The DRAM within the V3s chip is a [DDR2 one][11], meaning that its
+data lines are clocked using both edges of an up to 400 MHz clock
+signal.
 
 At these high frequencies, even short wires have a length that is of
 the same order of magnitude as the signal's [wavelength][12] and thus

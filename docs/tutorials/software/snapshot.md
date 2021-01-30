@@ -19,7 +19,7 @@ In order to access the snapshots, follow these simple steps:
 | ![Copy ROM](/assets/images/Snapshots.png){: .lightbox}                            | Drag & drop / Copy / Move / Delete the snapshots files from the _FunKey/snapshots/_ folder in this USB drive on your computer as required |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                                            |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                                       |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                          | Press the **MENU** key to return to the launcher screen                                                                                   |
+| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                                   |
 
 --8<--
 includes/glossary.md

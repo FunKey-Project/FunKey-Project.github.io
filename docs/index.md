@@ -4,7 +4,8 @@
 
 Thank you for choosing the **FunKey S**!
 
-The **FunKey S** is the world's smallest foldable retro-gaming console.
+The **FunKey S** is the world's smallest foldable retro-gaming
+console.
 
 Because of its foldable design, the **FunKey S** provides a
 surprisingly large screen and comfortable key pads while open, but it

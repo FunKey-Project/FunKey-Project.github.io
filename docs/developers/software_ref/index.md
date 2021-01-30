@@ -9,13 +9,14 @@ boot time.
 
 ## Instant Action
 
-The **FunKey S** introduces a unique feature called **_Instant Action_**,
-which enables automatically saving the running state when closing
-the console before turning it off, and restoring this state when
-opening and turning it back on in a matter of seconds.
+The **FunKey S** introduces a unique feature called **_Instant
+Action_**, which enables automatically saving the running state when
+closing the console before turning it off, and restoring this state
+when opening and turning it back on in a matter of seconds.
 
 This feature is only possible because of the optimized fast boot time
-detailed in the [Boot Process](boot_process/boot_process_intro.md) section.
+detailed in the [Boot Process](boot_process/boot_process_intro.md)
+section.
 
 ## Storage
 

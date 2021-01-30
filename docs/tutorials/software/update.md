@@ -1,5 +1,5 @@
-A firmware upgrade can be performed simply over USB without opening the
-**FunKey S** console.
+A firmware upgrade can be performed simply over USB without opening
+the **FunKey S** console.
 
 Get the latest "**_FunKey-rootfs-x.y.z.fwu_**" firmware update file
 directly from [here][1] or from the bottom of the latest release page

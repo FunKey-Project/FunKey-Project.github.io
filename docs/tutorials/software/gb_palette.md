@@ -1,11 +1,21 @@
-
-
 # Palette description
 
-The default FunKey S Game Boy emulator: *[gnuboy](https://github.com/rofl0r/gnuboy)* allows to set the palette used for grayscale when running DMG (original mono Gameboy) ROMs. There are four variables for this purpose, allowing the background, window, and both sprite palettes to
-be colored differently. Each one is made up of four numbers, the color to use for each shade of gray, from lightest to darkest. Colors are represented as 24bit numbers, with red in the low (rightmost) places and blue in the upper (leftmost) places. 
+The default **FunKey S** Game Boy emulator: _[gnuboy][1]_ allows to
+set the palette used for grayscale when running DMG (original mono
+Gameboy) ROMs.
 
-For example, to set the background to shades of white, the window to shades of red, and the sprite palettes to shades of green and blue, you could use:
+There are four variables for this purpose, allowing the background,
+window, and both sprite palettes to be colored differently. Each one
+is made up of four numbers, the color to use for each shade of gray,
+from lightest to darkest.
+
+Colors are represented as 24-bit hexadecimal numbers, with red
+component in the low (rightmost) 2 digits, green component in the
+middle 2 digits and blue component in the upper (leftmost) 2 digits.
+
+For example, to set the background to shades of white, the window to
+shades of red, and the sprite palettes to shades of green and blue,
+you could use:
 
 ```
 set dmg_bgp  0xffffff 0xaaaaaa 0x555555 0x000000
@@ -14,7 +24,8 @@ set dmg_obp0 0x00ff00 0x00aa00 0x005500 0x000000
 set dmg_obp1 0xff0000 0xaa0000 0x550000 0x000000
 ```
 
-This will of course look rather ugly, but it does the job illustrating how you set various colors.
+This will of course look rather ugly, but it does the job illustrating
+how you set various colors.
 
 Here is a list of example palettes proposed by the gnuboy emulator:
 
@@ -104,25 +115,25 @@ set dmg_obp0 0xc0ffff 0x408080 0x204040 0x000000
 set dmg_obp1 0xc0ffff 0x408080 0x204040 0x000000`
 ```
 
-
-
 # Changing the palette
 
-|                         **Display**                          | **Action**                                                   |
-| :----------------------------------------------------------: | :----------------------------------------------------------- |
-| ![Connection PC](/assets/images/Connection_PC.png){: .lightbox} | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on |
-|     ![RetroFE](/assets/images/RetroFE.png){: .lightbox}      | At the launcher's main screen (example here with RetroFE), press the **MENU** key |
-|   ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}    | Press the **UP**/**DOWN** keys until you see "**MOUNT USB**" |
-| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the **A** key twice to confirm                         |
-|   ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}    | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window |
-|   ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}    | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![create _gnuboy](/assets/images/create_gnuboy_folder.png){: .lightbox} | In the FunKey folder, create a new folder .gnuboy if it does not already exist. |
-| ![create gnuboy_rc](/assets/images/create_gnuboy_rc_file.png){: .lightbox} | In the FunKey/.gnuboy folder create a file gnuboy.rc if it does not already exist. |
-| ![modify gnuboy_rc](/assets/images/set_palette.png){: .lightbox} | Open the gnuboy.rc file with a text editor and add the palette you want. |
-| ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}  | Eject cleanly the USB drive from your computer               |
-| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm |
-|  ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}   | Press the **MENU** key to return to the launcher screen      |
-| ![palette results](/assets/images/results_palette.png){: .lightbox} | Launch any Gameboy game to see the results of your new palette settings. |
+|                         **Display**                                               | **Action**                                                                                                                  |
+| :-------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------|
+| ![Connection PC](/assets/images/Connection_PC.png){: .lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                    |
+| ![RetroFE](/assets/images/RetroFE.png){: .lightbox}                               | At the launcher's main screen (example here with RetroFE), press the **MENU** key                                           |
+| ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}                           | Press the **UP**/**DOWN** keys until you see "**MOUNT USB**"                                                                |
+| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the **A** key twice to confirm                                                                                        |
+| ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
+| ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
+| ![create _gnuboy](/assets/images/create_gnuboy_folder.png){: .lightbox}           | In the FunKey folder, create a new folder .gnuboy if it does not already exist.                                             |
+| ![create gnuboy_rc](/assets/images/create_gnuboy_rc_file.png){: .lightbox}        | In the FunKey/.gnuboy folder create a file gnuboy.rc if it does not already exist.                                          |
+| ![modify gnuboy_rc](/assets/images/set_palette.png){: .lightbox}                  | Open the gnuboy.rc file with a text editor and add the palette you want.                                                    |
+| ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
+| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                         |
+| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                     |
+| ![palette results](/assets/images/results_palette.png){: .lightbox}               | Launch any Gameboy game to see the results of your new palette settings.                                                    |
+
+[1]: https://github.com/rofl0r/gnuboy
 
 --8<--
 includes/glossary.md

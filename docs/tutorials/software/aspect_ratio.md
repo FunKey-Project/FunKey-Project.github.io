@@ -29,12 +29,12 @@ display aspect ratio:
 
  - Use the **LEFT** and **RIGHT** keys to change the aspect ratio
 
-| **Display**                                                           | **Aspect Ratio**                                                                                                             |
-|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------|
-| ![Menu Stretched](/assets/images/Menu_Stretched.png){: .lightbox}     | Stretched (default): The display is stretched horizontally and vertically to fill the screen in both directions              |
-| ![Menu Cropped](/assets/images/Menu_Cropped.png){: .lightbox}         | Cropped (Zoom 100%), The display fills the screen vertically, and is clipped vertically to the left and right of the screen  |
-| ![Menu Scaled](/assets/images/Menu_Scaled.png){: .lightbox}           | Scaled (Zoom 0%): The display is scaled down in both directions to be fully visible, both horizontally and vertically        |
-| ![Menu Manual Zoom](/assets/images/Menu_Manual_Zoom.png){: .lightbox} | Manual zoom: The display is zoomed in/out manually                                                                           |
+| **Display**                                                           | **Aspect Ratio**                                                                                                            |
+|:---------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
+| ![Menu Stretched](/assets/images/Menu_Stretched.png){: .lightbox}     | Stretched (default): The display is stretched horizontally and vertically to fill the screen in both directions             |
+| ![Menu Cropped](/assets/images/Menu_Cropped.png){: .lightbox}         | Cropped (Zoom 100%), The display fills the screen vertically, and is clipped vertically to the left and right of the screen |
+| ![Menu Scaled](/assets/images/Menu_Scaled.png){: .lightbox}           | Scaled (Zoom 0%): The display is scaled down in both directions to be fully visible, both horizontally and vertically       |
+| ![Menu Manual Zoom](/assets/images/Menu_Manual_Zoom.png){: .lightbox} | Manual zoom: The display is zoomed in/out manually                                                                          |
 
  - Press the **MENU** key again to exit from the FunKey menu
 

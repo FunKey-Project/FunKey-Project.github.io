@@ -5,7 +5,8 @@ does not require installation to be able to run them.
 
 !!! Note
 
-    In the current (2.0.0) release of the FunKey-OS, the **OPK** files are only available for the gmenu2x launcher, and not in RetroFE.
+    In the current (2.0.0) release of the FunKey-OS, the **OPK** files
+    are only available for the gmenu2x launcher, and not in RetroFE.
 
 [7-Zip][1] can be used to extract **OPK** files, and [Open Package
 Creator (v1.1.2)][2] is a useful tool if you want to re-package an
@@ -25,7 +26,7 @@ files as simply as you would do it with a simple USB memory stick:
 | ![Copy OPK](/assets/images/Copy_OPK.png){: .lightbox}                                     | Drag & drop the **OPK** file into any 1st-level folder[^1]  in this USB drive on your computer and they will be automatically available on the **FunKey S** |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                               | Eject cleanly the USB drive from your computer                                                                                                              |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure_gmenu2x.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                                                         |
-| ![Unmount USB](/assets/images/Mount_USB_gmenu2x.png){: .lightbox}                          | Press the **MENU** key to return to the launcher screen                                                                                                     |
+| ![Unmount USB](/assets/images/Mount_USB_gmenu2x.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                                                     |
 
 Of course, you can remove **OPK** files from the **FunKey S** console
 as you would do with a USB memory stick, too!
