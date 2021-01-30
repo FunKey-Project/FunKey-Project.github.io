@@ -7,7 +7,7 @@ display aspect ratio:
 
 ## Quick shortcuts
 
- - **Fn** + **DOWN**: Change Aspect Ratio (AR), cycle between:
+ - <span class="funkey-fn"></span> + <span class="funkey-down"></span>: Change Aspect Ratio (AR), cycle between:
 
     - Stretched (default)
 
@@ -17,17 +17,17 @@ display aspect ratio:
 
     - Manual Zoom
 
- - **Fn** + **LEFT**: Decrease zoom level by 10%
+ - <span class="funkey-fn"></span> + <span class="funkey-left"></span>: Decrease zoom level by 10%
 
- - **Fn** + **RIGHT**: Increase Zoom level by 10%
+ - <span class="funkey-fn"></span> + <span class="funkey-right"></span>: Increase Zoom level by 10%
 
 ## FunKey menu
 
- - Press the **MENU** key to enter the FunKey menu
+ - Press the <span class="funkey-menu"></span> key to enter the FunKey menu
 
- - Press the **UP** or **DOWN** key to select the "**ASPECT RATIO**" setting
+ - Press the <span class="funkey-up"></span> or <span class="funkey-down"></span> key to select the "**ASPECT RATIO**" setting
 
- - Use the **LEFT** and **RIGHT** keys to change the aspect ratio
+ - Use the <span class="funkey-left"></span> and <span class="funkey-right"></span> keys to change the aspect ratio
 
 | **Display**                                                           | **Aspect Ratio**                                                                                                            |
 |:---------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +36,7 @@ display aspect ratio:
 | ![Menu Scaled](/assets/images/Menu_Scaled.png){: .lightbox}           | Scaled (Zoom 0%): The display is scaled down in both directions to be fully visible, both horizontally and vertically       |
 | ![Menu Manual Zoom](/assets/images/Menu_Manual_Zoom.png){: .lightbox} | Manual zoom: The display is zoomed in/out manually                                                                          |
 
- - Press the **MENU** key again to exit from the FunKey menu
+ - Press the <span class="funkey-menu"></span> key again to exit from the FunKey menu
 
 ## Aspect ratio preview
 

@@ -89,3 +89,72 @@ body {
         box-shadow: 0 0 2px rgba(0, 0, 0, .75)
     }
 }
+
+@font-face {
+  font-family: 'FunKey-S-Keys';
+  src:  url('/assets/fonts/FunKey-S-Keys.eot?b52ver');
+  src:  url('/assets/fonts/FunKey-S-Keys.eot?b52ver#iefix') format('embedded-opentype'),
+    url('/assets/fonts/FunKey-S-Keys.ttf?b52ver') format('truetype'),
+    url('/assets/fonts/FunKey-S-Keys.woff?b52ver') format('woff'),
+    url('/assets/fonts/FunKey-S-Keys.svg?b52ver#FunKey-S-Keys') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="funkey-"], [class*=" funkey-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FunKey-S-Keys' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1rem;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.funkey-A:before {
+  content: "\e900";
+}
+
+.funkey-B:before {
+  content: "\e902";
+}
+.funkey-X:before {
+  content: "\e904";
+}
+.funkey-Y:before {
+  content: "\e906";
+}
+.funkey-up:before {
+  content: "\e908";
+}
+.funkey-down:before {
+  content: "\e909";
+}
+.funkey-left:before {
+  content: "\e90a";
+}
+.funkey-right:before {
+  content: "\e90b";
+}
+.funkey-L:before {
+  content: "\e90c";
+}
+.funkey-R:before {
+  content: "\e90d";
+}
+.funkey-start:before {
+  content: "\e90e";
+}
+.funkey-fn:before {
+  content: "\e90f";
+}
+.funkey-menu:before {
+  content: "\e912";
+}

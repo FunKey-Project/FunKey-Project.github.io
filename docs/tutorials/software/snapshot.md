@@ -11,15 +11,15 @@ In order to access the snapshots, follow these simple steps:
 | **Display**                                                                       | **Action**                                                                                                                                |
 |:---------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Connection PC](/assets/images/Connection_PC.png){: .lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                                  |
-| ![RetroFE](/assets/images/RetroFE.png){: .lightbox}                               | At the launcher's main screen (example here with RetroFE), press the **MENU** key                                                         |
-| ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}                           | Press the **UP**/**DOWN** keys until you see "**MOUNT USB**"                                                                              |
-| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the **A** key twice to confirm                                                                                                      |
+| ![RetroFE](/assets/images/RetroFE.png){: .lightbox}                               | At the launcher's main screen (example here with RetroFE), press the <span class="funkey-menu"></span> key                                |
+| ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}                           | Press the <span class="funkey-up"></span> or <span class="funkey-down"></span> keys until you see "**MOUNT USB**"                         |
+| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the <span class="funkey-A"></span> key twice to confirm                                                                             |
 | ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                                    |
 | ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10)               |
 | ![Copy ROM](/assets/images/Snapshots.png){: .lightbox}                            | Drag & drop / Copy / Move / Delete the snapshots files from the _FunKey/snapshots/_ folder in this USB drive on your computer as required |
 | ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                                            |
-| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the "**A**" key twice to confirm                                       |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the **MENU** key to return to the launcher screen                                                                                   |
+| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <span class="funkey-A"></span> key twice to confirm                |
+| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the <span class="funkey-menu"></span> key to return to the launcher screen                                                          |
 
 --8<--
 includes/glossary.md
