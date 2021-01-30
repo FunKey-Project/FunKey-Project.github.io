@@ -132,6 +132,7 @@ $(".step-thumb").on("mouseover", function() {
     /* Set picture image source to the thumbnail image source */
     $(this).closest(".step").find(".step-picture").attr("src", $(this).attr("src"));
     $(this).closest(".step").find(".boxedThumb").attr("href", $(this).attr("src"));
+    $(this).closest(".step").find(".boxedThumb").attr("title", $(this).attr("alt"));
 
     /* Activate the corresponding thumbnail and deactivate all others */
     $(this).addClass("active")
