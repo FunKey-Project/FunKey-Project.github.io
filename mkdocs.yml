@@ -38,8 +38,14 @@ theme:
 # Plugins
 plugins:
   - search
+  - section-index
   - minify:
       minify_html: true
+  - exclude:
+      glob:
+        - tutorials/hardware/force_shutdown.md
+        - tutorials/software/restore_games.md
+        - tutorials/software/themes.md
 
 # Customization
 extra:
@@ -144,7 +150,7 @@ nav:
        # - 'Force shutdown': 'tutorials/hardware/force_shutdown.md'
   - Developer's Guide:
     - Hardware reference:
-      - 'Design' : 'developers/hardware_ref/design.md'
+      - 'developers/hardware_ref/index.md'
       - 'Architecture': 'developers/hardware_ref/architecture.md'
       - 'BOM': 'https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html'
       - 'CPU': 'developers/hardware_ref/cpu.md'
@@ -162,7 +168,7 @@ nav:
       - 'UART': 'developers/hardware_ref/uart.md'
       - 'Magnetic Switch': 'developers/hardware_ref/magnetic_switch.md'
     - Software reference:
-      - 'Software Architecture': 'developers/software_ref/architecture.md'
+      - 'developers/software_ref/index.md'
       - Boot process:
         - 'Introduction': 'developers/software_ref/boot_process/boot_process_intro.md'
         - 'Bootloader': 'developers/software_ref/boot_process/bootloader.md'
