@@ -1,18 +1,15 @@
 ## A
 
  - **ADC**: Analog to Digital Converter
- - **ADCs**: Analog to Digital Converters
 
 ## C
 
  - **CPU**: Central Processing Unit
- - **CPUs**: Central Processing Units
  - **CSi**: Camera Serial Interface
 
 ## D
 
  - **DAC**: Digital to Analog Converter
- - **DACs**: Digital to Analog Converters
  - **DDR**: Dual Data Rate
  - **DRAM**: Dynamic Random-Access Memory
  - **DSi**: Display Serial Interface
@@ -62,7 +59,6 @@
  - **PCBA**: Printed Circuit Board Assembly
  - **PCB**: Printed Circuit Board
  - **PLL**: Phase-Locked Loop
- - **PLLs**: Phase-Locked Loops
  - **PMIC**: Power Management Integrated Circuit
  - **PMU**: Power Managment Unit
  - **PoP**: Package on Package
@@ -80,7 +76,6 @@
  - **SiP**: System in Package
  - **SMPS**: Switched-Mode Power Supply
  - **SoC**: System on Chip
- - **SoCs**: System on Chips
  - **SPI**: Serial Peripheral Interface
  - **SRAM**: Static Random-Access Memory
 
@@ -92,5 +87,4 @@
 ## U
 
  - **UART**: Universal Asynchronous Receiver/Transmitter
- - **UARTs**: Universal Asynchronous Receiver/Transmitters
  - **USB**: Universal Serial Bus
