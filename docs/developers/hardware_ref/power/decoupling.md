@@ -102,8 +102,7 @@ capacitors:
 One exception is the Allwinner V3s CPU HPR/HPL circuit which features
 an RC-to-ground circuit between the amplifier and the preamplifier
 input with the resistor **R27** and capacitors **C79** and **C81**, as
-recommended in the [V3s hardware design
-guide:fontawesome-solid-external-link-alt:][5].
+recommended in the [V3s hardware design guide][5].
 
 The only other remarkable point left in this schematic is the resistor
 divider **R25**/**R28** which provides a reference voltage at half the

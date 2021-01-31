@@ -26,16 +26,14 @@ A 3D rendering of the PCBA done in KiCAD produces the images below:
 
 ## BOM
 
-An interactive BOM is available in the [next section][4].
+An interactive BOM is available in the [next section][1].
 
 ## Schematics and Layout
 
 All the hardware design and production files required to build the
-[**FunKey S** retro-gaming
-console:fontawesome-solid-external-link-alt:][1] electronic PCBA using
-the [KiCAD ECAD tools:fontawesome-solid-external-link-alt:][2] are
-available as Open Hardware in the [FunKey S Hardware
-repository:fontawesome-solid-external-link-alt:][3].
+[**FunKey S** retro-gaming console][2] electronic PCBA using the
+[KiCAD ECAD tools][3] are available as Open Hardware in the [FunKey S
+Hardware repository][4].
 
 ???+ note "Topological vs. logical schematic symbols"
 
@@ -70,10 +68,10 @@ repository:fontawesome-solid-external-link-alt:][3].
 The schematics will be discussed function by function in the following
 sections.
 
-[1]: https://www.funkey-project.com/
-[2]: https://kicad.org/
-[3]: https://github.com/FunKey-Project/FunKey-S-Hardware
-[4]: https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html
+[1]: https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html
+[2]: https://www.funkey-project.com/
+[3]: https://kicad.org/
+[4]: https://github.com/FunKey-Project/FunKey-S-Hardware
 
 --8<--
 includes/glossary.md

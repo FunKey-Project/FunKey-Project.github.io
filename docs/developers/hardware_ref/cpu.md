@@ -4,16 +4,14 @@ As discussed in the [Design Constraints section][1], a CPU with
 external DRAM chips would take too much real-estate on the PCB, so we
 had to find a CPU with integrated DRAM.
 
-There are [several options:fontawesome-solid-external-link-alt:][2]
-for integrating RAM in a SoC:
+There are [several options][2] for integrating RAM in a SoC:
 
  - use SRAM: not possible because of the small amount of memory
    available (64Mbit max.)
 
  - embedded DRAM on the same chip: This is the solution used in the
-   [Apple M1 chip:fontawesome-solid-external-link-alt:][3], but this
-   chip is not available for retail and no other solutions seems
-   readily available
+   [Apple M1 chip][3], but this chip is not available for retail and
+   no other solutions seems readily available
 
  - Stacked Chip-on-Chip (PoP): This is the solution used on some
    Raspberry Pi boards, but this solution is only available for custom
@@ -23,17 +21,14 @@ for integrating RAM in a SoC:
  - DRAM die in SiP: with capacities ranging from 64Mbit to 1Gbit
 
 We found only 2 manufacturers providing the last option:
-[Microchip:fontawesome-solid-external-link-alt:][4] and [Allwinner
-Technology:fontawesome-solid-external-link-alt:][5]. Microchip
-solutions are too limited in term of CPU power for our needs
-(ARM926EJ-S or Cortex A5), so we did not consider them.
+[Microchip][4] and [Allwinner Technology][5]. Microchip solutions are
+too limited in term of CPU power for our needs (ARM926EJ-S or Cortex
+A5), so we did not consider them.
 
 And with the exception of the mostly similar Allwinner S3 CPU which
 features the same characteristics but with 128MB DDR3 DRAM in an
-FBGA234 package, the [Allwinner
-V3s:fontawesome-solid-external-link-alt:][6] is the CPU with
-integrated DRAM having the highest memory capacity (512Mbit / 64MB
-DDR2 DRAM):
+FBGA234 package, the [Allwinner V3s][6] is the CPU with integrated
+DRAM having the highest memory capacity (512Mbit / 64MB DDR2 DRAM):
 
 ![Allwinner V3s SoC](/assets/images/Allwinner_V3s.jpeg)
 
@@ -153,19 +148,16 @@ glitches.
 The SD Card interface is almost a direct connection between the chip
 and the dedicated SD Card connector. Only a single series resistor
 **R8** is required on the high-speed clock line in order to [prevent
-ringing:fontawesome-solid-external-link-alt:][7].
+ringing][7].
 
 ## Crystals
 
 The V3s chips requires 2 crystals:
 
- - one low-frequency [32.768 kHz
-   crystal:fontawesome-solid-external-link-alt:][8] **Y1** for the RTC
-   clock
+ - one low-frequency [32.768 kHz crystal][8] **Y1** for the RTC clock
 
- - one high-frequency [24 MHz
-crystal:fontawesome-solid-external-link-alt:][9] **Y2** for deriving
-the 1.2 GHz clock
+ - one high-frequency [24 MHz crystal][9] **Y2** for deriving the 1.2
+GHz clock
 
 The 24 MHz crystal is used by an internal oscillator to lock the phase
 of the 1.2 GHz oscillator using a PLL (Phase-Locked Loop).
@@ -183,21 +175,19 @@ The 32.768 kHz crystal features an additional high-value resistor
 thus reduce further the RTC timer power consumption.
 
 For more details on crystal oscillator design, please check [this
-application note from STM:fontawesome-solid-external-link-alt:][10].
+application note from STM][10].
 
 ## DRAM
 
-The DRAM within the V3s chip is a [DDR2
-one:fontawesome-solid-external-link-alt:][11], meaning that its data
-lines are clocked using both edges of an up to 400 MHz clock signal.
+The DRAM within the V3s chip is a [DDR2 one][11], meaning that its
+data lines are clocked using both edges of an up to 400 MHz clock
+signal.
 
 At these high frequencies, even short wires have a length that is of
-the same order of magnitude as the signal's
-[wavelength:fontawesome-solid-external-link-alt:][12] and thus each
-signal should be considered as a [transmission
-line:fontawesome-solid-external-link-alt:][13], for which impedance
-must be matched to avoid signal reflections, requiring termination
-resistors on the data lines DQx.
+the same order of magnitude as the signal's [wavelength][12] and thus
+each signal should be considered as a [transmission line][13], for
+which impedance must be matched to avoid signal reflections, requiring
+termination resistors on the data lines DQx.
 
 DDR2 or DDR3 DRAMs feature merged drivers and dynamic on-chip
 termination like this ("VDDQ/2" is labeled "SVREF" in our schematic):
@@ -211,8 +201,7 @@ resistor **R11** connected internally like this:
 ![Pull-Up Calibration](/assets/images/Pull-Up_Calibration.png){.lightbox}
 
 More information on the DDR2 DRAM ZQ Calibration subject can be found
-in this [Micron Application
-Note:fontawesome-solid-external-link-alt:][14].
+in this [Micron Application Note][14].
 
 [1]: /developers/hardware/design/#design-constraints
 [2]: https://www.electronicsweekly.com/news/products/memory/how-to-guide-for-on-chip-memory-2012-06/

@@ -90,6 +90,7 @@ body {
     }
 }
 
+/* Font for FunKey S keys */
 @font-face {
   font-family: 'FunKey-S-Keys';
   src:  url('/assets/fonts/FunKey-S-Keys.eot?b52ver');
@@ -102,6 +103,7 @@ body {
   font-display: block;
 }
 
+/* Class for FunKey S keys */
 [class^="funkey-"], [class*=" funkey-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'FunKey-S-Keys' !important;
@@ -113,54 +115,104 @@ body {
   font-size: 1rem;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+  /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* FunKey S "A" key */
 .funkey-A:before {
   content: "\e900";
 }
 
+/* FunKey S "B" key */
 .funkey-B:before {
   content: "\e902";
 }
+
+/* FunKey S "X" key */
 .funkey-X:before {
   content: "\e904";
 }
+
+/* FunKey S "Y" key */
 .funkey-Y:before {
   content: "\e906";
 }
+
+/* FunKey S "UP" key */
 .funkey-up:before {
   content: "\e908";
 }
+
+/* FunKey S "DOWN" key */
 .funkey-down:before {
   content: "\e909";
 }
+
+/* FunKey S "LEFT" key */
 .funkey-left:before {
   content: "\e90a";
 }
+
+/* FunKey S "RIGHT" key */
 .funkey-right:before {
   content: "\e90b";
 }
+
+/* FunKey S "L" key */
 .funkey-L:before {
   content: "\e90c";
 }
+
+/* FunKey S "R" key */
 .funkey-R:before {
   content: "\e90d";
 }
+
+/* FunKey S "START" key */
 .funkey-start:before {
   content: "\e90e";
 }
+
+/* FunKey S "Fn" key */
 .funkey-fn:before {
   content: "\e90f";
 }
+
+/* FunKey S "MENU" key */
 .funkey-menu:before {
   content: "\e912";
 }
 
-.md-typeset span.twemoji {
-    display: inline-block;
-    height: 0.5em;
-    vertical-align: super;
+/* External link icon */
+:root {
+    /*
+      line left
+      line right
+      line bottom
+      line top
+      arrow left
+      arrow right
+      arrow diagonal
+   */
+    --icon-external-link: url('data:image/svg+xml,\
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"> \
+    <g style="stroke:rgb(35,82,124);stroke-width:1"> \
+        <line x1="5" y1="5" x2="5" y2="14" /> \
+        <line x1="14" y1="9" x2="14" y2="14" /> \
+        <line x1="5" y1="14" x2="14" y2="14" /> \
+        <line x1="5" y1="5" x2="9" y2="5"  /> \
+        <line x1="10" y1="2" x2="17" y2="2"  /> \
+        <line x1="17" y1="2" x2="17" y2="9" /> \
+        <line x1="10" y1="9" x2="17" y2="2" style="stroke-width:1.5" /> \
+    </g> \
+</svg>');
+}
+
+/* Append external link icon on all links starting with "http://" or "https://" */
+a[href^="http://"]::after, a[href^="https://"]::after {
+    content: '';
+    background: no-repeat var(--icon-external-link);
+    padding-right: 0.7em;
 }

@@ -10,17 +10,17 @@ your data.
 ## Download the latest FunKey-OS image file
 
 Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file
-directly from [here:fontawesome-solid-external-link-alt:][1] or from
-the bottom of the latest release page in the "assets" section:
+directly from [here][1] or from the bottom of the latest release page
+in the "assets" section:
 
-[https://github.com/FunKey-Project/FunKey-OS/releases/latest:fontawesome-solid-external-link-alt:][2]{target=_blank}
+[https://github.com/FunKey-Project/FunKey-OS/releases/latest][2]{target=_blank}
 
 ![Github Release](/assets/images/github_sd_card_image.png){.lightbox}
 
 ## Flash the micro-SD card with balenaEtcher
 
 - Download and install balenaEtcher for Windows/Mac OS/Linux from
-  [balena.io:fontawesome-solid-external-link-alt:][3]{:target="blank"}
+  [balena.io][3]{target=_blank}
 
 - Run balenaEtcher and click on "Flash from file" to select the
   FunKey-OS image file

@@ -8,11 +8,9 @@ does not require installation to be able to run them.
     In the current (2.0.0) release of the FunKey-OS, the **OPK** files
     are only available for the gmenu2x launcher, and not in RetroFE.
 
-[7-Zip:fontawesome-solid-external-link-alt:][1] can be used to extract
-**OPK** files, and [Open Package Creator
-(v1.1.2):fontawesome-solid-external-link-alt:][2] is a useful tool if
-you want to re-package an **OPK** or customize icons, add additional
-games and much more.
+[7-Zip][1] can be used to extract **OPK** files, and [Open Package
+Creator (v1.1.2)][2] is a useful tool if you want to re-package an
+**OPK** or customize icons, add additional games and much more.
 
 Connect your **FunKey S** console to your computer and add **OPK**
 files as simply as you would do it with a simple USB memory stick:

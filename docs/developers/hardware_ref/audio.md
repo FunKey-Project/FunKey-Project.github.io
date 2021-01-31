@@ -28,18 +28,16 @@ headphones either.
 ![Speaker](/assets/images/Speaker.png){: align=left }
 
 The best solution we have found consists in using a single tiny [CUI
-CDM-10008:fontawesome-solid-external-link-alt:][1] speaker, that is
-able to output 72 dB spl @ 1m from a 0.3W input power, with relatively
-modest dimensions: 10 mm diameter and only a 2.9 mm thickness, out of
-which 1.4 mm can be inserted into a PCB hole, thus only having a
-height above PCB of only 1.5 mm.
+CDM-10008][1] speaker, that is able to output 72 dB spl @ 1m from a
+0.3W input power, with relatively modest dimensions: 10 mm diameter
+and only a 2.9 mm thickness, out of which 1.4 mm can be inserted into
+a PCB hole, thus only having a height above PCB of only 1.5 mm.
 
 Connections are not easy though, since this speaker is meant to have
-wires soldered to its pads, but we used 2x
-[castellated:fontawesome-solid-external-link-alt:][2] (half-round
-plated holes) pads with a placement just over the speaker pads that
-enables manual soldering between the speaker and the PCB with a solder
-blob.
+wires soldered to its pads, but we used 2x [castellated][2]
+(half-round plated holes) pads with a placement just over the speaker
+pads that enables manual soldering between the speaker and the PCB
+with a solder blob.
 
 ## Schematic
 
@@ -48,11 +46,10 @@ contains an analog stereo audio codec (coder/decoder): we only have to
 take one of its headphone output channel (left or right) and feed it
 to a mono audio amplifier.
 
-We chose the [Diodes
-Inc. PAM8301:fontawesome-solid-external-link-alt:][3] chip because of
-its cheap price, good availability, its more than sufficient output
-power of 1.5W and its filterless operation, meaning that no bulky
-series capacitor is required to drive the speaker.
+We chose the [Diodes Inc. PAM8301][3] chip because of its cheap price,
+good availability, its more than sufficient output power of 1.5W and
+its filterless operation, meaning that no bulky series capacitor is
+required to drive the speaker.
 
 Here is the corresponding schematic:
 

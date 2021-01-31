@@ -18,12 +18,11 @@ output voltage.
 
 ### Shunt Regulator
 
-The simplest voltage regulator is the [shunt
-regulator:fontawesome-solid-external-link-alt:][1], built around a
-Zener diode which most interesting characteristic is to maintain a
-constant voltage across itself when the current through it is
-sufficient to take it into the Zener breakdown region. A simple shunt
-regulator looks like this:
+The simplest voltage regulator is the [shunt regulator][1], built
+around a Zener diode which most interesting characteristic is to
+maintain a constant voltage across itself when the current through it
+is sufficient to take it into the Zener breakdown region. A simple
+shunt regulator looks like this:
 
 ![Zener Regulator](/assets/images/Zener_Regulator.gif)
 
@@ -33,8 +32,7 @@ By adding a emitter-follower transistor to the simple shunt regulator,
 the small base current of the transistor forms a very light load on
 the Zener, thereby minimizing variation in Zener voltage due to
 variation in the load, resulting in a better regulation. Here is a
-schematic for this [series
-regulator:fontawesome-solid-external-link-alt:][2]:
+schematic for this [series regulator][2]:
 
 ![Series Regualtor](/assets/images/Series_Regulator.gif)
 
@@ -122,14 +120,14 @@ following:
 ![Buck Converter](/assets/images/Buck_Converter.gif)
 
 The way this converter works is described in details
-[here:fontawesome-solid-external-link-alt:][3]. Basically, when the
-switch is closed, the inductor will produce an opposing voltage across
-its terminals in response to the changing current, reducing the output
-voltage, and meanwhile the inductor stores this energy in the form of
-a magnetic field. When the switch is opened, the current will decrease
-and will produce a voltage drop across the inductor, and now the
-inductor becomes a current source, where the stored energy in the
-inductor's magnetic field is restored and fed to the load.
+[here][3]. Basically, when the switch is closed, the inductor will
+produce an opposing voltage across its terminals in response to the
+changing current, reducing the output voltage, and meanwhile the
+inductor stores this energy in the form of a magnetic field. When the
+switch is opened, the current will decrease and will produce a voltage
+drop across the inductor, and now the inductor becomes a current
+source, where the stored energy in the inductor's magnetic field is
+restored and fed to the load.
 
 !!! warning
     In this converter too, the output voltage is not isolated from the

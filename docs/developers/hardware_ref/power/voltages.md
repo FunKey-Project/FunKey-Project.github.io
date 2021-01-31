@@ -2,7 +2,7 @@ Looking back at the section on the [CPU schematics][1], the **FunKey
 S** device clearly needs a sophisticated power supply in order to
 fulfill the CPU power requirements. They are recalled below, along
 with the maximum current requirements found in the [Allwinner V3s
-reference design:fontawesome-solid-external-link-alt:][2] (page 3):
+reference design][2] (page 3):
 
  - +3.3V / 1.2A for the I/O power supply
  - +3.3V_AO / 30 mA for the Always-On power supply (RTC timer)

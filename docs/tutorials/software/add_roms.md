@@ -4,13 +4,10 @@ Yes legally! Despite the general opinion, it is perfectly possible to
 purchase and play famous ROMs legally such as Sonic, Castlevania,
 Megaman and more, read the note below for more details.
 
-**The FunKey Wiki** maintains
-[lists:fontawesome-solid-external-link-alt:][1]{target=_blank} of
-legal sources for ROMs, including [freeware
-ROMs:fontawesome-solid-external-link-alt:][2]{target=_blank},
-[commercial
-ROMs:fontawesome-solid-external-link-alt:][3]{target=_blank}, and
-[utilities:fontawesome-solid-external-link-alt:][4]{target=_blank}.
+**The FunKey Wiki** maintains [lists][1]{target=_blank} of legal
+sources for ROMs, including [freeware ROMs][2]{target=_blank},
+[commercial ROMs][3]{target=_blank}, and
+[utilities][4]{target=_blank}.
 
 !!! note "Note about ROM emulation"
 
@@ -29,7 +26,7 @@ ROMs:fontawesome-solid-external-link-alt:][3]{target=_blank}, and
     retro-games online as ROMs.
 
     For example, it is perfectly legal to purchase the SEGA Mega Drive
-    and Genesis Classics on [Steam][5]{:target="blank"} and play Sonic
+    and Genesis Classics on [Steam][5]{target=_blank} and play Sonic
     on your **FunKey S**.
 
 # Add ROMs to the FunKey S
