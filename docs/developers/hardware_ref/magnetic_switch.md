@@ -28,7 +28,7 @@ Meder MK24][1].
 Here is the corresponding schematics, already covered in the PMIC
 discussion:
 
-![Magnetic Sensor Schematics](/assets/images/Magnetic_Sensor_Schematics.png){: .lightbox}
+![Magnetic Sensor Schematics](/assets/images/Magnetic_Sensor_Schematics.png){.lightbox}
 
 The global PMIC chip enable signal N_OE is activated by default
 through a 47kΩ resistor **R17** to GND, but the magnetic Reed switch

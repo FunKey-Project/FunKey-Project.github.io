@@ -82,7 +82,7 @@ a one-time tooling fee of ~ $800.
 
 The schematic is quite simple:
 
-![SPI LCD Schematics](/assets/images/SPI_LCD_Schematics.png){: .lightbox}
+![SPI LCD Schematics](/assets/images/SPI_LCD_Schematics.png){.lightbox}
 
 The main component is of course the Hirose screen connector **J3**,
 with the following signals:
@@ -120,7 +120,7 @@ the screen, we need to drive these LEDs "from the high-side",
 i.e. between the +3V3 power supply and the LEDA pin, so a MOSFET-P
 transistor is necessary:
 
-![Backlight Schematics](/assets/images/Backlight_Schematics.png){: .lightbox}
+![Backlight Schematics](/assets/images/Backlight_Schematics.png){.lightbox}
 
 As we want the backlight to be on by default, we need to drive it to
 GND by default: this is the role of **R7**. The role of **R5** is then

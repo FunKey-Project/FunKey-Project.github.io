@@ -19,7 +19,7 @@ Design][2].
 
 Here is the corresponding DRAM Power schematics:
 
-![DRAM Power Schematics](/assets/images/DRAM_Power_Schematics.png){: .lightbox}
+![DRAM Power Schematics](/assets/images/DRAM_Power_Schematics.png){.lightbox}
 
 Nothing very fancy here: the SMPS chip **U4** has its required input
 filter capacitor **C37** and output capacitors **C65** and **C73**.

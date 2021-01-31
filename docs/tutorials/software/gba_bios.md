@@ -19,18 +19,18 @@ actually play.
 
 ### Installation procedure
 
-| **Display**                                                                       | **Action**                                                                                                                  |
-|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
-| ![Connection PC](/assets/images/Connection_PC.png){: .lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                    |
-| ![RetroFE](/assets/images/RetroFE.png){: .lightbox}                               | At the launcher's main screen (example here with RetroFE), press the <i class="funkey-menu"></i> key                  |
-| ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}                           | Press the <i class="funkey-up"></i> or <i class="funkey-down"></i> keys until you see "**MOUNT USB**"           |
-| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the <i class="funkey-A"></i> key twice to confirm                                                               |
-| ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
-| ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![Copy ROM](/assets/images/Copy_GBA_BIOS.png){: .lightbox}                        | Drag & drop the _**gba_bios.bin**_ BIOS file into the _**Game Boy Advance**_ folder in this USB drive on your computer      |
-| ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
-| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm  |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the <i class="funkey-menu"></i> key to return to the launcher screen                                            |
+| **Display**                                                                     | **Action**                                                                                                                  |
+|:-------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
+| ![Connection PC](/assets/images/Connection_PC.png){.lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                    |
+| ![RetroFE](/assets/images/RetroFE.png){.lightbox}                               | At the launcher's main screen (example here with RetroFE), press the <i class="funkey-menu"></i> key                        |
+| ![Mount USB](/assets/images/Mount_USB.png){.lightbox}                           | Press the <i class="funkey-up"></i> or <i class="funkey-down"></i> keys until you see "**MOUNT USB**"                       |
+| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){.lightbox} | Press the <i class="funkey-A"></i> key twice to confirm                                                                     |
+| ![Eject USB](/assets/images/Eject_USB.png){.lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
+| ![USB Drive](/assets/images/USB_Drive.png){.lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
+| ![Copy ROM](/assets/images/Copy_GBA_BIOS.png){.lightbox}                        | Drag & drop the _**gba_bios.bin**_ BIOS file into the _**Game Boy Advance**_ folder in this USB drive on your computer      |
+| ![Eject Drive](/assets/images/Eject_Drive.png){.lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
+| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){.lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm        |
+| ![Unmount USB](/assets/images/Mount_USB.png){.lightbox}                         | Press the <i class="funkey-menu"></i> key to return to the launcher screen                                                  |
 
 ## PS1
 
@@ -46,18 +46,18 @@ BIOS file name: SCPH1001.BIN
 
 ### Installation procedure
 
-| **Display**                                                                       | **Action**                                                                                                                  |
-|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
-| ![Connection PC](/assets/images/Connection_PC.png){: .lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                    |
-| ![RetroFE](/assets/images/RetroFE.png){: .lightbox}                               | At the launcher's main screen (example here with RetroFE), press the <i class="funkey-menu"></i>                            |
-| ![Mount USB](/assets/images/Mount_USB.png){: .lightbox}                           | Press the <i class="funkey-up"></i> or <i class="funkey-down"></i> keys until you see "**MOUNT USB**"                       |
-| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){: .lightbox} | Press the <i class="funkey-A"></i> key twice to confirm                                                                     |
-| ![Eject USB](/assets/images/Eject_USB.png){: .lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
-| ![USB Drive](/assets/images/USB_Drive.png){: .lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![Copy ROM](/assets/images/Copy_PS1_BIOS.png){: .lightbox}                        | Drag & drop the _**SCPH1001.BIN**_ BIOS file into the _**PS1/bios**_ folder in this USB drive on your computer              |
-| ![Eject Drive](/assets/images/Eject_Drive.png){: .lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
-| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){: .lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm        |
-| ![Unmount USB](/assets/images/Mount_USB.png){: .lightbox}                         | Press the <i class="funkey-menu"></i> key to return to the launcher screen                                                  |
+| **Display**                                                                     | **Action**                                                                                                                  |
+|:-------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
+| ![Connection PC](/assets/images/Connection_PC.png){.lightbox}                   | Connect the **FunKey S** to your computer using the provided micro USB cable, then open it to turn it on                    |
+| ![RetroFE](/assets/images/RetroFE.png){.lightbox}                               | At the launcher's main screen (example here with RetroFE), press the <i class="funkey-menu"></i>                            |
+| ![Mount USB](/assets/images/Mount_USB.png){.lightbox}                           | Press the <i class="funkey-up"></i> or <i class="funkey-down"></i> keys until you see "**MOUNT USB**"                       |
+| ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){.lightbox} | Press the <i class="funkey-A"></i> key twice to confirm                                                                     |
+| ![Eject USB](/assets/images/Eject_USB.png){.lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
+| ![USB Drive](/assets/images/USB_Drive.png){.lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
+| ![Copy ROM](/assets/images/Copy_PS1_BIOS.png){.lightbox}                        | Drag & drop the _**SCPH1001.BIN**_ BIOS file into the _**PS1/bios**_ folder in this USB drive on your computer              |
+| ![Eject Drive](/assets/images/Eject_Drive.png){.lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
+| ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){.lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm        |
+| ![Unmount USB](/assets/images/Mount_USB.png){.lightbox}                         | Press the <i class="funkey-menu"></i> key to return to the launcher screen                                                  |
 
 --8<--
 includes/glossary.md

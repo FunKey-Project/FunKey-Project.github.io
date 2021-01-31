@@ -97,7 +97,7 @@ are used for much lower currents and much briefer periods (typically
 The last part of the FunKey schematics merely contains only decoupling
 capacitors:
 
-![Decoupling Schematics](/assets/images/Decoupling_Schematics.png){: .lightbox}
+![Decoupling Schematics](/assets/images/Decoupling_Schematics.png){.lightbox}
 
 One exception is the Allwinner V3s CPU HPR/HPL circuit which features
 an RC-to-ground circuit between the amplifier and the preamplifier

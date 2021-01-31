@@ -15,7 +15,7 @@ in the "assets" section:
 
 https://github.com/FunKey-Project/FunKey-OS/releases/latest{target=_blank}
 
-![Github Release](/assets/images/github_sd_card_image.png){: .lightbox}
+![Github Release](/assets/images/github_sd_card_image.png){.lightbox}
 
 ## Flash the micro-SD card with balenaEtcher
 
@@ -35,7 +35,7 @@ https://github.com/FunKey-Project/FunKey-OS/releases/latest{target=_blank}
   will automatically unmount the SD card so it's safe to remove it
   from your computer.
 
-  ![balenaEtcher](/assets/images/Flashing_successful.png){: .lightbox}
+  ![balenaEtcher](/assets/images/Flashing_successful.png){.lightbox}
 
   <br />
 

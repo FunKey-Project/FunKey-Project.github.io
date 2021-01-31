@@ -28,7 +28,7 @@ Their AXP20x products are highly-integrated PMICs that are optimized
 for applications requiring single-cell Li-battery (Li-Ion/Polymer),
 multiple output DC-DC converters and LDOs. Here is a block diagram:
 
-![PMIC Block Diagram](/assets/images/AXP20x_Block_Diagram.png){: .lightbox}
+![PMIC Block Diagram](/assets/images/AXP20x_Block_Diagram.png){.lightbox}
 
 The AXP20x features:
 
@@ -88,7 +88,7 @@ schematics for using an AXP203 to supply the power to a V3s-based
 dashboard camera design. It follows closely the application diagram
 provided in the AXP20x datasheets:
 
-![AXP20x Application Diagram](/assets/images/AXP20x_Application_Diagram.png){: .lightbox}
+![AXP20x Application Diagram](/assets/images/AXP20x_Application_Diagram.png){.lightbox}
 
 More hints are provided in our self-translated [V3s Hardware Design
 Guide][10] (page 7) too.
@@ -110,7 +110,7 @@ S** device only uses 2 out of the 5 integrated LDOs:
  
 Here are the PMIC schematics:
 
-![PMIC Schematics](/assets/images/PMIC_Schematics.png){: .lightbox}
+![PMIC Schematics](/assets/images/PMIC_Schematics.png){.lightbox}
 
 These schematics may look intimidating and complex, but they are in
 fact just a collection of simple basic elements, and it is actually

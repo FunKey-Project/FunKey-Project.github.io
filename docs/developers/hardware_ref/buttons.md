@@ -76,7 +76,7 @@ when required.
 
 Here is the corresponding main schematic for the buttons:
 
-![Main Button Schematics](/assets/images/Main_Button_Schematics.png){: .lightbox}
+![Main Button Schematics](/assets/images/Main_Button_Schematics.png){.lightbox}
 
 The main component is of course the I/O expander **U1**, with the
 control signals to the CPU/PMIC on the north side.
@@ -107,7 +107,7 @@ user!
 
 The other buttons are wired in the same fashion:
 
-![Secondary Button Schematics](/assets/images/Secondary_Button_Schematics.png){: .lightbox}
+![Secondary Button Schematics](/assets/images/Secondary_Button_Schematics.png){.lightbox}
 
 The "U", "L", "D", "R", "A", "B", "X" and "Y" buttons **S3**, **S4**,
 **S5**, **S6**, **S8**, **S9**, **S10** and **S11** are of the same
