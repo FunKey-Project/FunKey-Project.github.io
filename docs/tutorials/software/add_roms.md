@@ -4,9 +4,9 @@ Yes legally! Despite the general opinion, it is perfectly possible to
 purchase and play famous ROMs legally such as Sonic, Castlevania,
 Megaman and more, read the note below for more details.
 
-**The FunKey Wiki** maintains [lists][1]{: target="blank"} of legal
-sources for ROMs, including [freeware ROMs][2]{: target="blank"},
-[commercial ROMs][3]{: target="blank"}, and [utilities][4]{:target="blank"}.
+**The FunKey Wiki** maintains [lists][1]{target=_blank} of legal
+sources for ROMs, including [freeware ROMs][2]{target=_blank},
+[commercial ROMs][3]{target=_blank}, and [utilities][4]{target=_blank}.
 
 !!! note "Note about ROM emulation"
 

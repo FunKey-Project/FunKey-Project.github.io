@@ -13,7 +13,7 @@ Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file
 directly from [here][1] or from the bottom of the latest release page
 in the "assets" section:
 
-https://github.com/FunKey-Project/FunKey-OS/releases/latest{: target="blank"}
+https://github.com/FunKey-Project/FunKey-OS/releases/latest{target=_blank}
 
 ![Github Release](/assets/images/github_sd_card_image.png){: .lightbox}
 
