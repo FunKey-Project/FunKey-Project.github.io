@@ -83,7 +83,6 @@ markdown_extensions:
   - abbr
   - attr_list
   - def_list
-  - fontawesome_markdown
   - footnotes
   - meta
   - toc:
