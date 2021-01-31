@@ -7,7 +7,8 @@ display aspect ratio:
 
 ## Quick shortcuts
 
- - <span class="funkey-fn"></span> + <span class="funkey-down"></span>: Change Aspect Ratio (AR), cycle between:
+ - <i class="funkey-fn"></i> + <i class="funkey-down"></i>: Change
+   Aspect Ratio (AR), cycle between:
 
     - Stretched (default)
 
@@ -17,17 +18,21 @@ display aspect ratio:
 
     - Manual Zoom
 
- - <span class="funkey-fn"></span> + <span class="funkey-left"></span>: Decrease zoom level by 10%
+ - <i class="funkey-fn"></i> + <i class="funkey-left"></i>: Decrease
+   zoom level by 10%
 
- - <span class="funkey-fn"></span> + <span class="funkey-right"></span>: Increase Zoom level by 10%
+ - <i class="funkey-fn"></i> + <i class="funkey-right"></i>: Increase
+   Zoom level by 10%
 
 ## FunKey menu
 
- - Press the <span class="funkey-menu"></span> key to enter the FunKey menu
+ - Press the <i class="funkey-menu"></i> key to enter the FunKey menu
 
- - Press the <span class="funkey-up"></span> or <span class="funkey-down"></span> key to select the "**ASPECT RATIO**" setting
+ - Press the <i class="funkey-up"></i> or <i class="funkey-down"></i>
+   key to select the "**ASPECT RATIO**" setting
 
- - Use the <span class="funkey-left"></span> and <span class="funkey-right"></span> keys to change the aspect ratio
+ - Use the <i class="funkey-left"></i> and <i
+   class="funkey-right"></i> keys to change the aspect ratio
 
 | **Display**                                                           | **Aspect Ratio**                                                                                                            |
 |:---------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------|
@@ -36,7 +41,8 @@ display aspect ratio:
 | ![Menu Scaled](/assets/images/Menu_Scaled.png){: .lightbox}           | Scaled (Zoom 0%): The display is scaled down in both directions to be fully visible, both horizontally and vertically       |
 | ![Menu Manual Zoom](/assets/images/Menu_Manual_Zoom.png){: .lightbox} | Manual zoom: The display is zoomed in/out manually                                                                          |
 
- - Press the <span class="funkey-menu"></span> key again to exit from the FunKey menu
+ - Press the <i class="funkey-menu"></i> key again to exit from the
+   FunKey menu
 
 ## Aspect ratio preview
 
