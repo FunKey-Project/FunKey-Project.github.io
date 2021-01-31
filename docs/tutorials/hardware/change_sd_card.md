@@ -74,8 +74,7 @@ Carefully remove:
 2. The keychain lanyard and axis
 
 !!! warning
-
-   Be careful not to damage the L/R switches on the circuit board!
+    Be careful not to damage the L/R switches on the circuit board!
 
 ### **STEP 3 - Exposing the circuit board** {.step-title}
 ![Lift the battery](/assets/images/disassembly/IMG_8818.jpg){.step-thumb}
@@ -98,10 +97,9 @@ the new one (previously flashed as described [in the 1st part of this
 tutorial][3]).
 
 !!! note
-
-   You may need to use some tweezers and pull with some strength in
-   order to remove the micro-SD card from its socket, as it is
-   strongly inserted to prevent loose connections.
+    You may need to use some tweezers and pull with some strength in
+    order to remove the micro-SD card from its socket, as it is
+    strongly inserted to prevent loose connections.
 
 ### **STEP 6 - Reassembly** {.step-title}
 ![Insert speaker first](/assets/images/disassembly/IMG_8865_YES.jpg){.step-thumb}
