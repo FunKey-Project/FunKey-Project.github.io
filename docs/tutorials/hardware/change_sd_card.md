@@ -51,10 +51,10 @@ screwdriver (PH0)** and optionally some **tweezers**.
 
 Please follow the steps below carefully:
 
-### **STEP 1 - Removing the screws** {: .step-title}
-![Before opening](/assets/images/disassembly/IMG_8800.jpg){: .step-thumb}
-![Remove the screws](/assets/images/disassembly/IMG_8801.jpg){: .step-thumb}
-![Screws removed](/assets/images/disassembly/IMG_8803.jpg){: .step-thumb}
+### **STEP 1 - Removing the screws** {.step-title}
+![Before opening](/assets/images/disassembly/IMG_8800.jpg){.step-thumb}
+![Remove the screws](/assets/images/disassembly/IMG_8801.jpg){.step-thumb}
+![Screws removed](/assets/images/disassembly/IMG_8803.jpg){.step-thumb}
 
 Using a standard **Phillips PH0 screwdriver**, remove the 2 screws on
 the back of your FunKey S.
@@ -62,10 +62,10 @@ the back of your FunKey S.
 Be careful to use the correct screwdriver head size and type to
 prevent damaging the screws (do not use JIS screwdrivers!).
 
-### **STEP 2 - Opening up the console** {: .step-title}
-![Pull up hinge first](/assets/images/disassembly/IMG_8848.jpg){: .step-thumb}
-![Pull up the plastic buttons](/assets/images/disassembly/IMG_8844.jpg){: .step-thumb}
-![Console opened](/assets/images/disassembly/IMG_8813.jpg){: .step-thumb}
+### **STEP 2 - Opening up the console** {.step-title}
+![Pull up hinge first](/assets/images/disassembly/IMG_8848.jpg){.step-thumb}
+![Pull up the plastic buttons](/assets/images/disassembly/IMG_8844.jpg){.step-thumb}
+![Console opened](/assets/images/disassembly/IMG_8813.jpg){.step-thumb}
 
 Carefully remove:
 
@@ -77,21 +77,21 @@ Carefully remove:
 
    Be careful not to damage the L/R switches on the circuit board!
 
-### **STEP 3 - Exposing the circuit board** {: .step-title}
-![Lift the battery](/assets/images/disassembly/IMG_8818.jpg){: .step-thumb}
-![Get the battery out of the way](/assets/images/disassembly/IMG_8822.jpg){: .step-thumb}
+### **STEP 3 - Exposing the circuit board** {.step-title}
+![Lift the battery](/assets/images/disassembly/IMG_8818.jpg){.step-thumb}
+![Get the battery out of the way](/assets/images/disassembly/IMG_8822.jpg){.step-thumb}
 
 Lift the battery (but leave it connected) to expose the circuit board.
 
-### **STEP 4 - Accessing the SD card** {: .step-title}
-![pull PCB by its micr-SUB port](/assets/images/disassembly/IMG_8833.jpg){: .step-thumb}
+### **STEP 4 - Accessing the SD card** {.step-title}
+![Pull PCB by its micro-USB port](/assets/images/disassembly/IMG_8833.jpg){.step-thumb}
 
 By grabbing it **by the micro-USB port**, gently pull up the circuit
 board until you have access to the SD card.
 
-### **STEP 5 - Switching SD cards** {: .step-title}
-![remove the micro-SD](/assets/images/disassembly/IMG_8835.jpg){: .step-thumb}
-![insert the new micro-SD](/assets/images/disassembly/IMG_8836.jpg){: .step-thumb}
+### **STEP 5 - Switching SD cards** {.step-title}
+![Remove the micro-SD](/assets/images/disassembly/IMG_8835.jpg){.step-thumb}
+![Insert the new micro-SD](/assets/images/disassembly/IMG_8836.jpg){.step-thumb}
 
 You can now remove the old micro-SD card from its socket and insert
 the new one (previously flashed as described [in the 1st part of this
@@ -103,9 +103,9 @@ tutorial][3]).
    order to remove the micro-SD card from its socket, as it is
    strongly inserted to prevent loose connections.
 
-### **STEP 6 - Reassembly** {: .step-title}
-![Insert speaker first](/assets/images/disassembly/IMG_8865_YES.jpg){: .step-thumb}
-![Do not insert hinge first](/assets/images/disassembly/IMG_8862_NO.jpg){: .step-thumb}
+### **STEP 6 - Reassembly** {.step-title}
+![Insert speaker first](/assets/images/disassembly/IMG_8865_YES.jpg){.step-thumb}
+![Do not insert hinge first](/assets/images/disassembly/IMG_8862_NO.jpg){.step-thumb}
 
 Insert first the speaker into its location in the casing before
 putting the circuit board back in the case, like in the pictures.
