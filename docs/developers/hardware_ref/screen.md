@@ -52,8 +52,9 @@ RGB565 (2 bytes / pixel), this requires a ~44 MHz SPI clock rate,
 which is rather high.
 
 Once again, we were fortunate as both the V3s CPU and the screen
-built-in controller (a Sitronix [ST7789V][1]) both support this high
-clock speed (after checking with the manufacturer and despite the
+built-in controller (a Sitronix
+[ST7789V:fontawesome-solid-external-link-alt:][1]) both support this
+high clock speed (after checking with the manufacturer and despite the
 controller datasheet that specifies only a serial clock cycle (Write)
 of 66 ns or 15 MHz!).
 
@@ -65,18 +66,19 @@ current directly from a CPU GPIO and the backlight will require an
 additional transistor to interface to the LCD backlight.
 
 Its flex cable requires a mating Hirose 0.4 mm pitch
-[DF37NB-24DS-0.4V][2] dual row SMT connector, out of which only one
-single row is actually used.
+[DF37NB-24DS-0.4V:fontawesome-solid-external-link-alt:][2] dual row
+SMT connector, out of which only one single row is actually used.
 
 ## Customization
 
 Unfortunately, the flex cable for the stock LCD screen we found does
 not match our particular **FunKey S** mechanical design.
 
-For the prototypes, we designed custom flex extension cables for a
-~ $100 cost, but we had to design [our own custom flex][3] and have
-this standard screen assembly attached to it for mass production, with
-a one-time tooling fee of ~ $800.
+For the prototypes, we designed custom flex extension cables for a ~
+$100 cost, but we had to design [our own custom
+flex:fontawesome-solid-external-link-alt:][3] and have this standard
+screen assembly attached to it for mass production, with a one-time
+tooling fee of ~ $800.
 
 ## Schematic
 

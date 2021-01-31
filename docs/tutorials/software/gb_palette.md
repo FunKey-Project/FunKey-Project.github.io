@@ -1,8 +1,9 @@
 # Palette description
 
-The default **FunKey S** Game Boy emulator: _[gnuboy][1]_ allows to
-set the palette used for grayscale when running DMG (original mono
-Gameboy) ROMs.
+The default **FunKey S** Game Boy emulator:
+_[gnuboy:fontawesome-solid-external-link-alt:][1]_ allows to set the
+palette used for grayscale when running DMG (original mono Gameboy)
+ROMs.
 
 There are four variables for this purpose, allowing the background,
 window, and both sprite palettes to be colored differently. Each one

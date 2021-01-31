@@ -14,16 +14,19 @@ the specifications.
 
 ## Specifications
 
-The SD Card physical interface is provided in the "<i>SD specifications,
-part 1, Physical Layer Specification version 2.00, May 9, 2006</i>", for
-which a simplified version is available [here][1].
+The SD Card physical interface is provided in the "<i>SD
+specifications, part 1, Physical Layer Specification version 2.00, May
+9, 2006</i>", for which a simplified version is available
+[here:fontawesome-solid-external-link-alt:][1].
 
 The MMC phyiscal interface can be found in the "<i>Multi Media Card
 System Specification version 4.3, JESD84-A43, November 2007</i>",
-available [here][2] (registration required).
+available [here:fontawesome-solid-external-link-alt:][2] (registration
+required).
 
 But a good summary of the requirements is given in the "[<i>AN10911
-SD(HC)-memory card and MMC Interface conditioning</i>][3]" application
+SD(HC)-memory card and MMC Interface
+conditioning</i>:fontawesome-solid-external-link-alt:][3]" application
 note from NXP, from which this schematic is taken:
 
 ![SD MMC Interface](/assets/images/SD_MMC_Interface.png){.lightbox}
@@ -85,9 +88,9 @@ The FunKey SD Card interface schematic is the following:
 ![TF-110](/assets/images/TF-110.png){: align=left }
 
 As can be expected, the main component is the [Micro SD (TF Card)
-Push/Pull connector][5] **J4**, which has been selected for its
-low-profile (1.3 mm height) characteristic and overall minimal
-dimensions.
+Push/Pull connector:fontawesome-solid-external-link-alt:][5] **J4**,
+which has been selected for its low-profile (1.3 mm height)
+characteristic and overall minimal dimensions.
 
 !!! Tip
 

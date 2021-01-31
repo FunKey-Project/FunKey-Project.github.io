@@ -31,9 +31,11 @@ An interactive BOM is available in the [next section][4].
 ## Schematics and Layout
 
 All the hardware design and production files required to build the
-[**FunKey S** retro-gaming console][1] electronic PCBA using the
-[KiCAD ECAD tools][2] are available as Open Hardware in the [FunKey S
-Hardware repository][3].
+[**FunKey S** retro-gaming
+console:fontawesome-solid-external-link-alt:][1] electronic PCBA using
+the [KiCAD ECAD tools:fontawesome-solid-external-link-alt:][2] are
+available as Open Hardware in the [FunKey S Hardware
+repository:fontawesome-solid-external-link-alt:][3].
 
 ???+ note "Topological vs. logical schematic symbols"
 

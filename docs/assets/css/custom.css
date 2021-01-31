@@ -158,3 +158,9 @@ body {
 .funkey-menu:before {
   content: "\e912";
 }
+
+.md-typeset span.twemoji {
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: super;
+}

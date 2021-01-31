@@ -23,7 +23,7 @@ something quite usual for a keychain...
 
 We found only a unique plastic-molded model which almost meets our
 low-profile requirements of 1.5 mm (1.6 mm height!): the [Standex
-Meder MK24][1].
+Meder MK24:fontawesome-solid-external-link-alt:][1].
 
 Here is the corresponding schematics, already covered in the PMIC
 discussion:

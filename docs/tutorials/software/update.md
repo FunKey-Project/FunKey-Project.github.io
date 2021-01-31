@@ -2,10 +2,10 @@ A firmware upgrade can be performed simply over USB without opening
 the **FunKey S** console.
 
 Get the latest "**_FunKey-rootfs-x.y.z.fwu_**" firmware update file
-directly from [here][1] or from the bottom of the latest release page
-in the "assets" section:
+directly from [here:fontawesome-solid-external-link-alt:][1] or from
+the bottom of the latest release page in the "assets" section:
 
-https://github.com/FunKey-Project/FunKey-OS/releases/latest
+[https://github.com/FunKey-Project/FunKey-OS/releases/latest:fontawesome-solid-external-link-alt:][2]{target=_blank}
 
 ![Github Release](/assets/images/Github_Release.png){.lightbox}
 
@@ -23,6 +23,7 @@ https://github.com/FunKey-Project/FunKey-OS/releases/latest
 | ![Updating](/assets/images/Updating.png){.lightbox}                             | The **FunKey S** will then reboot and perform the upgrade                                                                   |
 
 [1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.0.0/FunKey-rootfs-2.0.0.fwu
+[2]: https://github.com/FunKey-Project/FunKey-OS/releases/latest
 
 --8<--
 includes/glossary.md

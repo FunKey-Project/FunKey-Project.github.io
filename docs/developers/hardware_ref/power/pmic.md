@@ -7,14 +7,16 @@ requirements to:
  - SMPS for +1.8V / 1A for the DDR2 DRAM power supply
  - SMPS for +1.25V / 1.6 A for the core power supply
 
-On the [LicheePi Zero board][1] used in our **[FunKey Zero][2]**
-prototype, a triple SMPS [EA3036][3] is used for generating these
-+3.3V, +1.8V and +1.2V voltages, with an additional [XC6206][4] LDO
-for the +3.0V (the +3.3V Always On is connected directly to
-+3.3V). Although compact (the EA3036 is a tiny 3 mm x 3 mm QFN20
-package), this solution is not ideal as it does not provide a battery
-charger and monitoring capability, which is a requirement for the
-**FunKey S** device.
+On the [LicheePi Zero board:fontawesome-solid-external-link-alt:][1]
+used in our **[FunKey Zero:fontawesome-solid-external-link-alt:][2]**
+prototype, a triple SMPS
+[EA3036:fontawesome-solid-external-link-alt:][3] is used for
+generating these +3.3V, +1.8V and +1.2V voltages, with an additional
+[XC6206:fontawesome-solid-external-link-alt:][4] LDO for the +3.0V
+(the +3.3V Always On is connected directly to +3.3V). Although compact
+(the EA3036 is a tiny 3 mm x 3 mm QFN20 package), this solution is not
+ideal as it does not provide a battery charger and monitoring
+capability, which is a requirement for the **FunKey S** device.
 
 ## PMICs
 
@@ -22,7 +24,8 @@ As it is generally the case with such a complex SoC requiring multiple
 voltages, high current and proper voltage sequencing, all major
 manufacturers provide dedicated companion chips called PMICs (Power
 Management Integrated Circuits), in charge of these tasks. Allwinner
-is not an exception through its sister company [X-Powers][5].
+is not an exception through its sister company
+[X-Powers:fontawesome-solid-external-link-alt:][5].
 
 Their AXP20x products are highly-integrated PMICs that are optimized
 for applications requiring single-cell Li-battery (Li-Ion/Polymer),
@@ -71,7 +74,9 @@ The AXP20x features:
    output to GPIO0)
 
 Looking at their datasheets, it is difficult to tell the difference
-between the [AXP202][6], [AXP203][7] and [AXP209][8] (any hint
+between the [AXP202:fontawesome-solid-external-link-alt:][6],
+[AXP203:fontawesome-solid-external-link-alt:][7] and
+[AXP209:fontawesome-solid-external-link-alt:][8] (any hint
 welcome!). In the **FunKey S** design, we use an AXP209 because it is
 the one that comes along with the V3s when you buy it on AliExpress.
 
@@ -83,7 +88,8 @@ the manufacturer, as the internals of the chips are seldom fully
 disclosed, so you need to take their word on some of the external
 component values to use.
 
-The [Allwinner V3s Reference Design][9] contains on page 6 the
+The [Allwinner V3s Reference
+Design:fontawesome-solid-external-link-alt:][9] contains on page 6 the
 schematics for using an AXP203 to supply the power to a V3s-based
 dashboard camera design. It follows closely the application diagram
 provided in the AXP20x datasheets:
@@ -91,7 +97,7 @@ provided in the AXP20x datasheets:
 ![AXP20x Application Diagram](/assets/images/AXP20x_Application_Diagram.png){.lightbox}
 
 More hints are provided in our self-translated [V3s Hardware Design
-Guide][10] (page 7) too.
+Guide:fontawesome-solid-external-link-alt:][10] (page 7) too.
 
 ## PMIC Schematics
 
@@ -167,10 +173,11 @@ operation:
 ### DC-DC1 PWM Battery Charger (North East side)
 
 The battery is connected to J5 (a [2-pin JST 1.0 mm pitch
-receptacle][11]) and uses **R21** as a precision current sense
-resistor, with **C53**/**C56**/**C60** filter capacitors and **L5** (a
-low-profile ferrite-core power inductor rated with a saturation
-current of 1.2A and low < 0.1 Ω resistance).
+receptacle:fontawesome-solid-external-link-alt:][11]) and uses **R21**
+as a precision current sense resistor, with **C53**/**C56**/**C60**
+filter capacitors and **L5** (a low-profile ferrite-core power
+inductor rated with a saturation current of 1.2A and low < 0.1 Ω
+resistance).
 
 !!! Warning
     The battery is not protected on the board against reversing
@@ -181,10 +188,11 @@ current of 1.2A and low < 0.1 Ω resistance).
 temperature, as the chosen LiPo battery does not feature this
 temperature sensor.
 
-A user-programmable (through the I2C interface) charge [LED][12]
-**D30** is provided, with its current-limiting resistor **R26**, as
-well as a TVS diode **d31** to prevent ESD, as the LED body will be
-indirectly accessible to user.
+A user-programmable (through the I2C interface) charge
+[LED:fontawesome-solid-external-link-alt:][12] **D30** is provided,
+with its current-limiting resistor **R26**, as well as a TVS diode
+**d31** to prevent ESD, as the LED body will be indirectly accessible
+to user.
 
 ### DC-DC2 +1.25V / 1.6A (West side)
 

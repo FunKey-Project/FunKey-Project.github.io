@@ -11,26 +11,28 @@ As can be seen in the page on the [PMIC][1], the soft "ON/OFF" button
 is directly connected to the power management chip, so we are left
 with 4 + 4 + 2 = 12 buttons for game control.
 
-After testing tactile domes in our [FunKey Zero][2] prototype, we
-decided to go back to integrated tactile switches, as their placement
-is much easier using a regular SMT pick & place machine like any other
+After testing tactile domes in our [**FunKey
+Zero**:fontawesome-solid-external-link-alt:][2] prototype, we decided
+to go back to integrated tactile switches, as their placement is much
+easier using a regular SMT pick & place machine like any other
 components on the PCB, whereas the separate tactile domes required an
 adhesive tape to be place manually with less accuracy.
 
 ![EVBPBB1AAB000](/assets/images/EVPBB1AAB000.png){: align=left }
 
-The [Mitsumi BYS-055A1x12][3] is the same footprint (2.5mm x 1.6mm x
-0.55mm) as the more expensive Panasonic EVBBBxAAB00 tactile switches,
-with a 1.2N actuating force for the "**+**" and "**X**" pads, and a
-1.6N actuating force for the "Start", "Fn" and "ON/OFF" buttons. We
-found these actuating force the best match to provide a good feedback
-to the user.
+The [Mitsumi BYS-055A1x12:fontawesome-solid-external-link-alt:][3] is
+the same footprint (2.5mm x 1.6mm x 0.55mm) as the more expensive
+Panasonic EVBBBxAAB00 tactile switches, with a 1.2N actuating force
+for the "**+**" and "**X**" pads, and a 1.6N actuating force for the
+"Start", "Fn" and "ON/OFF" buttons. We found these actuating force the
+best match to provide a good feedback to the user.
 
 ![EVP-AEBB2A-1](/assets/images/EVP-AEBB2A-1.jpg){: align=left }
 
 For the rear left and right shoulder buttons, we exeperimented several
 models between PCBA rev. C, D and E, until we eventually decided for a
-[replacement for the expensive Panasonic EVP-AEBB2A-1][4]:
+[replacement for the expensive Panasonic
+EVP-AEBB2A-1:fontawesome-solid-external-link-alt:][4]:
 
 This one as an actuating force of 1.6N.
 
@@ -57,10 +59,11 @@ PCB routing, at such a point that we decided to use a dedicated I2C
 GPIO expander chip to relieve the burden from the main V3s CPU.
 
 We use a common chip for this purpose, that is well supported in the
-Linux kernel: the [NXP PCAL6416AHF.128][5]. It is marketed as a
-"low-voltage translating 16-bit I2C-bus/SMBus I/O expander with
-interrupt output, reset, and configuration registers" that just
-matches exactly our needs.
+Linux kernel: the [NXP
+PCAL6416AHF.128:fontawesome-solid-external-link-alt:][5]. It is
+marketed as a "low-voltage translating 16-bit I2C-bus/SMBus I/O
+expander with interrupt output, reset, and configuration registers"
+that just matches exactly our needs.
 
 As a bonus, this chip features software-controlable internal
 pull-up/pull-down resistors, so we don't need to add external ones to

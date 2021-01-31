@@ -1,5 +1,5 @@
-A separate [Sylergy SY8088][1] Buck DC/DC SMPS chip is used to provide
-the DDR2 +1V8 DDR2 DRAM power.
+A separate [Sylergy SY8088:fontawesome-solid-external-link-alt:][1]
+Buck DC/DC SMPS chip is used to provide the DDR2 +1V8 DDR2 DRAM power.
 
 This is because the AXP20x is originally the PMU (Power Management
 Unit) used by most Allwinner SoCs (A10, A13 and A20), which do not
@@ -15,7 +15,7 @@ We thus have to design a separate SMPS (DC-DC) power supply for
 providing the +1.8V 1A required for the DDR2 DRAM power supply.
 
 For this purpose, we followed closely the [Allwinner Reference
-Design][2].
+Design:fontawesome-solid-external-link-alt:][2].
 
 Here is the corresponding DRAM Power schematics:
 
@@ -40,9 +40,6 @@ to its lowest possible value.
 
 [1]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/C79313_SY8088AAC_2017-03-29.PDF
 [2]: https://github.com/Squonk42/V3s_Documentation/blob/master/V3S_CDR_STD_V1_0_20150514.pdf
-[3]: https://datasheet.lcsc.com/szlcsc/Silergy-Corp-SY8088AAC_C79313.pdf
-[4]: https://datasheet.lcsc.com/szlcsc/1901241230_LOWPOWER-LP3220S-AB5F_C324565.pdf
-[5]: https://www.diodes.com/assets/Datasheets/AP3418.pdf
 
 --8<--
 includes/glossary.md
