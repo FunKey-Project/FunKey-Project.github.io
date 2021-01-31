@@ -110,8 +110,9 @@ putting the circuit board back in the case, like in the pictures.
 
 Reassemble the console by following the previous steps in reverse order.
 
-Be careful not to damage the switches on the circuit board when
-putting back the L/R plastic buttons.
+!!! warning
+    Be careful not to damage the switches on the circuit board when
+    putting back the L/R plastic buttons.
 
 [1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.0.0/FunKey-sdcard-2.0.0.img
 [2]: https://www.balena.io/etcher/
