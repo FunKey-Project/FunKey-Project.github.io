@@ -36,9 +36,9 @@ Last but not least, this documentation would not be complete without a
 [Glossary of terms][5] and an [FAQ][6] section for reference.
 
 [1]: quickstart.md
-[2]: tutorials/software/update.md
-[3]: developers/hardware_ref/
-[4]: developers/software_ref/disk_mapping/recovery.md
+[2]: tutorials/software/firmware_update.md
+[3]: developers/hardware_reference/
+[4]: developers/software_reference/disk_mapping/recovery.md
 [5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
 

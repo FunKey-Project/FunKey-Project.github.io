@@ -46,7 +46,7 @@ plugins:
       glob:
         - tutorials/hardware/force_shutdown.md
         - tutorials/software/restore_games.md
-        - tutorials/software/themes.md
+        - tutorials/software/create_themes.md
 
 # Customization
 extra:
@@ -122,78 +122,78 @@ markdown_extensions:
 # Page tree
 nav:
   - 'Overview': 'index.md'
-  - User's manual:
+  - "User's Manual":
     - 'Quickstart': 'quickstart.md'
-    - Product description:
-      - 'Key mapping': 'features/key_mapping.md'
+    - Product Description:
+      - 'Key Mapping': 'features/key_mapping.md'
       - 'Launchers': 'features/launchers.md'
       - 'Emulators': 'features/emulators.md'
-      - 'Standalone games & applications': 'features/games_apps.md'
-      - 'FunKey menu': 'features/funkey_menu.md'
-      - 'Folder organization': 'features/folder_organization.md'
-      - 'Auto save and reload': 'features/quick_save.md'
-      - 'Instant action': 'features/instant_action.md'
+      - 'Standalone Games & Applications': 'features/games_apps.md'
+      - 'FunKey Menu': 'features/funkey_menu.md'
+      - 'Folder Organization': 'features/folder_organization.md'
+      - 'Quick Save': 'features/quick_save.md'
+      - 'Instant Action': 'features/instant_action.md'
     - Tutorials:
       - Software:
-        - 'Add new ROMs': 'tutorials/software/add_roms.md'
-        - 'Add OPK files': 'tutorials/software/copy_opk.md'
+        - 'Add New ROMs': 'tutorials/software/add_roms.md'
+        - 'Add OPK Files': 'tutorials/software/add_opk.md'
         - 'Install the GBA/PS1 BIOS': 'tutorials/software/gba_bios.md'
-        - 'Change aspect ratio': 'tutorials/software/aspect_ratio.md'
-        - 'Take a snapshot': 'tutorials/software/snapshot.md'
-        - 'Firmware upgrade': 'tutorials/software/update.md'
-        - 'Change Gameboy palette': 'tutorials/software/gb_palette.md'
-        # - 'Create themes': 'tutorials/software/themes.md'
-        #- 'Restore default games & emulators': 'tutorials/software/restore_games.md'
+        - 'Change Aspect Ratio': 'tutorials/software/aspect_ratio.md'
+        - 'Take a Snapshot': 'tutorials/software/snapshot.md'
+        - 'Firmware Upgrade': 'tutorials/software/firmware_update.md'
+        - 'Change Gameboy Palette': 'tutorials/software/gb_palette.md'
+        # - 'Create Themes': 'tutorials/software/create_themes.md'
+        #- 'Restore Default Games & Emulators': 'tutorials/software/restore_games.md'
       - Hardware:
-        - 'Teardown': 'tutorials/hardware/disassembling_console.md'
-        - 'Flash & Switch micro-SD card': 'tutorials/hardware/change_sd_card.md'
-        - 'Change the buttons': 'tutorials/hardware/buttons.md'
-       # - 'Force shutdown': 'tutorials/hardware/force_shutdown.md'
-  - Developer's Guide:
-    - Hardware reference:
-      - 'developers/hardware_ref/index.md'
-      - 'Architecture': 'developers/hardware_ref/architecture.md'
+        - 'Teardown': 'tutorials/hardware/teardown.md'
+        - 'Flash & Change micro-SD Card': 'tutorials/hardware/flash_change_sd_card.md'
+        - 'Change the Buttons': 'tutorials/hardware/change_buttons.md'
+       # - 'Force Shutdown': 'tutorials/hardware/force_shutdown.md'
+  - "Developer's Guide":
+    - Hardware Reference:
+      - 'developers/hardware_reference/index.md'
+      - 'Architecture': 'developers/hardware_reference/architecture.md'
       - 'BOM': 'https://htmlpreview.github.io/?https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/BOM/ibom.html'
-      - 'CPU': 'developers/hardware_ref/cpu.md'
+      - 'CPU': 'developers/hardware_reference/cpu.md'
       - Power:
-        - 'Regulated DC Power Supply Topologies': 'developers/hardware_ref/power/dc-dc.md'
-        - 'Why so many different Power Supply Voltages?': 'developers/hardware_ref/power/voltages.md'
-        - 'PMIC': 'developers/hardware_ref/power/pmic.md'
-        - 'DRAM Power': 'developers/hardware_ref/power/dram.md'
-        - 'Decoupling' : 'developers/hardware_ref/power/decoupling.md'
-      - 'Screen': 'developers/hardware_ref/screen.md'
-      - 'Audio': 'developers/hardware_ref/audio.md'
-      - 'Buttons': 'developers/hardware_ref/buttons.md'
-      - 'SD Card': 'developers/hardware_ref/sd-card.md'
-      - 'USB': 'developers/hardware_ref/usb.md'
-      - 'UART': 'developers/hardware_ref/uart.md'
-      - 'Magnetic Switch': 'developers/hardware_ref/magnetic_switch.md'
-    - Software reference:
-      - 'developers/software_ref/index.md'
-      - Boot process:
-        - 'Introduction': 'developers/software_ref/boot_process/boot_process_intro.md'
-        - 'Bootloader': 'developers/software_ref/boot_process/bootloader.md'
-        - 'Kernel': 'developers/software_ref/boot_process/kernel.md'
-        - 'Init Scripts': 'developers/software_ref/boot_process/init.md'
-        - 'Shutdown Process': 'developers/software_ref/boot_process/shutdown.md'
-      - Disk mapping:
-        - 'Introduction': 'developers/software_ref/disk_mapping/disk_mapping_intro.md'
-        - 'Partition Map': 'developers/software_ref/disk_mapping/partition.md'
-        - 'Built-in Recovery': 'developers/software_ref/disk_mapping/recovery.md'
-        - 'Root Filesystem': 'developers/software_ref/disk_mapping/rootfs.md'
-        - 'USB Shared Partition': 'developers/software_ref/disk_mapping/shared.md'
-      - 'Video Processing': 'developers/software_ref/video.md'
-      - 'Input mapping': 'developers/software_ref/input.md'
+        - 'Regulated DC Power Supply Topologies': 'developers/hardware_reference/power/power_supplies_topologies.md'
+        - 'Multiple Power Supply Voltages': 'developers/hardware_reference/power/multiple_voltages.md'
+        - 'PMIC': 'developers/hardware_reference/power/pmic.md'
+        - 'DRAM Power': 'developers/hardware_reference/power/dram_power.md'
+        - 'Decoupling' : 'developers/hardware_reference/power/decoupling.md'
+      - 'Screen': 'developers/hardware_reference/screen.md'
+      - 'Audio': 'developers/hardware_reference/audio.md'
+      - 'Buttons': 'developers/hardware_reference/buttons.md'
+      - 'SD Card': 'developers/hardware_reference/sd-card.md'
+      - 'USB': 'developers/hardware_reference/usb.md'
+      - 'UART': 'developers/hardware_reference/uart.md'
+      - 'Magnetic Switch': 'developers/hardware_reference/magnetic_switch.md'
+    - Software Reference:
+      - 'developers/software_reference/index.md'
+      - Boot Process:
+        - 'developers/software_reference/boot_process/index.md'
+        - 'Bootloader': 'developers/software_reference/boot_process/bootloader.md'
+        - 'Kernel': 'developers/software_reference/boot_process/kernel.md'
+        - 'Init Scripts': 'developers/software_reference/boot_process/init_scripts.md'
+        - 'Shutdown Process': 'developers/software_reference/boot_process/shutdown_process.md'
+      - Disk Mapping:
+        - 'developers/software_reference/disk_mapping/index.md'
+        - 'Partition Map': 'developers/software_reference/disk_mapping/partition_map.md'
+        - 'Recovery': 'developers/software_reference/disk_mapping/recovery.md'
+        - 'Root Filesystem': 'developers/software_reference/disk_mapping/root_filesystem.md'
+        - 'USB Shared Partition': 'developers/software_reference/disk_mapping/usb_shared_partition.md'
+      - 'Video Processing': 'developers/software_reference/video_processing.md'
+      - 'Input Mapping': 'developers/software_reference/input_mapping.md'
     - Tutorials:
-      - 'Access the Recovery boot mode': 'developers/tutorials/recovery.md'
-      - 'SSH connection over USB': 'developers/tutorials/ssh_connection.md'
-      - 'Serial connection over UART': 'developers/tutorials/uart_connection.md'
+      - 'Access the Recovery Boot Mode': 'developers/tutorials/access_recovery.md'
+      - 'SSH Connection over USB': 'developers/tutorials/ssh_connection.md'
+      - 'Serial Connection over UART': 'developers/tutorials/uart_connection.md'
       - Build System:
-        - 'Introduction': 'developers/tutorials/build_system/build_system_intro.md'
-        - 'Compilation environments': 'developers/tutorials/build_system/compilation_environments.md'
-        - 'Compile SDK': 'developers/tutorials/build_system/toolchain.md'
-        - 'Compile distribution': 'developers/tutorials/build_system/build_system.md'
-      - 'Build programs using SDK': 'developers/tutorials/build_system/build_program_using_sdk.md'
+        - 'developers/tutorials/build_system/index.md'
+        - 'Compilation Environments': 'developers/tutorials/build_system/compilation_environments.md'
+        - 'Compile SDK': 'developers/tutorials/build_system/compile_sdk.md'
+        - 'Compile Distribution': 'developers/tutorials/build_system/compile_distribution.md'
+      - 'Build Programs using SDK': 'developers/tutorials/build_system/build_program_using_sdk.md'
   - Miscellaneous:
     - 'Glossary': 'miscellaneous/glossary.md'
     - 'FAQ': 'miscellaneous/faq.md'

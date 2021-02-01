@@ -15,8 +15,7 @@ closing the console before turning it off, and restoring this state
 when opening and turning it back on in a matter of seconds.
 
 This feature is only possible because of the optimized fast boot time
-detailed in the [Boot Process](boot_process/boot_process_intro.md)
-section.
+detailed in the [Boot Process][1] section.
 
 ## Storage
 
@@ -24,8 +23,8 @@ The only storage system available in the **FunKey S** is its
 integrated MicroSD card. Most of its contents is made available to a
 host computer when connected over USB.
 
-The MicroSD card format is detailed in the [Disk
-Partition](disk_mapping/partition.md) section.
+The MicroSD card format is detailed in the [Disk Partition][2]
+section.
 
 ## Video Processing
 
@@ -49,6 +48,9 @@ for display.
 The **FunKey S** has no standard keyboard but features common
 console-oriented controls in the form of a D-Pad, A/B/X/Y Pad,
 Menu/On/Off, Fn and Start buttons.
+
+[1]: boot_process/index.md
+[2]: disk_mapping/partition_map.md
 
 --8<--
 includes/glossary.md
