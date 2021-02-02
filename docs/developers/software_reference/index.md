@@ -50,7 +50,7 @@ console-oriented controls in the form of a D-Pad, A/B/X/Y Pad,
 Menu/On/Off, Fn and Start buttons.
 
 [1]: boot_process/index.md
-[2]: disk_mapping/partition_map.md
+[2]: sd_card_layout/partition_map.md
 
 --8<--
 includes/glossary.md

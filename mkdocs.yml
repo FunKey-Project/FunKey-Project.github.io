@@ -176,12 +176,12 @@ nav:
         - 'Kernel': 'developers/software_reference/boot_process/kernel.md'
         - 'Init Scripts': 'developers/software_reference/boot_process/init_scripts.md'
         - 'Shutdown Process': 'developers/software_reference/boot_process/shutdown_process.md'
-      - Disk Mapping:
-        - 'developers/software_reference/disk_mapping/index.md'
-        - 'Partition Map': 'developers/software_reference/disk_mapping/partition_map.md'
-        - 'Recovery': 'developers/software_reference/disk_mapping/recovery.md'
-        - 'Root Filesystem': 'developers/software_reference/disk_mapping/root_filesystem.md'
-        - 'USB Shared Partition': 'developers/software_reference/disk_mapping/usb_shared_partition.md'
+      - SD-Card Layout:
+        - 'developers/software_reference/sd_card_layout/index.md'
+        - 'Partition Map': 'developers/software_reference/sd_card_layout/partition_map.md'
+        - 'Recovery Partition': 'developers/software_reference/sd_card_layout/recovery_partition.md'
+        - 'Root Filesystem Partition': 'developers/software_reference/sd_card_layout/root_filesystem_partition.md'
+        - 'USB Shared Partition': 'developers/software_reference/sd_card_layout/usb_shared_partition.md'
       - 'Video Processing': 'developers/software_reference/video_processing.md'
       - 'Input Mapping': 'developers/software_reference/input_mapping.md'
     - Tutorials:
