@@ -35,10 +35,10 @@ For developers, a full [Developer's Guide][3] is included, with both
 Last but not least, this documentation would not be complete without a
 [Glossary of terms][5] and an [FAQ][6] section for reference.
 
-[1]: quickstart.md
-[2]: tutorials/software/firmware_update.md
-[3]: developers/hardware_reference/
-[4]: developers/software_reference/sd_card_layout/recovery_partition.md
+[1]: user_manual/quickstart.md
+[2]: user_manual/tutorials/software/firmware_update.md
+[3]: developer_guide/hardware_reference/
+[4]: developer_guide/software_reference/sd_card_layout/recovery_partition.md
 [e5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
 
