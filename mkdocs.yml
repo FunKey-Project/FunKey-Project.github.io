@@ -138,6 +138,8 @@ nav:
       - 'Folder Organization': 'user_manual/features/folder_organization.md'
       - 'Quick Save': 'user_manual/features/quick_save.md'
       - 'Instant Action': 'user_manual/features/instant_action.md'
+      - 'Hardware Characteristics' : 'features/hardware_characteristics.md'
+      - 'Open Source' : 'features/open_source.md'
     - Tutorials:
       - Software:
         - 'Add New ROMs': 'user_manual/tutorials/software/add_roms.md'
@@ -147,6 +149,7 @@ nav:
         - 'Take a Snapshot': 'user_manual/tutorials/software/snapshot.md'
         - 'Firmware Upgrade': 'user_manual/tutorials/software/firmware_update.md'
         - 'Change Gameboy Palette': 'user_manual/tutorials/software/gb_palette.md'
+        - 'Change Gmenu2x Wallpaper': 'user_manual/tutorials/software/gmenu2x_wallpaper.md'
         # - 'Create Themes': 'user_manual/tutorials/software/create_themes.md'
         #- 'Restore Default Games & Emulators': 'user_manual/tutorials/software/restore_games.md'
       - Hardware:
