@@ -1,4 +1,4 @@
-# Palette description
+## Palette Description
 
 The default **FunKey S** Game Boy emulator: _[gnuboy][1]_ allows to
 set the palette used for grayscale when running DMG (original mono
@@ -115,7 +115,7 @@ set dmg_obp0 0xc0ffff 0x408080 0x204040 0x000000
 set dmg_obp1 0xc0ffff 0x408080 0x204040 0x000000`
 ```
 
-# Changing the palette
+## Changing the Palette
 
 |                         **Display**                                             | **Action**                                                                                                                  |
 | :-----------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------|

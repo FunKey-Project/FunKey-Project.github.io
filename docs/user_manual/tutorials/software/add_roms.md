@@ -1,4 +1,4 @@
-# How to get ROMs legally
+## How to Get ROMs Legally
 
 Yes legally! Despite the general opinion, it is perfectly possible to
 purchase and play famous ROMs legally such as Sonic, Castlevania,
@@ -29,7 +29,7 @@ sources for ROMs, including [freeware ROMs][2]{target=_blank},
     and Genesis Classics on [Steam][5]{target=_blank} and play Sonic
     on your **FunKey S**.
 
-# Add ROMs to the FunKey S
+## Add ROMs to the FunKey S
 
 Connect your **FunKey S** console to your computer and add new games
 as simply as you would do it with a simple USB memory stick:
