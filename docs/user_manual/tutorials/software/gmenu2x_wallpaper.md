@@ -27,4 +27,6 @@ console as you would do with a USB memory stick, too!
 
 _The wallpaper is copyright &copy; 2020 [kiks_way](https://www.instagram.com/kiks_way/)._
 
---8<-- includes/glossary.md --8<--
+--8<--
+includes/glossary.md
+--8<--
