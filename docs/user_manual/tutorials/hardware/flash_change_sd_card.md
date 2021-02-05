@@ -102,8 +102,8 @@ tutorial][4]).
     strongly inserted to prevent loose connections.
 
 ### **STEP 6 - Reassembly** {.step-title}
-![Insert speaker first](/assets/images/disassembly/IMG_8865_YES.jpg){.step-thumb}
-![Do not insert hinge first](/assets/images/disassembly/IMG_8862_NO.jpg){.step-thumb}
+![Insert speaker first](/assets/images/disassembly/IMG_9013_YES.jpg){.step-thumb}
+![Do not insert hinge first](/assets/images/disassembly/IMG_9015_NO.jpg){.step-thumb}
 
 Insert first the speaker into its location in the casing before
 putting the circuit board back in the case, like in the pictures.
