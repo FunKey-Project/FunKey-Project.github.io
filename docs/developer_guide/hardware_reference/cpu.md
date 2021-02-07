@@ -208,7 +208,7 @@ in this [Micron Application Note][14].
 [3]: https://www.apple.com/mac/m1/
 [4]: https://www.microchip.com/design-centers/32-bit-mpus/sip-som/system-in-package
 [5]: https://www.allwinnertech.com/
-[6]: https://linux-sunxi.org/images/f/f5/Allwinner_V3_Datasheet_V1.1.pdf
+[6]: https://linux-sunxi.org/images/2/23/Allwinner_V3s_Datasheet_V1.0.pdf
 [7]: https://electronics.stackexchange.com/questions/7709/why-put-a-resistor-in-series-with-signal-line
 [8]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/C55208_FC-12M32.768K12.5PF20PPM_2017-01-16.PDF
 [9]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/C270485_24MHZ18PF%C2%B110PPM4PIN-20_%2B70%E2%84%83_2018-08-14.PDF
