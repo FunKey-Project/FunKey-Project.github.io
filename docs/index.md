@@ -39,7 +39,7 @@ Last but not least, this documentation would not be complete without a
 [2]: user_manual/tutorials/software/firmware_update.md
 [3]: developer_guide/hardware_reference/
 [4]: developer_guide/software_reference/sd_card_layout/recovery_partition.md
-[e5]: miscellaneous/glossary.md
+[5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
 
 --8<--
