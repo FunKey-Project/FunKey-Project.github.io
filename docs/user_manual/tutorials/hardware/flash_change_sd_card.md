@@ -77,8 +77,11 @@ Carefully remove:
     Be careful not to damage the L/R switches on the circuit board!
 
 ### **STEP 3 - Exposing the circuit board** {.step-title}
+![Lanyard Axis](/assets/images/disassembly/IMG_8994.jpg){.step-thumb}
 ![Lift the battery](/assets/images/disassembly/IMG_8818.jpg){.step-thumb}
 ![Get the battery out of the way](/assets/images/disassembly/IMG_8822.jpg){.step-thumb}
+
+Remove the keychain lanyard axis, but it may fall off when opening.
 
 Lift the battery (but leave it connected) to expose the circuit board.
 
