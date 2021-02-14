@@ -81,7 +81,7 @@ Carefully remove:
 ![Lift the battery](/assets/images/disassembly/IMG_8818.jpg){.step-thumb}
 ![Get the battery out of the way](/assets/images/disassembly/IMG_8822.jpg){.step-thumb}
 
-Remove the keychain lanyard axis, but it may fall off when opening.
+Remove the keychain lanyard axis, as it may fall off when opening.
 
 Lift the battery (but leave it connected) to expose the circuit board.
 
