@@ -59,8 +59,10 @@ Please follow the steps below carefully:
 Using a standard **Phillips PH0 screwdriver**, remove the 2 screws on
 the back of your FunKey S.
 
-Be careful to use the correct screwdriver head size and type to
-prevent damaging the screws (do not use JIS screwdrivers!).
+!!! warning
+	Be careful to use the correct screwdriver head size and type to
+	prevent damaging the screws (do not use JIS screwdrivers!). 
+	FunKey Project is not responsible for replacing damaged screws.
 
 ### **STEP 2 - Opening up the console** {.step-title}
 ![Pull up hinge first](/assets/images/disassembly/IMG_8848.jpg){.step-thumb}
