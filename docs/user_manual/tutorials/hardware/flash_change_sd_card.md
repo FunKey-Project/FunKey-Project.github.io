@@ -60,9 +60,10 @@ Using a standard **Phillips PH0 screwdriver**, remove the 2 screws on
 the back of your FunKey S.
 
 !!! warning
-	Be careful to use the correct screwdriver head size and type to
-	prevent damaging the screws (do not use JIS screwdrivers!). 
-	FunKey Project is not responsible for replacing damaged screws.
+
+    Be careful to use the correct screwdriver head size and type to
+    prevent damaging the screws (do not use JIS screwdrivers!).
+    FunKey Project is not responsible for replacing damaged screws.
 
 ### **STEP 2 - Opening up the console** {.step-title}
 ![Pull up hinge first](/assets/images/disassembly/IMG_8848.jpg){.step-thumb}
@@ -76,6 +77,7 @@ Carefully remove:
 2. The keychain lanyard and axis
 
 !!! warning
+
     Be careful not to damage the L/R switches on the circuit board!
 
 ### **STEP 3 - Exposing the circuit board** {.step-title}
@@ -102,6 +104,7 @@ the new one (previously flashed as described [in the 1st part of this
 tutorial][4]).
 
 !!! note
+
     You may need to use some tweezers and pull with some strength in
     order to remove the micro-SD card from its socket, as it is
     strongly inserted to prevent loose connections.
@@ -116,6 +119,7 @@ putting the circuit board back in the case, like in the pictures.
 Reassemble the console by following the previous steps in reverse order.
 
 !!! warning
+
     Be careful not to damage the switches on the circuit board when
     putting back the L/R plastic buttons.
 

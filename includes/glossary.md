@@ -5,6 +5,8 @@
 *[CSi]: Camera Serial Interface
 *[DAC]: Digital to Analog Converter
 *[DACs]: Digital to Analog Converters
+*[DFU]: Device Firmware Update
+*[DMA]: Direct Memory Access
 *[DDR]: Dual Data Rate
 *[DRAM]: Dynamic Random-Access Memory
 *[DSi]: Display Serial Interface
@@ -21,19 +23,23 @@
 *[LCD]: Liquid-Crystal Display
 *[LDO]: Low Drop-Out
 *[LiPo]: Lithium Polymer
+*[MMU]: Memory Management Unit
 *[MIPI]: Mobile Industry Processor Interface
 *[NTC]: Negative Temperature Coefficient
 *[OPK]: Open Package
 *[OTG]: On-The-Go
 *[PCBA]: Printed Circuit Board Assembly
 *[PCB]: Printed Circuit Board
+*[PIO]: Peripheral I/O
 *[PLL]: Phase-Locked Loop
 *[PLLs]: Phase-Locked Loops
 *[PMIC]: Power Management Integrated Circuit
-*[PMU]: Power Managment Unit
+*[PMU]: Power Management Unit
 *[PoP]: Package on Package
 *[PSRR]: Power Supply Rejection Ratio
 *[PWM]: Pulse Width Modulation
+*[RAM]: Random-Access Memory
+*[ROM]: Read-Only Memory
 *[RTC]: Real-Time Clock
 *[SD]: Secure Digital
 *[SIMD]: Single Instruction Multiple Data
@@ -42,6 +48,7 @@
 *[SoC]: System on Chip
 *[SoCs]: System on Chips
 *[SPI]: Serial Peripheral Interface
+*[SPL]: Secondary Program Loader
 *[SRAM]: Static Random-Access Memory
 *[TFT LCD]:  Thin-Film-Transistor Liquid-Crystal Display
 *[TVS]: Transcient Voltage Suppressor

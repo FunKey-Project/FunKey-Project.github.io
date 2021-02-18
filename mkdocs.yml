@@ -180,9 +180,11 @@ nav:
       - 'developer_guide/software_reference/index.md'
       - Boot Process:
         - 'developer_guide/software_reference/boot_process/index.md'
-        - 'Bootloader': 'developer_guide/software_reference/boot_process/bootloader.md'
-        - 'Kernel': 'developer_guide/software_reference/boot_process/kernel.md'
-        - 'Init Scripts': 'developer_guide/software_reference/boot_process/init_scripts.md'
+        - 'Boot ROM': 'developer_guide/software_reference/boot_process/boot_rom.md'
+        - 'SPL': 'developer_guide/software_reference/boot_process/spl.md'
+        - 'U-Boot Bootloader': 'developer_guide/software_reference/boot_process/bootloader.md'
+        - 'Linux Kernel': 'developer_guide/software_reference/boot_process/kernel.md'
+        - 'System V Init Scripts': 'developer_guide/software_reference/boot_process/init_scripts.md'
         - 'Shutdown Process': 'developer_guide/software_reference/boot_process/shutdown_process.md'
       - SD-Card Layout:
         - 'developer_guide/software_reference/sd_card_layout/index.md'
