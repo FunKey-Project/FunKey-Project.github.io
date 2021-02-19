@@ -368,6 +368,11 @@ partitioning scheme:
 On the **FunKey S**, the 8KB offset is used for the SPL, detailed in
 the next section.
 
+The SD Card interface used (0 or 2) is stored into the BOOT0 header in
+the byte at offset 40, and bit 5 in this byte is set to `1` when the
+BOOT0 header is loaded from offset 128 KB, and to `0` when booted from
+offset 8KB by this [code][45].
+
 ## FEL
 
 The FEL is a low-level subroutine also contained in the BootROM on
@@ -375,19 +380,19 @@ Allwinner devices. It is used for initial programming and recovery of
 devices using USB.
 
 The FEL is actually implementing a tiny USB stack for a [proprietary
-USB protocol][45] different from the standard DFU (Device Firmware
+USB protocol][46] different from the standard DFU (Device Firmware
 Update) protocol used by many other devices.
 
 Using some specific tools on the host computer, it is possible to read
 or write data to/from the device over USB and execute code on it,
 providing a way to boot the system over USB.
 
-These "sunxi-tools" are described [here][46] and [here][47].
+These "sunxi-tools" are described [here][47] and [here][48].
 
 !!! warning
 
     For the V3s, it is mandatory to build the version from the
-    [repository][48], as the versions packaged in the different
+    [repository][49], as the versions packaged in the different
     operating systems are too old and do not take into account the V3s
     chip.
 
@@ -443,7 +448,8 @@ includes/glossary.md
 [42]: https://github.com/FunKey-Project/Allwinner-V3s-BROM/blob/main/brom.s#L7267-L7268
 [43]: https://github.com/FunKey-Project/Allwinner-V3s-BROM/blob/main/brom.s#L3792-L3799
 [44]: https://github.com/FunKey-Project/Allwinner-V3s-BROM/blob/main/brom.s#L3801-L3807
-[45]: https://linux-sunxi.org/FEL/Protocol
-[46]: https://linux-sunxi.org/FEL/USBBoot
-[47]: https://linux-sunxi.org/Sunxi-tools
-[48]: https://github.com/linux-sunxi/sunxi-tools
+[45]: https://github.com/FunKey-Project/Allwinner-V3s-BROM/blob/main/brom.s#L3740-L3756
+[46]: https://linux-sunxi.org/FEL/Protocol
+[47]: https://linux-sunxi.org/FEL/USBBoot
+[48]: https://linux-sunxi.org/Sunxi-tools
+[49]: https://github.com/linux-sunxi/sunxi-tools
