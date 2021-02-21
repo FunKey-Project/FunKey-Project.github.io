@@ -201,8 +201,10 @@ nav:
       - Build System:
         - 'developer_guide/tutorials/build_system/index.md'
         - 'Compilation Environments': 'developer_guide/tutorials/build_system/compilation_environments.md'
+        - 'Get the Sources': 'developer_guide/tutorials/build_system/get_sources.md'
         - 'Compile SDK': 'developer_guide/tutorials/build_system/compile_sdk.md'
         - 'Compile Distribution': 'developer_guide/tutorials/build_system/compile_distribution.md'
+        - 'Write firmware to SD Card': 'developer_guide/tutorials/build_system/write_image.md'
       - 'Build Programs using SDK': 'developer_guide/tutorials/build_system/build_program_using_sdk.md'
   - Miscellaneous:
     - 'Glossary': 'miscellaneous/glossary.md'
