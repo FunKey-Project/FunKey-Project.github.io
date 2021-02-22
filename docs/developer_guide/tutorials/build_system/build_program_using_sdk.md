@@ -6,7 +6,7 @@ The FunKey-SDK contains a cross-compilation environment based on GCC, including 
 
 Before we can begin, setup a Linux-based compilation environment as shown on [this page][1].
 
-# Installing the FunKey-SDK
+## Installing the FunKey-SDK
 
 The FunKey-SDK is included in releases of the FunKey-OS, starting from version 2.0.0, and can be found on [GitHub][2]. Alternatively, you can [compile the SDK yourself][3].
 
@@ -14,9 +14,9 @@ Unpack the SDK's .tar.gz file somewhere on your build system. Before you can use
 
 The SDK is now ready to use. For additional convenience it is highly recommended to `source` the **environment-setup** of the SDK. This will add the SDK utilities to the *PATH*, setup standard variables such as *CC* and *LD* to refer to the SDK versions of the toolchain, setup standard options for *CFLAGS*, and create aliases for **configure** and **cmake** to work with the SDK.
 
-# Your first application
+## Your first application
 
-## Building
+### Building
 
 Let's build a simple application to test that everything is working. Below is a small C program that will use SDL to display a green square for 5 seconds, and then exits.
 
@@ -60,7 +60,7 @@ Save this file as **hello.c** somewhere outside of the SDK directory. If you've 
 $CC hello.c -o hello -lSDL
 ```
 
-## Packing
+### Packing
 
 The **hello** program you've just created is a valid executable for FunKey, but in order for the launcher to find it we must first bundle the program in an *OPK* package. Create a new folder for the contents of the package and put into it:
 
@@ -91,7 +91,7 @@ Categories=applications;
 
 Once you've got everything ready you can turn the folder into a package using the [OpenPackage Creator][5]. Select your folder with the **Open** button, or drag it over the window. The OpenPackage Creator will note that you've already created *.desktop* file. Choose the "Use existing as is" option. Finally, click the **Pack** button to create **hello.opk**, ready to be transferred to the FunKey.
 
-## Installing
+### Installing
 
 [Connect the FunKey to your computer via USB.][6] Open the menu on the FunKey, select Mount USB and press A twice to confirm. Your FunKey will now be visible as a USB drive on your computer. You can place your application in any 1st-level folder, and you can create as many as you want to organise your applications. Let's create a new folder called Applications and place hello.opk in there. Safely remove the USB drive from your computer, and in the FunKey menu select Eject USB and press A twice to confirm.
 
