@@ -97,10 +97,58 @@ installed.
 
 ### Prerequisites
 
+First, make sure your version of Windows 10 is new enough. Press **Win** + **R** to open the *Run* window and type in `winver` to check your Windows version and build number. The version should be **1903** or higher, the build number **18362** or higher.
+
+#### Enabling Windows Features
+
+![Enable Virtual Machine Platform and Windows Subsystem for Linux.](/assets/images/WSL2_Windows_features.png)
+
+Some addition Windows features need to be enabled. Open the Windows Features window either by searching for "Windows Features" in the Start Menu, or by opening **Settings** -> **Apps & features** -> **Optional features** -> **More Windows features**. There ensure that both **Virtual Machine Platform** and **Windows Subsystem for Linux** are enabled. After pressing OK to confirm, Windows will ask you to reboot your computer to complete installation.
+
+#### Download the Linux kernel update package
+
+An additional update is required to run WSL2. Download and install the following package from Microsoft:
+
+- [WSL2 Linux kernel update package for x64 machines][4]
+#### Set WSL2 as your default version (optional)
+You can run the following command in PowerShell to make WSL2 the default version. New installations of Linux distributions on Windows will then automatically use WSL2. Otherwise they will use WSL version 1 by default.
+
+```
+wsl --set-default-version 2
+```
+
+#### Install Ubuntu using the Microsoft Store
+
+Now that WSL2 is ready to be used you can download a Linux distribution from the Microsoft Store. For this guide, it is recommended to install [Ubuntu 20.04 LTS][5]. After installing, Ubuntu can be started by either selecting it from the Start Menu or typing `ubuntu2004` on the command prompt. The first time you run Ubuntu you will be asked to create a new user account with a username and password. These do not have to be the same as your Windows account.
+
+If you've enabled WSL2 as the default version in the previous step, Ubuntu will be automatically configured to use that version. If you haven't set WSL2 as default, or if you've installed Ubuntu before setting WSL2 as default, it's possible to manually change the version for this distro. First, open a PowerShell window and type the following command to list all installed Linux distributions:
+
+```
+wsl --list --verbose
+```
+
+Check the name of the distribution you want to upgrade and run:
+
+```
+wsl --set-version <distribution name> <versionNumber>
+```
+
+With `<versionNumber>` set to `2` to use WSL2. You can use the same command with version number `1` to return to WSL 1.
+
+#### WSL2 is now ready to be used
+
+Your Ubuntu installation is now ready to be used. Starting Ubuntu from the Start Menu will open a terminal with a Bash prompt. Everything you type here will be executed in Ubuntu. You can run and install applications within Ubuntu as you would on a complete installation or virtual machine.
+
+Follow the instructions in the **Build on a Physical/Virtual Machine** section to install the requirements needed to build FunKey-OS.
+
+You can access the Windows filesystem via `/mnt`; the C: drive is mounted as `/mnt/c`. From Windows you can access the Linux filesystem via the special path `\\wsl$`. Note that you can only access the files there when Ubuntu is running on WSL2.
+
 
 [1]: https://www.docker.com/
-[2]:https://www.virtualbox.org/
+[2]: https://www.virtualbox.org/
 [3]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+[4]: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+[5]: https://www.microsoft.com/store/productId/9N6SVWS3RX71
 
 --8<--
 includes/glossary.md
