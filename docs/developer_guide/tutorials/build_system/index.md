@@ -39,7 +39,7 @@ to the [Buildroot Manual][7].
 [3]: https://github.com/FunKey-Project/FunKey-OS
 [4]: https://www.funkey-project.com/
 [5]: http://nightly.buildroot.org/
-[6]: (https://buildroot.org/downloads/manual/manual.html#outside-br-custom)
+[6]: https://buildroot.org/downloads/manual/manual.html#outside-br-custom
 [7]: https://buildroot.org/downloads/manual/manual.html
 
 --8<--
