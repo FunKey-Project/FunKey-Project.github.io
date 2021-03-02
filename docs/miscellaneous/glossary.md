@@ -10,6 +10,8 @@
 ## D
 
  - **DAC**: Digital to Analog Converter
+ - **DFU**: Device Firmware Update
+ - **DMA**: Direct Memory Access
  - **DDR**: Dual Data Rate
  - **DRAM**: Dynamic Random-Access Memory
  - **DSi**: Display Serial Interface
@@ -44,6 +46,7 @@
 
 ## M
 
+ - **MMU**: Memory Management Unit
  - **MIPI**: Mobile Industry Processor Interface
 
 ## N
@@ -58,6 +61,7 @@
 
  - **PCBA**: Printed Circuit Board Assembly
  - **PCB**: Printed Circuit Board
+ - **PIO**: Peripheral I/O
  - **PLL**: Phase-Locked Loop
  - **PMIC**: Power Management Integrated Circuit
  - **PMU**: Power Managment Unit
@@ -67,6 +71,8 @@
 
 ## R
 
+ - **RAM**: Random-Access Memory
+ - **ROM**: Read-Only Memory
  - **RTC**: Real-Time Clock
 
 ## S
@@ -77,6 +83,7 @@
  - **SMPS**: Switched-Mode Power Supply
  - **SoC**: System on Chip
  - **SPI**: Serial Peripheral Interface
+ - **SPL**: Secondary Program Loader
  - **SRAM**: Static Random-Access Memory
 
 ## T
