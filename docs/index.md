@@ -30,6 +30,16 @@ section][2].
 For developers, a full [Developer's Guide][3] is included, with both
 [Hardware][3] and [Software][4] subsections.
 
+
+
+## Open source files
+
+- All the **software repositories** are accessible on our [Github](https://github.com/FunKey-Project){target=_blank}. The developer section is a great way to understand its secrets.
+- All the **electronic schematics** and layouts are accessible [here](https://github.com/FunKey-Project/FunKey-S-Hardware){target=_blank}.
+- For mechanical tinkerers or professionals, all the **3D step files** are accessible on [Grabcad][7]{target=_blank}
+
+
+
 ## Miscellaenous stuff
 
 Last but not least, this documentation would not be complete without a
@@ -41,6 +51,7 @@ Last but not least, this documentation would not be complete without a
 [4]: developer_guide/software_reference/sd_card_layout/recovery_partition.md
 [5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
+[7]: https://grabcad.com/library/funkey-s-1
 
 --8<--
 includes/glossary.md
