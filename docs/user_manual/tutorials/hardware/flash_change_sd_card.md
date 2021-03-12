@@ -123,7 +123,7 @@ Reassemble the console by following the previous steps in reverse order.
     Be careful not to damage the switches on the circuit board when
     putting back the L/R plastic buttons.
 
-[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/2.0.1/FunKey-sdcard-2.0.1.img
+[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.1.0/FunKey-rootfs-2.1.0.fwu
 [2]: https://github.com/FunKey-Project/FunKey-OS/releases/latest
 [3]: https://www.balena.io/etcher/
 [4]: #flashing-a-new-micro-sd-card
