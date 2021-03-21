@@ -156,6 +156,7 @@ nav:
         - 'Teardown': 'user_manual/tutorials/hardware/teardown.md'
         - 'Flash & Change micro-SD Card': 'user_manual/tutorials/hardware/flash_change_sd_card.md'
         - 'Change the Buttons': 'user_manual/tutorials/hardware/change_buttons.md'
+        - 'Fix unstuck glass': 'user_manual/tutorials/hardware/fix_unstuck_screen.md'
        # - 'Force Shutdown': 'user_manual/tutorials/hardware/force_shutdown.md'
   - Developer's Guide:
     - Hardware Reference:
