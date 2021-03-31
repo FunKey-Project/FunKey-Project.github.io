@@ -34,10 +34,10 @@ actually play.
 
 ## PS1
 
-As for the GBA, if you launch a GBA game for the first time, you will
+As for the GBA, if you launch a PS1 game for the first time, you will
 get this screen:
 
-![GBA BIOS](/assets/images/PS1_BIOS.png)
+![PS1 BIOS](/assets/images/PS1_BIOS.png)
 
 This means that you will need to install on the **FunKey S** a BIOS
 file with the right name and size before you can actually play.
