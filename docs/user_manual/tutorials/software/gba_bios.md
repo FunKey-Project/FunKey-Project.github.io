@@ -6,7 +6,7 @@ additional BIOS file in order to emulate all or some of the game ROMs.
 
 ## GBA
 
-If you launch a GBA game in the first place, you will get this screen:
+If you launch a GBA game for the first time, you will get this screen:
 
 ![GBA BIOS](/assets/images/GBA_BIOS.png)
 
@@ -34,7 +34,7 @@ actually play.
 
 ## PS1
 
-As for the GBA, if you launch a GBA game in the first place, you will
+As for the GBA, if you launch a GBA game for the first time, you will
 get this screen:
 
 ![GBA BIOS](/assets/images/PS1_BIOS.png)
