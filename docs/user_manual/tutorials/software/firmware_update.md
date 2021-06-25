@@ -3,7 +3,7 @@ the **FunKey S** console.
 
 Get the latest "**_FunKey-rootfs-x.y.z.fwu_**" firmware update file
 directly from [here][1] or from the bottom of the latest release page
-in the "assets" section:
+in the "assets" section: 
 
 [https://github.com/FunKey-Project/FunKey-OS/releases/latest][2]{target=_blank}
 
@@ -22,7 +22,7 @@ in the "assets" section:
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){.lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm |
 |     ![Updating](/assets/images/Updating.png){.lightbox}      | The **FunKey S** will then reboot and perform the upgrade    |
 
-[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.2.0/FunKey-rootfs-2.2.0.fwu
+[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.3.0/FunKey-rootfs-2.3.0.fwu
 [2]: https://github.com/FunKey-Project/FunKey-OS/releases/latest
 
 --8<--
