@@ -4,6 +4,7 @@
 
 # Project information
 site_name: FunKey Project Documentation
+site_url: "https://doc.funkey-project.com/"
 site_author: Michel Stempin
 site_description: >-
   FunKey S - the world's smallest foldable handeld console
