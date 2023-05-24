@@ -15,7 +15,7 @@ file with the right name, size and MD5 checksum before you can
 actually play.
 
 - BIOS file name: gba_bios.bin
-- MD5: a860e8c0b6d573d191e4ec7d
+- MD5: a860e8c0b6d573d191e4ec7db1b1e4f6
 
 ### Installation procedure
 
