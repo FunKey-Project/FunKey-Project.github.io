@@ -36,7 +36,7 @@ to the [Buildroot Manual][7].
 
 [1]: http://www.allwinnertech.com/index.php?c=product&a=index&id=38
 [2]: https://en.wikipedia.org/wiki/Cross_compiler
-[3]: https://github.com/FunKey-Project/FunKey-OS
+[3]: https://github.com/DrUm78/FunKey-OS
 [4]: https://www.funkey-project.com/
 [5]: http://nightly.buildroot.org/
 [6]: https://buildroot.org/downloads/manual/manual.html#outside-br-custom

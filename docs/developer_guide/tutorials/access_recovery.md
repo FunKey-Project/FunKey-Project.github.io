@@ -29,8 +29,7 @@ the familiar **FunKey S** logo:
 
 The Recovery Mode automatically enables the USB network client upon
 startup, allowing ssh connection over the USB cable for debug
-purposes. For more information, please check the [SSH Connection over
-USB section][1].
+purposes.
 
 At the same time, the Recovery mode provides a simple text menu, with
 the current menu item displayed at the top of the screen.
@@ -50,8 +49,8 @@ This command displays useful information regarding the **FunKey S**:
  - if connected to a host through USB network, the device IP address
 
     ```
-    Recovery: 2.0.0
-	rootfs  : 2.0.0
+    Recovery: 2.3.0
+	rootfs  : 2.3.0
 	IP addr : 192.168.137.20
     ```
 	

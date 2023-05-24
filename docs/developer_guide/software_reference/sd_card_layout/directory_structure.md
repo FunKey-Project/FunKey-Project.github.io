@@ -1,7 +1,7 @@
 As the FunKey-OS is based on Linux, it conforms with a few exceptions
 to the [Filesystem Hierarchy Standard (FHS)][1].
 
-## Hierearchies
+## Hierarchies
 
 The FHS defines 3 hierarchies of directories:
 

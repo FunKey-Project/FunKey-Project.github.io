@@ -292,7 +292,7 @@ phones.
 [10]: https://github.com/Squonk42/V3s_Documentation/raw/master/V3s%20hardware%20design%20guide%20V1.0_20150519%20EN%20Non%20Official.pdf
 [11]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/1811151533_JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.pdf
 [12]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/C165977_%E8%B4%B4%E7%89%87LED%E8%93%9D%E8%89%B2_2018-01-26.PDF
-[13]: /developers/hardware/magnetic_switch
+[13]: /developer_guide/hardware_reference/magnetic_switch/
 --8<--
 includes/glossary.md
 --8<--

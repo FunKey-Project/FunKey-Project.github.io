@@ -203,7 +203,7 @@ resistor **R11** connected internally like this:
 More information on the DDR2 DRAM ZQ Calibration subject can be found
 in this [Micron Application Note][14].
 
-[1]: /developers/hardware/design/#design-constraints
+[1]: /developer_guide/hardware_reference/#design-constraints
 [2]: https://www.electronicsweekly.com/news/products/memory/how-to-guide-for-on-chip-memory-2012-06/
 [3]: https://www.apple.com/mac/m1/
 [4]: https://www.microchip.com/design-centers/32-bit-mpus/sip-som/system-in-package

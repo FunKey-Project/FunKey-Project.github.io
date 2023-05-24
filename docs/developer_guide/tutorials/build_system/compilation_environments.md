@@ -1,12 +1,12 @@
 Even if the resulting disk image and firmware update files are
-relatively small (202 MB and 55MB, respectively), the size of the
+relatively small (350MB and 110MB, respectively), the size of the
 corresponding sources and the compilation by-products tend to be
 rather large, such that an available disk space of at least 12GB is
 required during the build.
 
 And even if the resulting FunKey-OS boots in less than 5s, it still
-requires a considerable amount of time to compile: please account for
-1 1/2 hour on a modern multi-core CPU with SSD drives and a decent
+requires a fair amount of time to compile: please account for
+1/2 hour on a modern multi-core CPU with SSD drives and a decent
 Internet bandwidth.
 
 The FunKey-OS is meant to be built on a native Ubuntu or Debian Linux
@@ -76,14 +76,13 @@ install the following packages beforehand:
  - tar
  - unzip
  - wget
- - which
  - xxd
 
 On Ubuntu/Debian Linux, this is achieved by running the following
 command:
 
 ```bash
-$ sudo apt install bash bc binutils build-essential bzip2 ca-certificates cpio cvs expect file g++ gcc git gzip liblscp-dev libncurses5-dev locales make mercurial openssh-client patch perl procps python python-dev python3 python3-dev python3-distutils python3-setuptools rsync rsync sed subversion sudo tar unzip wget which xxd
+$ sudo apt install bash bc binutils build-essential bzip2 ca-certificates cpio cvs expect file g++ gcc git gzip liblscp-dev libncurses5-dev locales make mercurial openssh-client patch perl procps python python-dev python3 python3-dev python3-distutils python3-setuptools rsync rsync sed subversion sudo tar unzip wget xxd
 ```
 
 ## Build in a Docker Container
@@ -93,11 +92,11 @@ $ sudo apt install bash bc binutils build-essential bzip2 ca-certificates cpio c
 When using a Docker container, all the prerequisites are automatically
 installed.
 
-## Build on Windows 10 with WSL2
+## Build on Windows 10/11 with WSL2
 
 ### Prerequisites
 
-First, make sure your version of Windows 10 is new enough. Press **Win** + **R** to open the *Run* window and type in `winver` to check your Windows version and build number. The version should be **1903** or higher, the build number **18362** or higher.
+First, make sure your version of Windows 10 is new enough (any version of Windows 11 should be fine). Press **Win** + **R** to open the *Run* window and type in `winver` to check your Windows version and build number. The version should be **2004** or higher, the build number **19041** or higher.
 
 #### Enabling Windows Features
 

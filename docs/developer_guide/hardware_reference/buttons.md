@@ -126,7 +126,7 @@ are shared with the other I2C peripherals (the PMIC) on the bus.
 It is then much easier to route this dense PCB by delegating the
 button GPIO handling to a satellite chip.
 
-[1]: /developers/hardware/power/pmic
+[1]: /developer_guide/hardware_reference/power/pmic
 [2]: https://hackaday.io/project/134065
 [3]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/Replacement%20EVP-BB1AAB000-(Operating%20force%20120GF%EF%BC%89.pdf
 [4]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/replacement%20EVP-AEBB2A-1.pdf

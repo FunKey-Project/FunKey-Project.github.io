@@ -7,14 +7,14 @@ site_name: FunKey Project Documentation
 site_url: "https://doc.funkey-project.com/"
 site_author: Michel Stempin
 site_description: >-
-  FunKey S - the world's smallest foldable handeld console
+  FunKey S - the world's smallest foldable handheld console
   Ultra-compact, foldable, powerful and comfortable, the FunKey S is
   the perfect handheld for playing retrogames anywhere, anytime.
 
 # Copyright
 copyright: >
-  &copy; 2020-2022 FunKey Project<br/>
-  Last updated on 2022-06-30<br/>
+  &copy; 2020-2023 FunKey Project<br/>
+  Last updated on 2023-05-24<br/>
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
   </a><br />This work is licensed under a
@@ -129,18 +129,18 @@ markdown_extensions:
 nav:
   - 'Overview': 'index.md'
   - "User's Manual":
-    - 'Quickstart': 'user_manual/quickstart.md'
-    - Product Description:
-      - 'Key Mapping': 'user_manual/features/key_mapping.md'
-      - 'Launchers': 'user_manual/features/launchers.md'
-      - 'Emulators': 'user_manual/features/emulators.md'
-      - 'Standalone Games & Applications': 'user_manual/features/games_apps.md'
-      - 'FunKey Menu': 'user_manual/features/funkey_menu.md'
-      - 'Folder Organization': 'user_manual/features/folder_organization.md'
-      - 'Quick Save': 'user_manual/features/quick_save.md'
-      - 'Instant Action': 'user_manual/features/instant_action.md'
-      - 'Hardware Characteristics' : 'user_manual/features/hardware_characteristics.md'
-      - 'Open Source' : 'user_manual/features/open_source.md'
+#    - 'Quickstart': 'user_manual/quickstart.md'
+#    - Product Description:
+#      - 'Key Mapping': 'user_manual/features/key_mapping.md'
+#      - 'Launchers': 'user_manual/features/launchers.md'
+#      - 'Emulators': 'user_manual/features/emulators.md'
+#      - 'Standalone Games & Applications': 'user_manual/features/games_apps.md'
+#      - 'FunKey Menu': 'user_manual/features/funkey_menu.md'
+#      - 'Folder Organization': 'user_manual/features/folder_organization.md'
+#      - 'Quick Save': 'user_manual/features/quick_save.md'
+#      - 'Instant Action': 'user_manual/features/instant_action.md'
+#      - 'Hardware Characteristics' : 'user_manual/features/hardware_characteristics.md'
+#      - 'Open Source' : 'user_manual/features/open_source.md'
     - Tutorials:
       - Software:
         - 'Add New ROMs': 'user_manual/tutorials/software/add_roms.md'
@@ -184,22 +184,23 @@ nav:
         - 'developer_guide/software_reference/boot_process/index.md'
         - 'Boot ROM': 'developer_guide/software_reference/boot_process/boot_rom.md'
         - 'SPL': 'developer_guide/software_reference/boot_process/spl.md'
-        - 'U-Boot Bootloader': 'developer_guide/software_reference/boot_process/bootloader.md'
-        - 'Linux Kernel': 'developer_guide/software_reference/boot_process/kernel.md'
-        - 'System V Init Scripts': 'developer_guide/software_reference/boot_process/init_scripts.md'
-        - 'Shutdown Process': 'developer_guide/software_reference/boot_process/shutdown_process.md'
+#        - 'U-Boot Bootloader': 'developer_guide/software_reference/boot_process/bootloader.md'
+#        - 'Linux Kernel': 'developer_guide/software_reference/boot_process/kernel.md'
+#        - 'System V Init Scripts': 'developer_guide/software_reference/boot_process/init_scripts.md'
+#        - 'Shutdown Process': 'developer_guide/software_reference/boot_process/shutdown_process.md'
       - SD-Card Layout:
         - 'developer_guide/software_reference/sd_card_layout/index.md'
-        - 'Partition Map': 'developer_guide/software_reference/sd_card_layout/partition_map.md'
-        - 'Recovery Partition': 'developer_guide/software_reference/sd_card_layout/recovery_partition.md'
-        - 'Root Filesystem Partition': 'developer_guide/software_reference/sd_card_layout/root_filesystem_partition.md'
-        - 'USB Shared Partition': 'developer_guide/software_reference/sd_card_layout/usb_shared_partition.md'
-      - 'Video Processing': 'developer_guide/software_reference/video_processing.md'
-      - 'Input Mapping': 'developer_guide/software_reference/input_mapping.md'
+        - 'Directory Structure': 'developer_guide/software_reference/sd_card_layout/directory_structure.md'
+#        - 'Partition Map': 'developer_guide/software_reference/sd_card_layout/partition_map.md'
+#        - 'Recovery Partition': 'developer_guide/software_reference/sd_card_layout/recovery_partition.md'
+#        - 'Root Filesystem Partition': 'developer_guide/software_reference/sd_card_layout/root_filesystem_partition.md'
+#        - 'USB Shared Partition': 'developer_guide/software_reference/sd_card_layout/usb_shared_partition.md'
+#      - 'Video Processing': 'developer_guide/software_reference/video_processing.md'
+#      - 'Input Mapping': 'developer_guide/software_reference/input_mapping.md'
     - Tutorials:
       - 'Access the Recovery Boot Mode': 'developer_guide/tutorials/access_recovery.md'
-      - 'SSH Connection over USB': 'developer_guide/tutorials/ssh_connection.md'
-      - 'Serial Connection over UART': 'developer_guide/tutorials/uart_connection.md'
+#      - 'SSH Connection over USB': 'developer_guide/tutorials/ssh_connection.md'
+#      - 'Serial Connection over UART': 'developer_guide/tutorials/uart_connection.md'
       - Build System:
         - 'developer_guide/tutorials/build_system/index.md'
         - 'Compilation Environments': 'developer_guide/tutorials/build_system/compilation_environments.md'
@@ -211,5 +212,5 @@ nav:
   - '3D files': 'https://grabcad.com/library/funkey-s-1'
   - Miscellaneous:
     - 'Glossary': 'miscellaneous/glossary.md'
-    - 'FAQ': 'miscellaneous/faq.md'
+#    - 'FAQ': 'miscellaneous/faq.md'
  

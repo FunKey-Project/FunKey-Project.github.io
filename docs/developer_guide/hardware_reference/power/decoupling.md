@@ -110,12 +110,12 @@ DRAM power supply voltage level, which is used for the integrated DDR2
 DRAM merged drivers and dynamic on-chip termination already discussed
 at the end of the previous [CPU schematic description][6].
 
-[1]: /developers/hardware/cpu
-[2]: /developers/hardware/power/pmic
-[3]: /developers/hardware/audio
-[4]: /developers/hardware/buttons
+[1]: /developer_guide/hardware_reference/cpu/#crystals
+[2]: /developer_guide/hardware_reference/power/pmic
+[3]: /developer_guide/hardware_reference/audio/#schematic
+[4]: /developer_guide/hardware_reference/buttons/#schematics
 [5]: https://github.com/Squonk42/V3s_Documentation/blob/master/V3s%20hardware%20design%20guide%20V1.0_20150519%20EN%20Non%20Official.pdf
-[6]: /developers/hardware/cpu
+[6]: /developer_guide/hardware_reference/cpu/#dram
 
 --8<--
 includes/glossary.md

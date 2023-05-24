@@ -117,7 +117,7 @@ supply voltage when initially powered up.
 [1]: https://www.sdcard.org/downloads/pls/click.php?p=Part1_Physical_Layer_Simplified_Specification_Ver6.00.jpg&f=Part1_Physical_Layer_Simplified_Specification_Ver6.00.pdf&e=EN_SS1
 [2]: https://www.jedec.org/document_search/field_keywords/emmc-3147
 [3]: https://www.mouser.com/catalog/specsheets/an10911.pdf
-[4]: /developers/hardware/cpu
+[4]: /developer_guide/hardware_reference/cpu/#sd-card
 [5]: https://github.com/FunKey-Project/FunKey-S-Hardware/blob/master/Datasheets/C266613_%E6%8A%BD%E6%8B%89%E5%BC%8FTF%E5%8D%A1%E5%BA%A7_2018-08-20.PDF
 
 --8<--

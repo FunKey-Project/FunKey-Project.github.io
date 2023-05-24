@@ -105,7 +105,7 @@ supply voltage has a good reason to exist:
   swing and increase the possible CPU frequency. Given the required
   current, a SMPS is required for reaching a good efficiency, too
 
-[1]: /developers/hardware/cpu#cpu-schematics
+[1]: /developer_guide/hardware_reference/cpu/#cpu-schematics
 [2]: https://github.com/Squonk42/V3s_Documentation/blob/master/V3S_CDR_STD_V1_0_20150514.pdf
 
 --8<--

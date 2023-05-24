@@ -39,15 +39,15 @@ order:
 
  - The [SPL][3] (Secondary Program Loader)
 
- - The [U-Boot bootloader][4]
+ - The U-Boot bootloader
 
- - The [Linux kernel][5]
+ - The Linux kernel
 
- - The userland [System V init scripts][6]
+ - The userland System V init scripts
 
 ## Shutdown Process
 
-Unlike the startup process, the [shutdown process][7] is much more
+Unlike the startup process, the shutdown process is much more
 straightforward, but it must be optimized to run as quiclky as
 possible, as the time from when the shutdown is initiated when the
 user press the <i class="funkey-menu"></i> key or close the **FunKey

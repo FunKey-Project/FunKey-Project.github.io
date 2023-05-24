@@ -5,11 +5,11 @@ does not require installation to be able to run them.
 
 !!! Note
 
-    In the current (2.0.0) release of the FunKey-OS, the **OPK** files
-    are only available for the gmenu2x launcher, and not in RetroFE.
+    In the current release of the FunKey-OS (DrUm78's version), the **OPK** files
+    are available both for the GMenu2X and RetroFE launchers. See documentation [here.][3]
 
 [7-Zip][1] can be used to extract **OPK** files, and [Open Package
-Creator (v1.1.2)][2] is a useful tool if you want to re-package an
+Creator][2] is a useful tool if you want to re-package an
 **OPK** or customize icons, add additional games and much more.
 
 Connect your **FunKey S** console to your computer and add **OPK**
@@ -33,6 +33,7 @@ as you would do with a USB memory stick, too!
 
 [1]: https://www.7-zip.org/download.html
 [2]: https://github.com/Harteex/OpenPackageCreator/releases
+[3]: https://github.com/DrUm78/FunKey-OS/releases/latest
 
 [^1]: You can create additional 1st-level folders in order to organize your **OPK** files just like you want.
 

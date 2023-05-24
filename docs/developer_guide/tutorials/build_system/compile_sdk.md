@@ -58,7 +58,7 @@ $ mkdir images
 $ docker cp funkey-os:/home/funkey/FunKey-OS/images/FunKey-sdk-X.Y.Z.tar.gz images/
 ```
 
-[1]: https://github.com/FunKey-Project/FunKey-OS/releases/
+[1]: https://github.com/DrUm78/FunKey-OS/releases/
 [2]: ../compile_distribution
 
 --8<--

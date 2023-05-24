@@ -23,9 +23,6 @@ The only storage system available in the **FunKey S** is its
 integrated MicroSD card. Most of its contents is made available to a
 host computer when connected over USB.
 
-The MicroSD card format is detailed in the [Disk Partition][2]
-section.
-
 ## Video Processing
 
 The **FunKey-S** CPU does not feature a GPU. For this reason, the

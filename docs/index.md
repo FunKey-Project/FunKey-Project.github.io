@@ -17,7 +17,7 @@ The **FunKey S** operation is so straightforward that a 6-year old
 child should be able to operate it without any user's manual for the
 most common tasks. But just to make sure you are not missing
 something, you can find the basic device operation description in the
-[Quickstart section][1].
+[Tutorials section][1].
 
 ## More advanced features
 
@@ -27,7 +27,7 @@ section][2].
 
 ## Developers
 
-For developers, a full [Developer's Guide][3] is included, with both
+For developers, a full guide is included, with both
 [Hardware][3] and [Software][4] subsections.
 
 
@@ -43,12 +43,12 @@ For developers, a full [Developer's Guide][3] is included, with both
 ## Miscellaenous stuff
 
 Last but not least, this documentation would not be complete without a
-[Glossary of terms][5] and an [FAQ][6] section for reference.
+[Glossary of terms][5] for reference.
 
-[1]: user_manual/quickstart.md
+[1]: user_manual/tutorials/software/add_roms.md
 [2]: user_manual/tutorials/software/firmware_update.md
 [3]: developer_guide/hardware_reference/
-[4]: developer_guide/software_reference/sd_card_layout/recovery_partition.md
+[4]: developer_guide/software_reference/
 [5]: miscellaneous/glossary.md
 [6]: miscellaneous/faq.md
 [7]: https://grabcad.com/library/funkey-s-1

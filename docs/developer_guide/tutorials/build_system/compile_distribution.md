@@ -3,9 +3,9 @@
 You may now build your FunKey with:
 
 ```bash
-$ make sdk all
+$ make
 ```
-This may take a while (~1h30), so consider getting yourself
+This may take a while (~30 minutes), so consider getting yourself
 a cup, a glass or a bottle of your favorite beverage ;-)
 
 <ins>Note</ins>: you will need to have access to the network, since

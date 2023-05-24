@@ -66,27 +66,25 @@ The **hello** program you've just created is a valid executable for FunKey, but 
 
 - The **hello** program.
 - An icon for your program in PNG format, 32 x 32 pixels in size, called **hello.png**.
-- A *desktop* file called **hello.funkey-s.desktop**, containing the following text:
+- A *desktop* file called **hello.funkey-s.desktop** ("funkey-s" is mandatory here), containing the following text:
 
 ```ini
 [Desktop Entry]
-Type=Application
 Name=Hello
 Comment=A simple test app
 Exec=hello
 Icon=hello
-Terminal=false
-Categories=applications;
+Categories=applications
 ```
+
+**Note: You need to add an extra empty line at the end of the .desktop file or it won't work!**
 
 [This file describes your program to the launcher][4]:
 
-- **Type**: Always set to "Application"
 - **Name**: This is the name of the application shown in the launcher
 - **Comment**: A description of the application
 - **Exec**: This the command to execute your program
 - **Icon**: The name of the icon file, without the .png extension
-- **Terminal**: Always set to false, FunKey doesn't support terminal applications
 - **Categories**: The categories under which the launcher will show the application, in a semicolon-separated list
 
 Once you've got everything ready you can turn the folder into a package using the [OpenPackage Creator][5]. Select your folder with the **Open** button, or drag it over the window. The OpenPackage Creator will note that you've already created *.desktop* file. Choose the "Use existing as is" option. Finally, click the **Pack** button to create **hello.opk**, ready to be transferred to the FunKey.
@@ -102,7 +100,7 @@ Your application is now installed on FunKey. Note that **only the GMENU2X launch
 ![The Hello program running on FunKey](/assets/images/Hello_program_running.png)
 
 [1]: ../compilation_environments
-[2]: https://github.com/FunKey-Project/FunKey-OS/releases/
+[2]: https://github.com/DrUm78/FunKey-OS/releases/
 [3]: ../compile_sdk
 [4]: https://github.com/gcwnow/buildroot/wiki/Package-file-format
 [5]: https://github.com/Harteex/OpenPackageCreator/releases

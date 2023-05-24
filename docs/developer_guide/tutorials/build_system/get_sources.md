@@ -5,7 +5,7 @@ When using either physical Linux machine or virtual Linux machines
 Github (here we place it into a `FunKey-OS` directory):
 
 ```bash
-$ git clone https://github.com/FunKey-Project/FunKey-OS.git FunKey-OS
+$ git clone https://github.com/DrUm78/FunKey-OS
 ```
 
 Then enter into the newly created directory:
@@ -22,7 +22,7 @@ When using a Docker container, you must first create a new directory
 ```bash
 $ mkdir FunKey-OS
 $ cd FunKey-OS
-$ wget https://raw.githubusercontent.com/FunKey-Project/FunKey-OS/master/docker/Dockerfile -o Dockerfile
+$ wget https://raw.githubusercontent.com/DrUm78/FunKey-OS/master/docker/Dockerfile -o Dockerfile
 ```
 
 You must then build the docker image (don't forget the final dot!):
@@ -31,7 +31,7 @@ You must then build the docker image (don't forget the final dot!):
 $ docker build -t funkeyproject/funkey-os .
 ```
 
-[1]: https://github.com/FunKey-Project/FunKey-OS/blob/master/docker/Dockerfile
+[1]: https://github.com/DrUm78/FunKey-OS/blob/master/docker/Dockerfile
 
 --8<--
 includes/glossary.md

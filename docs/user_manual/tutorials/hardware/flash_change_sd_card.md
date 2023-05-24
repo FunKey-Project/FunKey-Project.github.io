@@ -13,7 +13,7 @@ Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file
 directly from [here][1] or from the bottom of the latest release page
 in the "assets" section:
 
-[https://github.com/FunKey-Project/FunKey-OS/releases/latest][2]{target=_blank}
+[https://github.com/DrUm78/FunKey-OS/releases/latest][2]{target=_blank}
 
 ![Github Release](/assets/images/github_sd_card_image.png){.lightbox}
 
@@ -123,8 +123,8 @@ Reassemble the console by following the previous steps in reverse order.
     Be careful not to damage the switches on the circuit board when
     putting back the L/R plastic buttons.
 
-[1]: https://github.com/FunKey-Project/FunKey-OS/releases/download/FunKey-OS-2.3.0/FunKey-sdcard-2.3.0.img
-[2]: https://github.com/FunKey-Project/FunKey-OS/releases/latest
+[1]: https://github.com/DrUm78/FunKey-OS/releases/download/FunKey-OS-DrUm78/FunKey-sdcard-DrUm78.img
+[2]: https://github.com/DrUm78/FunKey-OS/releases/latest
 [3]: https://www.balena.io/etcher/
 [4]: #flashing-a-new-micro-sd-card
 
