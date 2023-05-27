@@ -2,13 +2,13 @@ This page will guide you through building a very simple application for FunKey u
 
 FunKey is an embedded Linux device with an ARM processor at its core. Programs made for other computers will not work on FunKey, and developing programs on the FunKey itself is rather impractical. Instead, development for embedded devices like FunKey almost always uses a method known as cross compilation: building software on one platform (such as a desktop computer) to be used on another (like FunKey).
 
-The FunKey-SDK contains a cross-compilation environment based on GCC, including the compiler toolchain and the libraries available on the FunKey.
+The FunKey SDK contains a cross-compilation environment based on GCC, including the compiler toolchain and the libraries available on the FunKey.
 
 Before we can begin, setup a Linux-based compilation environment as shown on [this page][1].
 
-## Installing the FunKey-SDK
+## Installing the FunKey SDK
 
-The FunKey-SDK is included in releases of the FunKey-OS, starting from version 2.0.0, and can be found on [GitHub][2]. Alternatively, you can [compile the SDK yourself][3].
+The FunKey-SDK is included in releases of the FunKey OS, starting from version 2.0.0, and can be found on [GitHub][2]. Alternatively, you can [compile the SDK yourself][3].
 
 Unpack the SDK's .tar.gz file somewhere on your build system. Before you can use the SDK you must first run the **relocate-sdk.sh** script. This will update all references paths in the SDK to its current location. If you decide to move the SDK to another directory at a later point, don't forget to re-run the script.
 

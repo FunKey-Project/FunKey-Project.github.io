@@ -16,7 +16,7 @@ $ cd FunKey-OS
 ## In a Docker Container
 
 When using a Docker container, you must first create a new directory
-(here we create a `FunKey-OS` directory) and get the FunKey-OS
+(here we create a `FunKey-OS` directory) and get the FunKey OS
 [Dockerfile][1] in it:
 
 ```bash

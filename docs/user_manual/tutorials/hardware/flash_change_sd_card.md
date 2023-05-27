@@ -1,13 +1,13 @@
 # Flashing a new micro-SD card
 
 The following steps describe how to flash a micro-SD card with the
-latest version of FunKey-OS. This must be done before switching
+latest version of FunKey OS. This must be done before switching
 micro-SD cards inside the console.
 
 Note: Everything on the micro-SD card will be lost, be sure to save
 your data.
 
-## Download the latest FunKey-OS image file
+## Download the latest FunKey OS image file
 
 Get the latest "***FunKey-rootfs-x.y.z.img***" SD card image file
 directly from [here][1] or from the bottom of the latest release page
@@ -23,7 +23,7 @@ in the "assets" section:
   [balena.io][3]{target=_blank}
 
 - Run balenaEtcher and click on "Flash from file" to select the
-  FunKey-OS image file
+  FunKey OS image file
 
 - Insert the micro-SD card in your computer and select the SD card
   drive (balenaEtcher should automatically detect it for you)

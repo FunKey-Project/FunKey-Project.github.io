@@ -1,6 +1,6 @@
 Starting from version 2.0.0, the pre-compiled FunKey SDK is available
 on [Github][1], and it is also compiled automatically as a first step
-when building the [full FunKey-OS distribution][2].
+when building the [full FunKey OS distribution][2].
 
 However, if you want to compile the SDK only, here are the
 instructions below:

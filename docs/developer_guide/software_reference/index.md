@@ -1,10 +1,10 @@
 The **FunKey S** retro-gaming console software contains a set of
 console emulators, standalone games, applications and utilities using
 a custom Operating System (OS) that from now on will be referenced as
-**_FunKey-OS_**.
+**_FunKey OS_**.
 
-The **FunKey-OS** is a Linux-based operating system, optimized for the
-**FunKey-S** hardware, with a special focus on performance and fast
+The **FunKey OS** is a Linux-based operating system, optimized for the
+**FunKey S** hardware, with a special focus on performance and fast
 boot time.
 
 ## Instant Action
@@ -25,8 +25,8 @@ host computer when connected over USB.
 
 ## Video Processing
 
-The **FunKey-S** CPU does not feature a GPU. For this reason, the
-**FunKey-S** cannot use a hardware-accelerated OpenGL engine, and
+The **FunKey S** CPU does not feature a GPU. For this reason, the
+**FunKey S** cannot use a hardware-accelerated OpenGL engine, and
 adding a software-emulated OpenGL-ES engine is not efficient, given
 the limited CPU performance.
 

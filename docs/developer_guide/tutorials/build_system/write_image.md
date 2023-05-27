@@ -22,7 +22,7 @@ on the graphical screen.
 
 ## How to Update the FunKey S Firmware
 
-It is possible to update the **FunKey-S** over USB, please follow the
+It is possible to update the **FunKey S** over USB, please follow the
 steps described in the [Firmware Upgrade][1] section.
 
 [1]: /user_manual/tutorials/software/firmware_update/

@@ -1,4 +1,4 @@
-The **FunKey-S** console is based on a sophisticated [Allwinner V3s
+The **FunKey S** console is based on a sophisticated [Allwinner V3s
 ARM Cortex-A7 1.2GHz CPU][2], an Operating System is mandatory in
 order to access all the hardware resources without re-inventing the
 wheel.
@@ -12,7 +12,7 @@ method known as [cross compilation][2] for building software on a host
 platform (such as a desktop computer) to be used on another target
 platform (like the **FunKey S**).
 
-The [FunKey-OS repository on Github][3] contains all the sources
+The [FunKey OS repository on Github][3] contains all the sources
 required to build the Open-Source firmware at the heart of the [FunKey
 S retro-gaming console][4].
 
@@ -22,11 +22,11 @@ binutils binary object tools, including the compiler toolchain and all
 the required libraries available on the **FunKey S** in order to build
 software for it.
 
-FunKey-OS is based on Linux, and is built from scratch using the
+FunKey OS is based on Linux, and is built from scratch using the
 [buildroot][5] tool that simplifies and automates the process of
 building a complete Linux system for an embedded system like this.
 
-Technically speaking, Funkey-OS is a [buildroot (v2) based external
+Technically speaking, FunKey OS is a [buildroot (v2) based external
 tree][6] for building the bootloader, the Linux kernel and user
 utilities, as well as the optimized retro-game launchers and console
 emulators.

@@ -4,12 +4,12 @@ corresponding sources and the compilation by-products tend to be
 rather large, such that an available disk space of at least 12GB is
 required during the build.
 
-And even if the resulting FunKey-OS boots in less than 5s, it still
+And even if the resulting FunKey OS boots in less than 5s, it still
 requires a fair amount of time to compile: please account for
 1/2 hour on a modern multi-core CPU with SSD drives and a decent
 Internet bandwidth.
 
-The FunKey-OS is meant to be built on a native Ubuntu or Debian Linux
+The FunKey OS is meant to be built on a native Ubuntu or Debian Linux
 host machine (Ubuntu 20.04 LTS in our case, but this should also work
 with other versions, too). And with only a few changes to the
 prerequisites, it can certainly be adapted to build on other common
@@ -138,7 +138,7 @@ With `<versionNumber>` set to `2` to use WSL2. You can use the same command with
 
 Your Ubuntu installation is now ready to be used. Starting Ubuntu from the Start Menu will open a terminal with a Bash prompt. Everything you type here will be executed in Ubuntu. You can run and install applications within Ubuntu as you would on a complete installation or virtual machine.
 
-Follow the instructions in the **Build on a Physical/Virtual Machine** section to install the requirements needed to build FunKey-OS.
+Follow the instructions in the **Build on a Physical/Virtual Machine** section to install the requirements needed to build FunKey OS.
 
 You can access the Windows filesystem via `/mnt`; the C: drive is mounted as `/mnt/c`. From Windows you can access the Linux filesystem via the special path `\\wsl$`. Note that you can only access the files there when Ubuntu is running on WSL2.
 

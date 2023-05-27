@@ -5,7 +5,7 @@ does not require installation to be able to run them.
 
 !!! Note
 
-    In the current release of the FunKey-OS (DrUm78's version), the **OPK** files
+    In the current release of the FunKey OS (DrUm78's version), the **OPK** files
     are available both for the GMenu2X and RetroFE launchers. See documentation [here.][3]
 
 [7-Zip][1] can be used to extract **OPK** files, and [Open Package
