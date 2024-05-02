@@ -16,7 +16,7 @@ But this solution also brings a lot of challenges, as the required
 hinge make connections between the 2 halfs of the shell more
 difficult.
 
-However, this has been done before in the classic GameBoy Advanced SP,
+However, this has been done before in the classic Game Boy Advance SP,
  or in many clamshell cellphones from some years ago, so why can't we?
 
 ## Design Goals

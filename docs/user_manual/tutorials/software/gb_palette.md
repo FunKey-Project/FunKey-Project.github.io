@@ -1,8 +1,10 @@
+**This tutorial applies to the previous OS update with the default emulators. For PicoArch GB/GBC emulator, palettes can now be set through the core options.**
+
 ## Palette Description
 
 The default **FunKey S** Game Boy emulator: _[gnuboy][1]_ allows to
 set the palette used for grayscale when running DMG (original mono
-Gameboy) ROMs.
+Game Boy) ROMs.
 
 There are four variables for this purpose, allowing the background,
 window, and both sprite palettes to be colored differently. Each one
@@ -125,13 +127,13 @@ set dmg_obp1 0xc0ffff 0x408080 0x204040 0x000000`
 | ![Mount USB Are you sure](/assets/images/Mount_USB_are_you_sure.png){.lightbox} | Press the <i class="funkey-A"></i> key twice to confirm                                                                     |
 | ![Eject USB](/assets/images/Eject_USB.png){.lightbox}                           | "**EJECT USB**" is now displayed instead, now go to your host computer and open a File Explorer window                      |
 | ![USB Drive](/assets/images/USB_Drive.png){.lightbox}                           | You should see the **FunKey S** appear as an USB drive on your computer in the File Explorer (example here with Windows 10) |
-| ![create _gnuboy](/assets/images/create_gnuboy_folder.png){.lightbox}           | In the FunKey folder, create a new folder .gnuboy if it does not already exist.                                             |
-| ![create gnuboy_rc](/assets/images/create_gnuboy_rc_file.png){.lightbox}        | In the FunKey/.gnuboy folder create a file gnuboy.rc if it does not already exist.                                          |
-| ![modify gnuboy_rc](/assets/images/set_palette.png){.lightbox}                  | Open the gnuboy.rc file with a text editor and add the palette you want.                                                    |
+| ![create _gnuboy](/assets/images/create_gnuboy_folder.png){.lightbox}           | In the FunKey folder, create a new folder _**.gnuboy**_ if it does not already exist.                                             |
+| ![create gnuboy_rc](/assets/images/create_gnuboy_rc_file.png){.lightbox}        | In the _**FunKey/.gnuboy/**_ folder create a file _**gnuboy.rc**_ if it does not already exist.                                          |
+| ![modify gnuboy_rc](/assets/images/set_palette.png){.lightbox}                  | Open the _**gnuboy.rc**_ file with a text editor and add the palette you want.                                                    |
 | ![Eject Drive](/assets/images/Eject_Drive.png){.lightbox}                       | Eject cleanly the USB drive from your computer                                                                              |
 | ![Eject USB Are you sure](/assets/images/Eject_USB_are_you_sure.png){.lightbox} | Back on the **FunKey S**, at the "**EJECT USB**" menu entry, press the <i class="funkey-A"></i> key twice to confirm        |
 | ![Unmount USB](/assets/images/Mount_USB.png){.lightbox}                         | Press the <i class="funkey-menu"></i> key to return to the launcher screen                                                  |
-| ![palette results](/assets/images/results_palette.png){.lightbox}               | Launch any Gameboy game to see the results of your new palette settings.                                                    |
+| ![palette results](/assets/images/results_palette.png){.lightbox}               | Launch any Game Boy game to see the results of your new palette settings.                                                    |
 
 [1]: https://github.com/rofl0r/gnuboy
 

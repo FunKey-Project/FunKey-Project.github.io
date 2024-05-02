@@ -13,8 +13,8 @@ site_description: >-
 
 # Copyright
 copyright: >
-  &copy; 2020-2023 FunKey Project<br/>
-  Last updated on 2023-05-27<br/>
+  &copy; 2020-2024 FunKey Project<br/>
+  Last updated on 2024-05-04 by DrUm78<br/>
   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
   <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
   </a><br />This work is licensed under a
@@ -149,8 +149,8 @@ nav:
         - 'Change Aspect Ratio': 'user_manual/tutorials/software/aspect_ratio.md'
         - 'Take a Snapshot': 'user_manual/tutorials/software/snapshot.md'
         - 'Firmware Upgrade': 'user_manual/tutorials/software/firmware_update.md'
-        - 'Change Gameboy Palette': 'user_manual/tutorials/software/gb_palette.md'
-        - 'Change Gmenu2x Wallpaper': 'user_manual/tutorials/software/gmenu2x_wallpaper.md'
+        - 'Change Game Boy Palette': 'user_manual/tutorials/software/gb_palette.md'
+        - 'Change GMenu2X Wallpaper': 'user_manual/tutorials/software/gmenu2x_wallpaper.md'
         # - 'Create Themes': 'user_manual/tutorials/software/create_themes.md'
         #- 'Restore Default Games & Emulators': 'user_manual/tutorials/software/restore_games.md'
       - Hardware:
