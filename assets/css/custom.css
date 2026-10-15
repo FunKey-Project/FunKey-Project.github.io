@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #63665F
+}
+
+.step {
+    display: grid;
+    grid-template-areas:
+        "step-title step-title"
+        "step-picture step-thumbs"
+        "step-picture step-contents";
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+}
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 479px) {
+    .step {
+        grid-template-areas:
+            "step-title"
+		"step-picture"
+		"step-thumbs"
+		"step-contents";
+        grid-template-rows: auto 1fr 90px auto;
+        grid-template-columns: auto;
+    }
+}
+
+.step-title {
+    grid-area: step-title;
+}
+
+.step-picture {
+    grid-area: step-picture;
+    max-width: 100%;
+}
+
+/* Make the picture fill width on small devices/viewports. */
+@media only screen and (max-width: 479px) {
+    .step-picture {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+.step-thumbs {
+    grid-area: step-thumbs;
+}
+
+.step-contents {
+    grid-area: step-contents;
+    padding: 10px;
+}
+
+.step-thumb {
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15);
+    margin: 10px 10px 0px 10px;
+    display: inline-block;
+    max-width: 27%!important;
+    max-height: 90px;
+    opacity: .7;
+    transition: box-shadow .2s, border-color .2s, opacity .2s;
+}
+
+/* Make thumbnails on a separate row on small devices/viewports.*/
+@media only screen and (max-width: 479px) {
+    .step-thumb {
+        width: 30%;
+        max-height: 180px;
+    }
+}
+
+.step-thumb.active,
+.step-thumb:hover {
+    transform: translateY(-4px);
+    opacity: 1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .5)
+}
+
+/* No translation and smaller shadow on small devices/viewports. */
+@media all and (max-width: 479px) {
+    .step-thumb.active,
+    .step-thumb:hover {
+        transform: translateY(0);
+        box-shadow: 0 0 2px rgba(0, 0, 0, .75)
+    }
+}
+
+/* Font for FunKey S keys */
+@font-face {
+  font-family: 'FunKey-S-Keys';
+  src:  url('/assets/fonts/FunKey-S-Keys.eot?b52ver');
+  src:  url('/assets/fonts/FunKey-S-Keys.eot?b52ver#iefix') format('embedded-opentype'),
+    url('/assets/fonts/FunKey-S-Keys.ttf?b52ver') format('truetype'),
+    url('/assets/fonts/FunKey-S-Keys.woff?b52ver') format('woff'),
+    url('/assets/fonts/FunKey-S-Keys.svg?b52ver#FunKey-S-Keys') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Class for FunKey S keys */
+[class^="funkey-"], [class*=" funkey-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FunKey-S-Keys' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1rem;
+  line-height: 1;
+
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* FunKey S "A" key */
+.funkey-A:before {
+  content: "\e900";
+}
+
+/* FunKey S "B" key */
+.funkey-B:before {
+  content: "\e902";
+}
+
+/* FunKey S "X" key */
+.funkey-X:before {
+  content: "\e904";
+}
+
+/* FunKey S "Y" key */
+.funkey-Y:before {
+  content: "\e906";
+}
+
+/* FunKey S "UP" key */
+.funkey-up:before {
+  content: "\e908";
+}
+
+/* FunKey S "DOWN" key */
+.funkey-down:before {
+  content: "\e909";
+}
+
+/* FunKey S "LEFT" key */
+.funkey-left:before {
+  content: "\e90a";
+}
+
+/* FunKey S "RIGHT" key */
+.funkey-right:before {
+  content: "\e90b";
+}
+
+/* FunKey S "L" key */
+.funkey-L:before {
+  content: "\e90c";
+}
+
+/* FunKey S "R" key */
+.funkey-R:before {
+  content: "\e90d";
+}
+
+/* FunKey S "START" key */
+.funkey-start:before {
+  content: "\e90e";
+}
+
+/* FunKey S "Fn" key */
+.funkey-fn:before {
+  content: "\e90f";
+}
+
+/* FunKey S "MENU" key */
+.funkey-menu:before {
+  content: "\e912";
+}
+
+/* External link icon */
+:root {
+    /*
+      line left
+      line right
+      line bottom
+      line top
+      arrow left
+      arrow right
+      arrow diagonal
+   */
+    --icon-external-link: url('data:image/svg+xml,\
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"> \
+    <g style="stroke:rgb(35,82,124);stroke-width:1"> \
+        <line x1="5" y1="5" x2="5" y2="14" /> \
+        <line x1="14" y1="9" x2="14" y2="14" /> \
+        <line x1="5" y1="14" x2="14" y2="14" /> \
+        <line x1="5" y1="5" x2="9" y2="5"  /> \
+        <line x1="10" y1="2" x2="17" y2="2"  /> \
+        <line x1="17" y1="2" x2="17" y2="9" /> \
+        <line x1="10" y1="9" x2="17" y2="2" style="stroke-width:1.5" /> \
+    </g> \
+</svg>');
+}
+
+/* Append external link icon on all links starting with "http://" or "https://" */
+a[href^="http://"]::after, a[href^="https://"]::after {
+    content: '';
+    background: no-repeat var(--icon-external-link);
+    padding-right: 0.7em;
+}
